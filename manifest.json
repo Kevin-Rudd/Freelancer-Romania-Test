@@ -1,0 +1,21 @@
+{
+	"version": "0.5.0",
+	"id": "KevinRudd.FreelancerRomania",
+	"name": "Freelancer Romania Test",
+	"contentFolders": ["content"],
+	"description": "Proof of Concept",
+	"authors": ["Kevin Rudd"],
+	"dependencies": [{
+		"runtimeID": "0015498D02C005E7",
+		"comment": "NY Teller Charset",
+		"toChunk": 1
+	},{
+		"runtimeID": "00F1DFDC1256EC75",
+		"comment": "Russian Guard Charset",
+		"toChunk": 1
+	}],
+	"options": [],
+	"requirements": [],
+    "loadBefore": [],
+	"frameworkVersion": "2.2.0"
+}
