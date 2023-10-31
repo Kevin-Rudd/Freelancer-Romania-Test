@@ -6,6 +6,18 @@
 	"description": "Proof of Concept",
 	"authors": ["Kevin Rudd"],
 	"dependencies": [{
+		"runtimeID": "000E2A63407134BF",
+		"comment": "NY Customer Charset",
+		"toChunk": 1
+	},{
+		"runtimeID": "00BAC1B53D5544DB",
+		"comment": "NY Customer Charset",
+		"toChunk": 1
+	},{
+		"runtimeID": "005A3856903FD35E",
+		"comment": "NY Customer Charset",
+		"toChunk": 1
+	},{
 		"runtimeID": "0015498D02C005E7",
 		"comment": "NY Teller Charset",
 		"toChunk": 1
