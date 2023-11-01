@@ -1,0 +1,675 @@
+{
+    "STARTING_LOCATION_TRAPPED_WOLVERINE_DREAM_DEFAULT": {
+        "Properties": {
+            "Location": "LOCATION_PARENT_TRAPPED",
+            "RepositoryId": "ee4b0060-b322-4bb0-99b5-942e8a20f278",
+            "UnlockOrder": 0,
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  "STARTING_LOCATION_TRAPPED_WOLVERINE_TRAIN_LAB": {
+        "Properties": {
+            "Location": "LOCATION_PARENT_TRAPPED",
+            "RepositoryId": "f21b1a1a-bec9-4a06-9a4a-d615e9721e3a",
+            "UnlockOrder": 1,
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },
+    "STARTING_LOCATION_TRAPPED_WOLVERINE_TRAIN_FLATBED": {
+        "Properties": {
+            "Location": "LOCATION_PARENT_TRAPPED",
+            "RepositoryId": "52464982-e7de-4f69-b60d-e8de2a8b1621",
+            "UnlockOrder": 2,
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },
+    "STARTING_LOCATION_HOKKAIDO_FLU": {
+        "Properties": {
+            "Location": "LOCATION_PARENT_HOKKAIDO",
+            "RepositoryId": "faf13436-43ec-4d49-9d6f-decf29011642",
+            "BlacklistedByDefault": true,
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_ELEGANT_LLAMA_DEFAULT_SUIT": {
+        "Properties": {
+            "Location": "LOCATION_PARENT_ELEGANT",
+            "RepositoryId": "209589c8-e758-4632-a214-9205531032a3",
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_COLORADO_RABIES": {
+        "Properties": {
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_PARIS_PEACOCK_AUCTION": {
+        "Properties": {
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_GOLDEN_GECKO_OUTSIDE_DEFAULT": {
+        "Properties": {
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_EDGY_FOX_CLUB_ENTRANCE": {
+        "Properties": {
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_EDGY_FOX_DEFAULT": {
+        "Properties": {
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },  
+    "STARTING_LOCATION_EDGY_FOX_DEFAULT_COMMENTARY": {
+        "Properties": {
+            "LoadoutSettings": {
+                "GearSlotsEnabledCount": 3,
+                "GearSlotsAllowContainers": true,
+                "ConcealedWeaponSlotEnabled": true
+            },
+            "Equip": []
+        }
+    },
+    "LOCATION_PARENT_AUSTRIA": {
+        "Properties": {
+            "Order": 160,
+            "HideProgression": false
+        }
+    },
+    "LOCATION_PARENT_SALTY": {
+        "Properties": {
+            "Order": 170,
+            "HideProgression": false
+        }
+    },
+    "LOCATION_PARENT_CAGED": {
+        "Properties": {
+            "Order": 180,
+            "HideProgression": false
+        }
+    },
+    "PACKAGE_STARTING_PACKAGE": {
+        "Properties": {
+            "Unlocks": [
+                "TOKEN_FIBERWIRE",
+                "PROP_TOOL_COIN",
+                "FIREARMS_HERO_PISTOL_TACTICAL_ICA_19",
+                "TOKEN_OUTFIT_HITMANSUIT",
+                "TOKEN_OUTFIT_PARIS_HERO_PARISSUIT",
+                "FIREARMS_SC_HERO_SNIPER_HM",
+                "EMOTE_GENERIC_KISS_01",
+                "EMOTE_GENERIC_SLOW_CLAP",
+                "EMOTE_GENERIC_POINT_EYES",
+                "EMOTE_GENERIC_SHAKEHEAD_03",
+                "TOKEN_OUTFIT_NEWZEALAND_HERO_OPUNTIA_SUIT",
+                "TOKEN_OUTFIT_HOKKAIDO_HERO_NINJASUIT",
+                "TOKEN_OUTFIT_SKUNK_OUTBREAK",
+                "TOKEN_OUTFIT_COLORADO_HERO_COLORADOSUIT",
+                "TOKEN_OUTFIT_HOKKAIDO_HERO_HOKKAIDOSUIT",
+                "FIREARMS_SC_RUBY_RUDE_SNIPER", "TOKEN_OUTFIT_TRAPPED_WOLVERINE_SUIT", "TOKEN_OUTFIT_LUCAS_GREY", "TOKEN_OUTFIT_KNIGHT", "TOKEN_OUTFIT_KNIGHT_SIBERIA", "TOKEN_OUTFIT_STONE", "TOKEN_OUTFIT_STONE_SIBERIA", "PROP_EXPLOSIVE_CHLOROFORMFLASK", "FIREARMS_SNIPER_DRUZHINA_34_NORMAL_SNIPERASSASSIN", "PROP_QUEST_ITEM_JERRY_CAN", "PROP_GADGETRADIO", "PROP_TOOL_CURE_COIN", "PROP_BANANA", "FIREARMS_SC_REDEEMER_SNIPER", "FIREARMS_SC_GHOST_SNIPER", "FIREARMS_SC_JAEGER_COPPERHEAD_SNIPER", "FIREARMS_SC_JAEGER_SNOWFOX_SNIPER", "FIREARMS_SC_SIEGER_VIPER_SNIPER", "FIREARMS_SC_SIEGER_ICE_SNIPER", "TOKEN_OUTFIT_HERO_GECKO_SKYDIVING", "TOKEN_OUTFIT_HERO_GECKO_SKYDIVING_NOHELMET", "TOKEN_OUTFIT_BODYGUARD", "TOKEN_OUTFIT_SOVIET", "TOKEN_OUTFIT_KGB", "TOKEN_OUTFIT_EVERGREEN_WOUNDED"
+            ]
+        }
+    },  "FIREARMS_SC_RUBY_RUDE_SNIPER": {
+        "Id": "FIREARMS_SC_RUBY_RUDE_SNIPER",
+        "Guid": "amnhyec4-0711-471d-b39d-11e2a284837i",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "58cef3b5-9b24-45c1-bf86-60f9958ae013"
+        },
+        "Rarity": "common"
+    }, "FIREARMS_SC_JAEGER_COPPERHEAD_SNIPER": {
+        "Id": "FIREARMS_SC_JAEGER_COPPERHEAD_SNIPER",
+        "Guid": "okijyec4-0711-471d-b39d-11e2a284837i",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "fa63018a-59c8-4468-9bc7-bcfae65c5d7e"
+        },
+        "Rarity": "common"
+    }, "FIREARMS_SC_JAEGER_SNOWFOX_SNIPER": {
+        "Id": "FIREARMS_SC_JAEGER_SNOWFOX_SNIPER",
+        "Guid": "okmjnec4-0711-471d-b39d-11e2a28ooooi",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "d8da0a25-925b-4e5d-a5c2-6fe5154434c7"
+        },
+        "Rarity": "common"
+    }, "FIREARMS_SC_SIEGER_VIPER_SNIPER": {
+        "Id": "FIREARMS_SC_SIEGER_VIPER_SNIPER",
+        "Guid": "okknjhc4-0711-471d-b39d-11e2a284837i",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "edcd3a40-cab7-41c5-af1b-461625594298"
+        },
+        "Rarity": "common"
+    }, "FIREARMS_SC_SIEGER_ICE_SNIPER": {
+        "Id": "FIREARMS_SC_SIEGER_ICE_SNIPER",
+        "Guid": "okkijol4-0711-471d-b39d-11e2a284837i",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "b0111e5e-f7ba-47c2-b16e-6b9bde14a0ca"
+        },
+        "Rarity": "common"
+    },  "TOKEN_OUTFIT_LUCAS_GREY": {
+        "Id": "TOKEN_OUTFIT_LUCAS_GREY",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b47",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    }, "TOKEN_OUTFIT_KNIGHT": {
+        "Id": "TOKEN_OUTFIT_KNIGHT",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9opb47",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "d743fe65-e46b-47d9-9b25-f6c0925fc822",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    }, "TOKEN_OUTFIT_KNIGHT_SIBERIA": {
+        "Id": "TOKEN_OUTFIT_KNIGHT_SIBERIA",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9lkb47",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "296bcb59-d43e-4bf0-86f0-06bc40dc75cc",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    }, "TOKEN_OUTFIT_STONE": {
+        "Id": "TOKEN_OUTFIT_STONE",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a6kloipb47",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "c26fca2d-0b8b-4631-aa2a-bea38b2274f5",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    }, "TOKEN_OUTFIT_STONE_SIBERIA": {
+        "Id": "TOKEN_OUTFIT_STONE_SIBERIA",
+        "Guid": "uiasda8b-6153-4aaa-95ed-5a67d9lkb47",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "f41ab863-c61f-4619-8b6d-34a4a1734c1a",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    },  "FIREARMS_SC_GHOST_SNIPER": {
+        "Id": "FIREARMS_SC_GHOST_SNIPER",
+        "Guid": "a90ueec4-0711-471d-b39d-11e2a28e2oki",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "5f5e10e1-4c38-4fd0-ac16-8f42526ab232"
+        },
+        "Rarity": "common"
+    }, "FIREARMS_SC_REDEEMER_SNIPER": {
+        "Id": "FIREARMS_SC_REDEEMER_SNIPER",
+        "Guid": "oklueec4-0711-471d-b39d-11e2niee2oki",
+        "Type": "weapon",
+        "Subtype": "sniperrifle",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "AlwaysAdd": true,
+            "Gameplay": {},
+            "Quality": 4,
+            "Rarity": "common",
+            "LoadoutSlot": "carriedweapon",
+            "RepositoryId": "646ae32f-5978-4fb9-8c9f-93d612c76e23"
+        },
+        "Rarity": "common"
+    },  "PROP_GADGETRADIO":{
+        "Id": "PROP_GADGETRADIO",
+        "Guid": "9863030b-db89-4b23-a032-8b2641943161",
+        "Type": "gear",
+        "Subtype": "distraction",
+        "ImageId": "",
+        "RMTPrice": 149,
+        "GamePrice": 149,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+          "Quality": 1,
+          "LoadoutSlot": "gear",
+          "Rarity": "common",
+          "GameAssets": [
+            "PROP_GADGETRADIO"
+          ],
+          "RepositoryId": "25a4d780-3123-448d-a6e7-3dfdbb8c8260",
+          "RepositoryAssets": [
+            "25a4d780-3123-448d-a6e7-3dfdbb8c8260"
+          ],
+          "UnlockOrder": 20
+        },
+        "Rarity": "common"
+      },
+      "PROP_TOOL_CURE_COIN": {
+        "Id": "PROP_TOOL_CURE_COIN",
+        "Guid": "lk04aa01-f3fa-48f1-92f4-bopedk17ae0c",
+        "Type": "gear",
+        "Subtype": "distraction",
+        "ImageId": "",
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+          "Quality": 1,
+          "LoadoutSlot": "gear",
+          "Rarity": "common",
+          "GameAssets": [
+            "PROP_TOOL_COIN",
+            "PROP_TOOL_COIN",
+            "PROP_TOOL_COIN"
+          ],
+          "RepositoryId": "6c3854f6-dbe0-410c-bd01-ddc35b402d0c",
+          "RepositoryAssets": [
+            "6c3854f6-dbe0-410c-bd01-ddc35b402d0c",
+            "6c3854f6-dbe0-410c-bd01-ddc35b402d0c",
+            "6c3854f6-dbe0-410c-bd01-ddc35b402d0c"
+          ]
+        },
+        "Rarity": "common"
+      },
+      "PROP_BANANA": {
+        "Id": "PROP_BANANA",
+        "Guid": "2239af34-03b1-4bb3-be91-8fa0c76c9740",
+        "Type": "gear",
+        "Subtype": "melee",
+        "ImageId": "",
+        "RMTPrice": 149,
+        "GamePrice": 149,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+          "Quality": 5,
+          "LoadoutSlot": "gear",
+          "Rarity": "common",
+          "RepositoryId": "903d273c-c750-441d-916a-31557fea3382"
+        },
+        "Rarity": "common"
+      }, "PROP_EXPLOSIVE_CHLOROFORMFLASK": {
+        "Id": "PROP_EXPLOSIVE_CHLOROFORMFLASK",
+        "Guid": "aew9af34-03b1-4bb3-be91-8fa0c7632m40",
+        "Type": "gear",
+        "Subtype": "melee",
+        "ImageId": "",
+        "RMTPrice": 149,
+        "GamePrice": 149,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+          "Quality": 5,
+          "LoadoutSlot": "gear",
+          "Rarity": "common",
+          "RepositoryId": "3cf48e44-6e0f-4e4d-9d21-6a4af476118c"
+        },
+        "Rarity": "common"
+      },
+      "PROP_QUEST_ITEM_JERRY_CAN": {
+        "Id": "PROP_QUEST_ITEM_JERRY_CAN",
+        "Guid": "op39af34-03b1-4bb3-be91-8fa0cfnc9740",
+        "Type": "gear",
+        "Subtype": "tool",
+        "ImageId": "",
+        "RMTPrice": 149,
+        "GamePrice": 149,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+          "Quality": 5,
+          "LoadoutSlot": "gear",
+          "Rarity": "common",
+          "RepositoryId": "691ba631-fcc6-49c8-a724-d18bb096703e"
+        },
+        "Rarity": "common"
+      },  "TOKEN_OUTFIT_EVERGREEN_WOUNDED": {
+        "Id": "TOKEN_OUTFIT_EVERGREEN_WOUNDED",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b46",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "e1d1ffa6-deca-445a-8e8c-db74b0856cee",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    },  "TOKEN_OUTFIT_SOVIET": {
+        "Id": "TOKEN_OUTFIT_SOVIET",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b45",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "5c419edc-203d-4736-8cd9-bed24e34171c",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    },  "TOKEN_OUTFIT_KGB": {
+        "Id": "TOKEN_OUTFIT_KGB",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b44",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "abb1e004-7fdf-462b-96b3-074e3390c171",
+            "OrderIndex": 640,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    },  "TOKEN_OUTFIT_BODYGUARD": {
+        "Id": "TOKEN_OUTFIT_BODYGUARD",
+        "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b43",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "cf170965-5582-48d7-8dd7-774ae0a144dd",
+            "OrderIndex": 6,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    }, "TOKEN_OUTFIT_HERO_GECKO_SKYDIVING_NOHELMET": {
+        "Id": "TOKEN_OUTFIT_HERO_GECKO_SKYDIVING_NOHELMET",
+        "Guid": "660fbfc1-835c-4c17-882c-5d02222d9bac",
+        "Type": "disguise",
+        "Subtype": "disguise",
+        "ImageId": "",
+        "RMTPrice": 99,
+        "GamePrice": 99,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Quality": 1,
+            "Rarity": "common",
+            "LoadoutSlot": "disguise",
+            "RepositoryId": "5ce7af62-c652-48ab-ac5d-f7799b79a040",
+            "OrderIndex": 6,
+            "AllowUpSync": true
+        },
+        "Rarity": "common",
+        "IsDroppable": false
+    }, "STARTING_LOCATION_NEWZEALAND_TOWER": {
+        "Id": "STARTING_LOCATION_NEWZEALAND_TOWER",
+        "Guid": "0f71dff0-bcfd-4a65-9888-21f834141a8b",
+        "Type": "access",
+        "Subtype": "startinglocation",
+        "ImageId": null,
+        "RMTPrice": -1,
+        "GamePrice": -1,
+        "IsPurchasable": false,
+        "IsPublished": true,
+        "IsDroppable": false,
+        "Capabilities": [],
+        "Qualities": {},
+        "Properties": {
+            "Location": "LOCATION_PARENT_NEWZEALAND",
+            "RepositoryId": "43bed210-4415-40ee-8222-2cefaf4dda87",
+            "UnlockOrder": 0,
+            "LoadoutSettings": {
+                "ConcealedWeaponSlotEnabled": false
+            },
+            "Equip": []
+        },
+        "Rarity": null
+    }
+}
