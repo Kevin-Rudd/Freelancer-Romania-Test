@@ -34,7 +34,21 @@
 		"comment": "NY F Teller Charset",
 		"toChunk": 1
 	}],
-	"options": [],
+	"options": [{
+		"name": "No AOM",
+		"type": "conditional",
+		"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
+		"contentFolders": ["AOM Shit"],
+		"dependencies": [{
+			"runtimeID": "0094930EFDEEA0FE",
+			"comment": "Janus",
+			"portFromChunk1": true
+		},{
+			"runtimeID": "00BDAFDA7A6DDAF4",
+			"comment": "Strandberg",
+			"portFromChunk1": true
+		}, "00C971B032756DED","00F29C6A6DA00025"]
+	}],
 	"requirements": [],
     "loadBefore": [],
 	"frameworkVersion": "2.2.0"
