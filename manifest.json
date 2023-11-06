@@ -29,6 +29,10 @@
 		"runtimeID": "00F1DFDC1256EC75",
 		"comment": "Russian Guard Charset",
 		"toChunk": 1
+	},{
+		"runtimeID": "00BE95669226F7FC",
+		"comment": "NY F Teller Charset",
+		"toChunk": 1
 	}],
 	"options": [],
 	"requirements": [],
