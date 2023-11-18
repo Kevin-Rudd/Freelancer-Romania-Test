@@ -22430,6 +22430,740 @@
 					"fffffffffffffffe"
 				]
 			}
+		},
+		"feedd7b513929d17": {
+			"parent": "feedf011137916bc",
+			"name": "Agility",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed99647c921482": {
+			"parent": "feedd7b513929d17",
+			"name": "Railings",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedd6e537da11fd": {
+			"parent": "feed99647c921482",
+			"name": "Railing 1 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -2.2281618118286133,
+							"y": 435.13812255859375,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed9739bbe0b9d8": {
+			"parent": "feed99647c921482",
+			"name": "Railing 1 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 2.244694709777832,
+							"y": 435.1438293457031,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed702c655661bf": {
+			"parent": "feed99647c921482",
+			"name": "Railing 2 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -2.205738067626953,
+							"y": 410.86578369140625,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedf6ad3391dada": {
+			"parent": "feed99647c921482",
+			"name": "Railing 3 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -2.205151081085205,
+							"y": 409.23504638671875,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed3b6b5c5687e7": {
+			"parent": "feed99647c921482",
+			"name": "Railing 2 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 2.2077205181121826,
+							"y": 410.749755859375,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed900d64ee6c23": {
+			"parent": "feed99647c921482",
+			"name": "Railing 3 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 2.2358038425445557,
+							"y": 409.1445617675781,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed851afda36387": {
+			"parent": "feed99647c921482",
+			"name": "Railing 4 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 2.2140023708343506,
+							"y": 255.14295959472656,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedb8ef433de363": {
+			"parent": "feed99647c921482",
+			"name": "Railing 4 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -2.2023768424987793,
+							"y": 255.19325256347656,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed2c697e15d684": {
+			"parent": "feed99647c921482",
+			"name": "Railing 5 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -2.22550368309021,
+							"y": 207.359619140625,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed10a7896bac88": {
+			"parent": "feed99647c921482",
+			"name": "Railing 5 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": 2.216403007507324,
+							"y": 207.30859375,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedd4a0c0653bf0": {
+			"parent": "feedd7b513929d17",
+			"name": "Ledges",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedc15042d03a16": {
+			"parent": "feedd4a0c0653bf0",
+			"name": "start ledge",
+			"factory": "[modules:/zguideledge.class].pc_entitytype",
+			"blueprint": "[modules:/zguideledge.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.8953216765062
+						},
+						"position": {
+							"x": -0.008788704872131348,
+							"y": 206.81942749023438,
+							"z": 0.9961140751838684
+						}
+					}
+				},
+				"m_vSize": {
+					"type": "SVector2",
+					"value": {
+						"x": 4.3,
+						"y": 0.5731379985809326
+					}
+				},
+				"m_bWalkable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountDismountRight": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountDismountLeft": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowDropDown": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAnchorEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bMountableFromTop": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bMountableFromBottom": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCanHang": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bBodyDumpEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCanStandOnLedge": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowJumpToLedgeLeft": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bAllowJumpToLedgeRight": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bKickNPCIsAccident": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDumpedBodyHidden": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
