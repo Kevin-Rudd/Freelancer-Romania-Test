@@ -10928,8 +10928,7 @@
 						"eAVV_INGRAM",
 						"eAVV_FRANCO",
 						"eAVV_DELGADO",
-						"eAVV_HUSH",
-						"eAVV_STUYVESANT"
+						"eAVV_HUSH"
 					]
 				}
 			}
@@ -11069,11 +11068,11 @@
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
 					"value": [
-						"eAVV_JOB_BANKERM08",
-						"eAVV_JOB_BANKERM09",
-						"eAVV_JOB_BANKERM07",
+						"eAVV_CIVMALE09",
+						"eAVV_CIVMALE07",
 						"eAVV_CIVMALE08",
-						"eAVV_CIVMALEHI02"
+						"eAVV_CIVMALECH01",
+						"eAVV_CIVMALECH02"
 					]
 				},
 				"m_eOutfitAICategory": {
@@ -11243,9 +11242,10 @@
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
 					"value": [
-						"eAVV_MECH01",
-						"eAVV_MECH03",
-						"eAVV_MECH03"
+						"eAVV_JANUS",
+						"eAVV_CIVMALEES02",
+						"eAVV_CIVMALEES03",
+						"eAVV_FRANCO"
 					]
 				},
 				"m_aCharSets": {
