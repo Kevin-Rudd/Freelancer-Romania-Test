@@ -1,1 +1,83 @@
-{"tempHash":"0006AAAD32FB10B8","tbluHash":"009F3541CFE2665D","rootEntity":"fffffffffffffffe","entities":{"fffffffffffffffe":{"parent":null,"name":"Scene","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint"}},"propertyOverrides":[{"entities":[{"ref":"feed5367ca7b1af3","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"}],"properties":{"m_sId":{"type":"ZGuid","value":"72f49b21-c240-4cf9-9b6b-8639f762f2d7"}}},{"entities":[{"ref":"feedd0a3cc185c94","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"}],"properties":{"m_sId":{"type":"ZGuid","value":"ba619c92-9c55-4009-aa03-bf207c370548"}}},{"entities":[{"ref":"6f05e507a2089136","externalScene":"[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"}],"properties":{"m_sId":{"type":"ZGuid","value":"af29c8d3-45cd-4b36-b7ed-5acc9398556d"}}},{"entities":[{"ref":"feed2e53517d0324","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"}],"properties":{"m_sId":{"type":"ZGuid","value":"cd368a51-7a36-4f98-8d1b-fa8a34c3092a"}}}],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":["[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype","[assembly:/_pro/scenes/missions/trapped/mild_trapped.brick].pc_entitytype","[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype","[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"],"subType":"scene","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "0006AAAD32FB10B8",
+	"tbluHash": "009F3541CFE2665D",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "6f05e507a2089136",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "72f49b21-c240-4cf9-9b6b-8639f762f2d7"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feedd0a3cc185c94",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "ba619c92-9c55-4009-aa03-bf207c370548"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feede61cf1cdcc66",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "cd368a51-7a36-4f98-8d1b-fa8a34c3092a"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/mild_trapped.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+	],
+	"subType": "scene",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

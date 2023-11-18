@@ -1,1 +1,537 @@
-{"tempHash":"000156EC8B9DF26C","tbluHash":"00600F8CDA8854D2","rootEntity":"fffffffffffffffe","entities":{"c61d900e9330db15":{"parent":"d4646bf8866a311b","name":"EventToken_Evergreen_Persistent_Stashes","factory":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entityblueprint"},"c8ed44c86c26a206":{"parent":"d4646bf8866a311b","name":"EventChannelTransmitter_int32_03","factory":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint","properties":{"m_rChannelToken":{"type":"SEntityTemplateReference","value":"c61d900e9330db15"}}},"94692df136f36ab3":{"parent":"d4646bf8866a311b","name":"EventToken_Evergreen_Persistent_Safes","factory":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entityblueprint"},"243d8fe914797de2":{"parent":"834864eca858f84e","name":"Sound","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"d4bda8f1ab80beef":{"parent":"d4646bf8866a311b","name":"EventToken_Evergreen_Persistent_Mules","factory":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entityblueprint"},"3bcc7e48a761bdd1":{"parent":"d4646bf8866a311b","name":"EventToken_Evergreen_Persistent_Suppliers","factory":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entityblueprint"},"fcf20198a14359d3":{"parent":"834864eca858f84e","name":"Any exit used","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint","properties":{"m_eEvaluation":{"type":"ZValueBool_Operation_Signal.EEvaluationType","value":"ANY"},"m_aValues":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"feeddfed2340264c","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype","exposedEntity":"exitActivated"}]}},"events":{"OnTrue":{"ExitTriggered":["fc590d6cc896d971"]}}},"2a4c5ae131266493":{"parent":"834864eca858f84e","name":"Helper_Evergreen_Spawn_Targets","factory":"[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entityblueprint","properties":{"m_rSeed":{"type":"SEntityTemplateReference","value":{"ref":"b73d9349324f8074","externalScene":"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"}},"m_aActors":{"type":"TArray<SEntityTemplateReference>","value":[{"ref":"feed23261a0d1d06","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feed15fdb093218c","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feed7b4543c73f2d","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feed73d358577a14","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feed8dc02cb891cb","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feede73dcf0bdad0","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feedd6b58324e940","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feed86b447df7170","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"},{"ref":"feed06d4a92f6004","externalScene":"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"}],"postInit":true}}},"5805374f1da748bf":{"parent":"243d8fe914797de2","name":"GameEventListener","factory":"[modules:/zgameeventlistenerentity.class].pc_entitytype","blueprint":"[modules:/zgameeventlistenerentity.class].pc_entityblueprint","events":{"EventOccurred":{"TransmitEvent":["94edae33db6e37ba"],"InsideMildMission":["dd61a068007b9d01"]}}},"94edae33db6e37ba":{"parent":"243d8fe914797de2","name":"EventChannelTransmitter_void","factory":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint","properties":{"m_rChannelToken":{"type":"SEntityTemplateReference","value":"23bf5ab5be929545","postInit":true}}},"8a714049091f2e53":{"parent":"d4646bf8866a311b","name":"EventChannelTransmitter_int32_02","factory":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint","properties":{"m_rChannelToken":{"type":"SEntityTemplateReference","value":"94692df136f36ab3"}}},"dd61a068007b9d01":{"parent":"243d8fe914797de2","name":"evergreen_mission_specific_mix","factory":"[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entitytype","blueprint":"[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entityblueprint","properties":{"m_sDefaultState":{"type":"ZString","value":"InsideMildMission"}}},"e13665b6a18a667b":{"parent":"d4646bf8866a311b","name":"Stashes value changed","factory":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"Stashes"},"postInit":true}},"events":{"OnValue":{"TransmitEvent":["c8ed44c86c26a206"]}}},"fc590d6cc896d971":{"parent":"834864eca858f84e","name":"Setpiece_Evergreen_SyndicateMissionGenerator_Unique","factory":"[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entityblueprint","properties":{"ClientReq03":{"type":"ZString","value":"MildPoker_ClientReq03"},"ClientReq02":{"type":"ZString","value":"MildPoker_ClientReq02"},"MildTargets_ID":{"type":"ZString","value":"MildPoker_Targets"},"ClientReq01":{"type":"ZString","value":"MildPoker_ClientReq01"},"Safes_ID":{"type":"ZString","value":"MildPoker_Safes"},"Vendors_ID":{"type":"ZString","value":"MildPoker_Vendors"},"MoneyMules_ID":{"type":"ZString","value":"MildPoker_MoneyMules"},"ClientReqsFailed_ID":{"type":"ZString","value":"MildPoker_ClientReqsFailed"},"Completed_ID":{"type":"ZString","value":"MildPoker_MissionCompleted"},"Failed_ID":{"type":"ZString","value":"MildPoker_MissionFailed"},"Stashes_ID":{"type":"ZString","value":"MildPoker_Stashes"},"Active_ID":{"type":"ZString","value":"MildPoker_Active"},"PrimaryObjective":{"type":"ZGuid","value":"48961e20-18f2-438b-a30b-dacb8f868b13"},"MyPayout":{"type":"SEntityTemplateReference","value":{"ref":"dace50c4615269ff","externalScene":"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"}},"Alerted_ID":{"type":"ZString","value":"MildPoker_Alerted"},"ClientReq04":{"type":"ZString","value":"MildPoker_ClientReq04"},"ClientReq05":{"type":"ZString","value":"MildPoker_ClientReq05"},"ClientReq06":{"type":"ZString","value":"MildPoker_ClientReq06"},"ClientReq07":{"type":"ZString","value":"MildPoker_ClientReq07"},"ClientReq08":{"type":"ZString","value":"MildPoker_ClientReq08"},"MissionFlowIndex":{"type":"SEntityTemplateReference","value":{"ref":"8b7ec53cdb27b412","externalScene":"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"}},"difficultyRank":{"type":"SEntityTemplateReference","value":{"ref":"f93db2efce3612cf","externalScene":"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"}},"isHardcore":{"type":"SEntityTemplateReference","value":{"ref":"8923ff8900a05b8e","externalScene":"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"}},"MildBasePayout_ID":{"type":"ZString","value":"MildPoker_BasePayout"}}},"834864eca858f84e":{"parent":"fffffffffffffffe","name":"Mission Mild Poker","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"fffffffffffffffe":{"parent":null,"name":"Scene","factory":"[modules:/zspatialentity.class].pc_entitytype","blueprint":"[modules:/zspatialentity.class].pc_entityblueprint"},"b73ab76317b4f6d5":{"parent":"d4646bf8866a311b","name":"Supplier value changed","factory":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"Vendors"}}},"events":{"OnValue":{"TransmitEvent":["b07d20438fca1aba"]}}},"23bf5ab5be929545":{"parent":"243d8fe914797de2","name":"EventToken_Sound_Evergreen_Evergreen_Active","factory":"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entityblueprint"},"1bee5e879e8f254f":{"parent":"d4646bf8866a311b","name":"Money Mules value changed","factory":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"MoneyMules"}}},"events":{"OnValue":{"TransmitEvent":["9ec12b3ac09c7b9a"]}}},"9ec12b3ac09c7b9a":{"parent":"d4646bf8866a311b","name":"EventChannelTransmitter_int32","factory":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint","properties":{"m_rChannelToken":{"type":"SEntityTemplateReference","value":"d4bda8f1ab80beef"}}},"b07d20438fca1aba":{"parent":"d4646bf8866a311b","name":"EventChannelTransmitter_int32_04","factory":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint","properties":{"m_rChannelToken":{"type":"SEntityTemplateReference","value":"3bcc7e48a761bdd1"}}},"e6116291b7735171":{"parent":"d4646bf8866a311b","name":"Safes value changed","factory":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"Safes"}}},"events":{"OnValue":{"TransmitEvent":["8a714049091f2e53"]}}},"d4646bf8866a311b":{"parent":"834864eca858f84e","name":"Stash mules and safe transfers","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"MoneyMules"}},"m_rValueEntity2":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"Safes"}},"m_rValueEntity3":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"Stashes"}},"m_rValueEntity4":{"type":"SEntityTemplateReference","value":{"ref":"fc590d6cc896d971","externalScene":null,"exposedEntity":"Vendors"}}},"propertyAliases":{"m_rValueEntity":[{"originalProperty":"m_rValueEntity","originalEntity":"1bee5e879e8f254f"}],"m_rValueEntity2":[{"originalProperty":"m_rValueEntity","originalEntity":"e6116291b7735171"}],"m_rValueEntity3":[{"originalProperty":"m_rValueEntity","originalEntity":"e13665b6a18a667b"}],"m_rValueEntity4":[{"originalProperty":"m_rValueEntity","originalEntity":"b73ab76317b4f6d5"}]}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":["[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype","[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"],"subType":"brick","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "000156EC8B9DF26C",
+	"tbluHash": "00600F8CDA8854D2",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"c61d900e9330db15": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Stashes",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_stashes.entitytemplate].pc_entityblueprint"
+		},
+		"c8ed44c86c26a206": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32_03",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "c61d900e9330db15"
+				}
+			}
+		},
+		"94692df136f36ab3": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Safes",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_safes.entitytemplate].pc_entityblueprint"
+		},
+		"243d8fe914797de2": {
+			"parent": "834864eca858f84e",
+			"name": "Sound",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"d4bda8f1ab80beef": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Mules",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_mules.entitytemplate].pc_entityblueprint"
+		},
+		"3bcc7e48a761bdd1": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventToken_Evergreen_Persistent_Suppliers",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_evergreen.template?/eventtoken_evergreen_persistent_suppliers.entitytemplate].pc_entityblueprint"
+		},
+		"fcf20198a14359d3": {
+			"parent": "834864eca858f84e",
+			"name": "Any exit used",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feeddfed2340264c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "feed066a789c8a45",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"ExitTriggered": [
+						"fc590d6cc896d971"
+					]
+				}
+			}
+		},
+		"2a4c5ae131266493": {
+			"parent": "834864eca858f84e",
+			"name": "Helper_Evergreen_Spawn_Targets",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/helper_evergreen_spawn_targets.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rSeed": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "b73d9349324f8074",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feed23261a0d1d06",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed15fdb093218c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed7b4543c73f2d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed73d358577a14",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed8dc02cb891cb",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feede73dcf0bdad0",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feedd6b58324e940",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed86b447df7170",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed06d4a92f6004",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"5805374f1da748bf": {
+			"parent": "243d8fe914797de2",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": {
+				"EventOccurred": {
+					"TransmitEvent": [
+						"94edae33db6e37ba"
+					],
+					"InsideMildMission": [
+						"dd61a068007b9d01"
+					]
+				}
+			}
+		},
+		"94edae33db6e37ba": {
+			"parent": "243d8fe914797de2",
+			"name": "EventChannelTransmitter_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "23bf5ab5be929545",
+					"postInit": true
+				}
+			}
+		},
+		"8a714049091f2e53": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32_02",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "94692df136f36ab3"
+				}
+			}
+		},
+		"dd61a068007b9d01": {
+			"parent": "243d8fe914797de2",
+			"name": "evergreen_mission_specific_mix",
+			"factory": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entitytype",
+			"blueprint": "[assembly:/sound/wwise/exportedwwisedata/states/levelspecific_states/evergreen/evergreen_mission_specific_mix.wwisestategroup].pc_entityblueprint",
+			"properties": {
+				"m_sDefaultState": {
+					"type": "ZString",
+					"value": "InsideMildMission"
+				}
+			}
+		},
+		"e13665b6a18a667b": {
+			"parent": "d4646bf8866a311b",
+			"name": "Stashes value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"c8ed44c86c26a206"
+					]
+				}
+			}
+		},
+		"fc590d6cc896d971": {
+			"parent": "834864eca858f84e",
+			"name": "Setpiece_Evergreen_SyndicateMissionGenerator_Unique",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/setpiece_evergreen_syndicatemissiongenerator_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"ClientReq03": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq03"
+				},
+				"ClientReq02": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq02"
+				},
+				"MildTargets_ID": {
+					"type": "ZString",
+					"value": "MildPoker_Targets"
+				},
+				"ClientReq01": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq01"
+				},
+				"Safes_ID": {
+					"type": "ZString",
+					"value": "MildPoker_Safes"
+				},
+				"Vendors_ID": {
+					"type": "ZString",
+					"value": "MildPoker_Vendors"
+				},
+				"MoneyMules_ID": {
+					"type": "ZString",
+					"value": "MildPoker_MoneyMules"
+				},
+				"ClientReqsFailed_ID": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReqsFailed"
+				},
+				"Completed_ID": {
+					"type": "ZString",
+					"value": "MildPoker_MissionCompleted"
+				},
+				"Failed_ID": {
+					"type": "ZString",
+					"value": "MildPoker_MissionFailed"
+				},
+				"Stashes_ID": {
+					"type": "ZString",
+					"value": "MildPoker_Stashes"
+				},
+				"Active_ID": {
+					"type": "ZString",
+					"value": "MildPoker_Active"
+				},
+				"PrimaryObjective": {
+					"type": "ZGuid",
+					"value": "48961e20-18f2-438b-a30b-dacb8f868b13"
+				},
+				"MyPayout": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "dace50c4615269ff",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"Alerted_ID": {
+					"type": "ZString",
+					"value": "MildPoker_Alerted"
+				},
+				"ClientReq04": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq04"
+				},
+				"ClientReq05": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq05"
+				},
+				"ClientReq06": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq06"
+				},
+				"ClientReq07": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq07"
+				},
+				"ClientReq08": {
+					"type": "ZString",
+					"value": "MildPoker_ClientReq08"
+				},
+				"MissionFlowIndex": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8b7ec53cdb27b412",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"difficultyRank": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f93db2efce3612cf",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"isHardcore": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "8923ff8900a05b8e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+					}
+				},
+				"MildBasePayout_ID": {
+					"type": "ZString",
+					"value": "MildPoker_BasePayout"
+				}
+			}
+		},
+		"834864eca858f84e": {
+			"parent": "fffffffffffffffe",
+			"name": "Mission Mild Poker",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"b73ab76317b4f6d5": {
+			"parent": "d4646bf8866a311b",
+			"name": "Supplier value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"b07d20438fca1aba"
+					]
+				}
+			}
+		},
+		"23bf5ab5be929545": {
+			"parent": "243d8fe914797de2",
+			"name": "EventToken_Sound_Evergreen_Evergreen_Active",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_evergreen_evergreen_active.entitytemplate].pc_entityblueprint"
+		},
+		"1bee5e879e8f254f": {
+			"parent": "d4646bf8866a311b",
+			"name": "Money Mules value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"9ec12b3ac09c7b9a"
+					]
+				}
+			}
+		},
+		"9ec12b3ac09c7b9a": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "d4bda8f1ab80beef"
+				}
+			}
+		},
+		"b07d20438fca1aba": {
+			"parent": "d4646bf8866a311b",
+			"name": "EventChannelTransmitter_int32_04",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_int32.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "3bcc7e48a761bdd1"
+				}
+			}
+		},
+		"e6116291b7735171": {
+			"parent": "d4646bf8866a311b",
+			"name": "Safes value changed",
+			"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_changed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				}
+			},
+			"events": {
+				"OnValue": {
+					"TransmitEvent": [
+						"8a714049091f2e53"
+					]
+				}
+			}
+		},
+		"d4646bf8866a311b": {
+			"parent": "834864eca858f84e",
+			"name": "Stash mules and safe transfers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "MoneyMules"
+					}
+				},
+				"m_rValueEntity2": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Safes"
+					}
+				},
+				"m_rValueEntity3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Stashes"
+					}
+				},
+				"m_rValueEntity4": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "fc590d6cc896d971",
+						"externalScene": null,
+						"exposedEntity": "Vendors"
+					}
+				}
+			},
+			"propertyAliases": {
+				"m_rValueEntity": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "1bee5e879e8f254f"
+					}
+				],
+				"m_rValueEntity2": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "e6116291b7735171"
+					}
+				],
+				"m_rValueEntity3": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "e13665b6a18a667b"
+					}
+				],
+				"m_rValueEntity4": [
+					{
+						"originalProperty": "m_rValueEntity",
+						"originalEntity": "b73ab76317b4f6d5"
+					}
+				]
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
