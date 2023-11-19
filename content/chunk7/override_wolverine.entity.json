@@ -23191,6 +23191,512 @@
 					"value": "ROOM_DYNAMIC"
 				}
 			}
+		},
+		"feeda41d85a6fe81": {
+			"parent": "feedd7b513929d17",
+			"name": "Coverplanes",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed3c42c3c12bdc": {
+			"parent": "feeda41d85a6fe81",
+			"name": "CoverPlane_1",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.88809416285156
+						},
+						"position": {
+							"x": 1.1422735452651978,
+							"y": 207.9134979248047,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedc53053ad140f": {
+			"parent": "feed71f3147dc8bc",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -0.06916993856430054,
+							"y": 250.5643310546875,
+							"z": 1.0256216526031494
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.799968910217285,
+						"y": 0.8341999530792236,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed75760397c677": {
+			"parent": "93c666592da84f85",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -0.9864672422409058,
+							"y": 251.32249450683594,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.599968910217285,
+						"y": 0.8341999530792236,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feeda88fb85c14bc": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -1.7739713191986084,
+							"y": 373.05841064453125,
+							"z": 1.0022295713424683
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed82a9e9cb2869": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -1.8604447841644287,
+							"y": 370.17529296875,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed81c7a75b75ac": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -1.45953369140625,
+							"y": 367.64825439453125,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf6b3acbb3ac2": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008154668047
+						},
+						"position": {
+							"x": -0.2193935513496399,
+							"y": 380.5249938964844,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedbefa79bc3da4": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.9999965849052
+						},
+						"position": {
+							"x": -0.21723099052906036,
+							"y": 375.8804016113281,
+							"z": 1.0009765625
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed1c72e30be990": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.268463134765625,
+							"y": 373.0746765136719,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed09a98fc19bf8": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_11",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.84232759475708,
+							"y": 376.3370666503906,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed51190805442c": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_14",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.8507792949676514,
+							"y": 367.7049255371094,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedb751b7c419f9": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_13",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.912438988685608,
+							"y": 370.6639709472656,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed3541ad4c3c34": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_12",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.8989583253860474,
+							"y": 373.8011169433594,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed02abf843ccab": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.8848072290420532,
+							"y": 379.7650451660156,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed7e84c82b38a5": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.8599056005477905,
+							"y": 376.860595703125,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed5c8b1fd62963": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.24008163726714
+						},
+						"position": {
+							"x": -1.7759004831314087,
+							"y": 377.8551025390625,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -24983,6 +25489,66 @@
 		{
 			"ref": "502782f32a41aac4",
 			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+		},
+		{
+			"ref": "8fcb7e47a0cddede",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "057db3127b66bd93",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "f008123411a6cfb2",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "9f883231215e826c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "501e35a9c630e81c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "50edefd4a73a7351",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "794a3cb9288c2a49",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb22dfb528b45148",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "83afd95b59294984",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "8babe5a00dc6cd5c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "60eec6d46d63fad9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "f6fd4feeb2b29698",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "a05ab3ae5ecbb6c2",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "2479ace3c346cc64",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "42f18ee3c0ba329e",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
