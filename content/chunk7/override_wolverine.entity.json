@@ -2902,17 +2902,11 @@
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
-		"83f5ec883069fcbc": {
-			"parent": "feed5f65be611f7a",
-			"name": "Kercyx additions",
-			"factory": "[modules:/zspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-		},
 		"fb3d10ce30922463": {
-			"parent": "83f5ec883069fcbc",
-			"name": "fusebox room to bathroom",
-			"factory": "[modules:/zspatialentity.class].pc_entitytype",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+			"parent": "feed5f65be611f7a",
+			"name": "Bathroom (Formerly Fusebox)",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"c8c358b14898d648": {
 			"parent": "fb3d10ce30922463",
@@ -16327,7 +16321,7 @@
 			}
 		},
 		"feedee2ba2e2f7b1": {
-			"parent": "83f5ec883069fcbc",
+			"parent": "feed5f65be611f7a",
 			"name": "Kitchen area",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -23162,6 +23156,39 @@
 				"m_bDumpedBodyHidden": {
 					"type": "bool",
 					"value": true
+				}
+			}
+		},
+		"feedda01a5150d40": {
+			"parent": "feed5f65be611f7a",
+			"name": "Bar",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed8f7e3b029fee": {
+			"parent": "feedda01a5150d40",
+			"name": "Restaurant_Bar_Stool_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.29769897,
+							"y": 371.69388,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
 				}
 			}
 		}
