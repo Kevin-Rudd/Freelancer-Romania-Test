@@ -23983,6 +23983,156 @@
 					}
 				}
 			}
+		},
+		"feed16a59936fc15": {
+			"parent": "feed1b52aa11a206",
+			"name": "rusty_metal_barrels_a",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 87.02023089038683,
+							"z": 90
+						},
+						"position": {
+							"x": -1.6499990224838257,
+							"y": -6.048981189727783,
+							"z": 1.3105570077896118
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "e32bb883e59b2365",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feedf218f8f6b220": {
+			"parent": "feed16a59936fc15",
+			"name": "rusty_metal_barrels_a_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 5.798083477316434,
+							"z": -90
+						},
+						"position": {
+							"x": -1.6499990224838257,
+							"y": -6.732390880584717,
+							"z": 1.3105690479278564
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "e32bb883e59b2365",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed00501640f750": {
+			"parent": "feedf218f8f6b220",
+			"name": "rusty_metal_barrels_a_02",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -87.59952478799973,
+							"y": 42.01805858219631,
+							"z": -91.60725658966162
+						},
+						"position": {
+							"x": -1.6499990224838257,
+							"y": -6.4010009765625,
+							"z": 1.8451629877090454
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "e32bb883e59b2365",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed493f1b3c0c46": {
+			"parent": "feed00501640f750",
+			"name": "rusty_metal_barrels_a_03",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 5.798139800706332,
+							"z": -92.42499434139343
+						},
+						"position": {
+							"x": -1.6499990224838257,
+							"y": -7.10748291015625,
+							"z": 1.8717570304870605
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "e32bb883e59b2365",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed964c879eb53c": {
+			"parent": "feed493f1b3c0c46",
+			"name": "rusty_metal_barrels_c_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 51.901373089014804,
+							"z": -90
+						},
+						"position": {
+							"x": -1.6499990224838257,
+							"y": -7.432982921600342,
+							"z": 1.3182690143585205
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "e32bb883e59b2365",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -25866,6 +26016,46 @@
 		},
 		{
 			"ref": "6690394226b3a154",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "a4e76193066824d3",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d128c6cab37865d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "e0d1f1dc81496b5c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "61fdf38b1b44f3ce",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "c5b62ff2c4307b93",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "61ac1ff3b683a52a",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "e29a366485a55add",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "35c968a1aa68b371",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "443cdf816f029100",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "181ae466ca373fc3",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
