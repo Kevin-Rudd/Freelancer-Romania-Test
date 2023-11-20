@@ -5,7 +5,7 @@
 	"contentFolders": ["content"],
 	"description": "Proof of Concept",
 	"authors": ["Kevin Rudd"],
-	"dependencies": ["001C7EFE78C71BEB",{
+	"dependencies": ["007D03F6DBCF9B27","001C7EFE78C71BEB",{
 		"runtimeID": "009BA9B9EC958320",
 		"comment": "NY Music",
 		"toChunk": 1
