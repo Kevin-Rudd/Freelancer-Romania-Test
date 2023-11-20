@@ -20421,13 +20421,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -10.349952988954987,
-							"y": -0.28148831739550423,
+							"x": -10.349942743671232,
+							"y": -0.28114790183448785,
 							"z": 0
 						},
 						"position": {
 							"x": -0.012382537,
-							"y": 542.204,
+							"y": 521.263,
 							"z": 3.8911881
 						}
 					}
@@ -24133,6 +24133,6503 @@
 					}
 				}
 			}
+		},
+		"feed95261d11d454": {
+			"parent": "feedf011137916bc",
+			"name": "Rooms",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed92e8fd495e0d": {
+			"parent": "feed95261d11d454",
+			"name": "Cargo_ext_Blank_B_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a_prefab.template?/cargo_ext_blank_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a_prefab.template?/cargo_ext_blank_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 531.47546,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "13ee842d2c94bdfb",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed81e34e8052b5": {
+			"parent": "feed92e8fd495e0d",
+			"name": "Cargo_Int_Blank_B_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a_prefab.template?/cargo_int_blank_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a_prefab.template?/cargo_int_blank_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_Tags": {
+					"type": "ZString",
+					"value": "SnowA"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed92e8fd495e0d",
+					"postInit": true
+				},
+				"Room_Outside": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "13ee842d2c94bdfb",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			},
+			"subsets": {
+				"Gates": [
+					"fffffffffffffffe"
+				],
+				"Rooms": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed63106104422b": {
+			"parent": "feed81e34e8052b5",
+			"name": "Lighting",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed086ae1adab5f": {
+			"parent": "feed81e34e8052b5",
+			"name": "Doors",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed899b0824a85c": {
+			"parent": "feed63106104422b",
+			"name": "Lamp_Strip_Light_C_SizeA_2020_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 60.11174783874523,
+							"y": 0.00011459155063847789,
+							"z": 90.00085943661018
+						},
+						"position": {
+							"x": 1.8780629634857178,
+							"y": 6.00189208984375,
+							"z": 2.932248115539551
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#aaecbf"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0700000524520874,
+						"y": 6.559999942779541
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5,
+						"y": 1.0700000524520874
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6f48b496a669": {
+			"parent": "feed63106104422b",
+			"name": "Lamp_Strip_Light_C_SizeA_2020_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 60.11174783874523,
+							"y": 0.00011459155063847789,
+							"z": 90.00085943661018
+						},
+						"position": {
+							"x": 1.8779510259628296,
+							"y": -1.5199580192565918,
+							"z": 2.9322619438171387
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#aaecbf"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0700000524520874,
+						"y": 6.46999979019165
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed136e13d5658a": {
+			"parent": "feed63106104422b",
+			"name": "Lamp_Strip_Light_C_SizeA_2020_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 60.11174783874523,
+							"y": 0.00011459155063847789,
+							"z": 90.00085943661018
+						},
+						"position": {
+							"x": 1.87785804271698,
+							"y": -7.702025890350342,
+							"z": 2.9322710037231445
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#aaecbf"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0700000524520874,
+						"y": 6.559999942779541
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5,
+						"y": 1.0700000524520874
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed67b51b1541b2": {
+			"parent": "feed086ae1adab5f",
+			"name": "a_ext_door_2x3_blank_a",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a.template?/a_ext_door_2x3_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a.template?/a_ext_door_2x3_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1,
+							"y": -10,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed3da678c27648": {
+			"parent": "feed086ae1adab5f",
+			"name": "a_ext_door_2x3_blank_a_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a.template?/a_ext_door_2x3_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_cargo_a.template?/a_ext_door_2x3_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 1,
+							"y": 10,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5"
+				},
+				"m_OpenDir": {
+					"type": "IHM5Door.EOpenDir",
+					"value": "OD_OUT"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed233dfa3a9684": {
+			"parent": "feed5f65be611f7a",
+			"name": "Reference Props for Room Deletion!",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed38bc2d940281": {
+			"parent": "feedf2d96e241d0f",
+			"name": "SetPiece_Container_Body_Laundry_Trolley_Bangkok",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_laundry_trolley_bangkok.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_laundry_trolley_bangkok.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 91.08031986512074
+						},
+						"position": {
+							"x": -1.3,
+							"y": 531.8,
+							"z": 1.011781
+						}
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "1163f2f8-cb2c-489f-8a01-63a205db7baf"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"SFX_Inside_2D_AmbienceLoop": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009E39E4407D88B4",
+						"flag": "5F"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed142ec4584fa1": {
+			"parent": "feed38bc2d940281",
+			"name": "CoverPlane 19",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.78822382872454
+						},
+						"position": {
+							"x": -0.7997661828994751,
+							"y": -0.022028669714927673,
+							"z": -0.017062010243535042
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.8548619747161865
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed38bc2d940281",
+					"postInit": true
+				}
+			}
+		},
+		"feedb53ad5aec085": {
+			"parent": "feed38bc2d940281",
+			"name": "CoverPlane 20",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.91968101085189
+						},
+						"position": {
+							"x": 0.7999864220619202,
+							"y": 0.008138432167470455,
+							"z": -0.017062010243535042
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.8548619747161865
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed38bc2d940281"
+				}
+			}
+		},
+		"feed16bdc48f32e4": {
+			"parent": "feed38bc2d940281",
+			"name": "VolumeBox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.016932999715209007,
+							"y": 0.04135100170969963,
+							"z": 0.4171209931373596
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5767899751663208,
+						"y": 0.8623960018157959,
+						"z": 1.2004400491714478
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed38bc2d940281"
+				}
+			}
+		},
+		"feed3ea018372e5f": {
+			"parent": "feed233dfa3a9684",
+			"name": "Geometry",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed9c5def029d4f": {
+			"parent": "feed3ea018372e5f",
+			"name": "a_Crate_a",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.349155,
+							"y": 528.7,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedeb28c3cd6970": {
+			"parent": "feed3ea018372e5f",
+			"name": "a_drums_01",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180.00000500895632
+						},
+						"position": {
+							"x": 0.110953,
+							"y": 528.46313,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedfc14ac6cbb70": {
+			"parent": "feed3ea018372e5f",
+			"name": "Military_Box_Wooden_B_00_32",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.002058,
+							"y": 519.0021,
+							"z": 1.498444
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedb38bee54d4a5": {
+			"parent": "feed3ea018372e5f",
+			"name": "a_Crate_a_01",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180.00000500895632
+						},
+						"position": {
+							"x": -1.0999999,
+							"y": 526.7,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed469edd46dce8": {
+			"parent": "feed3ea018372e5f",
+			"name": "Military_Box_Wooden_B_00_22",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 91.27751425664817
+						},
+						"position": {
+							"x": -0.017002,
+							"y": 538.1063,
+							"z": 1.5
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed97eef4b04a8c": {
+			"parent": "feed9c5def029d4f",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.5,
+							"y": 0.5,
+							"z": -0.005689024925231934
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9c5def029d4f"
+				}
+			}
+		},
+		"feede29e5beda641": {
+			"parent": "feed9c5def029d4f",
+			"name": "Military_Box_Wooden_B_00_33",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.14915500581264496,
+							"y": -0.0480956993997097,
+							"z": 0.49844399094581604
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9c5def029d4f"
+				}
+			}
+		},
+		"feed82cd083116df": {
+			"parent": "feed9c5def029d4f",
+			"name": "a_int_detail_fixture_a_26",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.5,
+							"y": -0.5500031113624573,
+							"z": -0.005689024925231934
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9c5def029d4f"
+				}
+			}
+		},
+		"feedd76867a46494": {
+			"parent": "feed97eef4b04a8c",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960337643270574
+						},
+						"position": {
+							"x": 0,
+							"y": -0.19881099462509155,
+							"z": 1.5159460306167603
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd544a46e3ce7",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed97eef4b04a8c",
+					"postInit": true
+				}
+			}
+		},
+		"feed34c006b80891": {
+			"parent": "feed97eef4b04a8c",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 4.45987963062102,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd76867a46494"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed97eef4b04a8c",
+					"postInit": true
+				}
+			}
+		},
+		"feed125377a7760b": {
+			"parent": "feed97eef4b04a8c",
+			"name": "Wire_CableString_A_10",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": -4.889253708236127,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1285419464111328,
+							"z": 1.4979439973831177
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed97eef4b04a8c"
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c0354213fc7",
+					"postInit": true
+				}
+			}
+		},
+		"feedd544a46e3ce7": {
+			"parent": "feed97eef4b04a8c",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1015390157699585,
+							"z": 1.5289039611816406
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed125377a7760b"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed97eef4b04a8c"
+				}
+			}
+		},
+		"feed5d52ad410980": {
+			"parent": "feed97eef4b04a8c",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed97eef4b04a8c"
+				}
+			}
+		},
+		"feed8c0354213fc7": {
+			"parent": "feed97eef4b04a8c",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed97eef4b04a8c"
+				}
+			}
+		},
+		"feedd668a12439a6": {
+			"parent": "feede29e5beda641",
+			"name": "Military_Box_Wooden_B_00_15",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.005127000156790018,
+							"z": -0.501570999622345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feede29e5beda641",
+					"postInit": true
+				}
+			}
+		},
+		"feed9bcfdc685204": {
+			"parent": "feede29e5beda641",
+			"name": "Military_Box_Wooden_B_00_34",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -178.87727460425683
+						},
+						"position": {
+							"x": 0.0005489999894052744,
+							"y": 0.022717999294400215,
+							"z": 0.5015559792518616
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feede29e5beda641"
+				}
+			}
+		},
+		"feed8e4777627067": {
+			"parent": "feed82cd083116df",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 4.45987963062102,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed922a10a183dd",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed82cd083116df",
+					"postInit": true
+				}
+			}
+		},
+		"feed9a4acc4ad3ad": {
+			"parent": "feed82cd083116df",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed82cd083116df",
+					"postInit": true
+				}
+			}
+		},
+		"feedac5ee7db6f13": {
+			"parent": "feed82cd083116df",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed82cd083116df",
+					"postInit": true
+				}
+			}
+		},
+		"feed1d95e1ba2c67": {
+			"parent": "feed82cd083116df",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.0760940313339233,
+							"z": 1.530534029006958
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedba9557c98f6a",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed82cd083116df",
+					"postInit": true
+				}
+			}
+		},
+		"feedba9557c98f6a": {
+			"parent": "feed82cd083116df",
+			"name": "Wire_CableString_A_10",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -85.1107476895639,
+							"y": 0.0030939738561943657,
+							"z": -0.024006943347554453
+						},
+						"position": {
+							"x": 0,
+							"y": -1.115609049797058,
+							"z": 1.4848610162734985
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedac5ee7db6f13"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed82cd083116df",
+					"postInit": true
+				}
+			}
+		},
+		"feed922a10a183dd": {
+			"parent": "feed82cd083116df",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -0.17048099637031555,
+							"z": 1.5185409784317017
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1d95e1ba2c67"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed82cd083116df"
+				}
+			}
+		},
+		"feedf925fd5b48b0": {
+			"parent": "feedeb28c3cd6970",
+			"name": "rusty_metal_barrels_a",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 87.02034514171989,
+							"z": -90
+						},
+						"position": {
+							"x": 0.75,
+							"y": -0.7509918212890625,
+							"z": 0.3103480041027069
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970",
+					"postInit": true
+				}
+			}
+		},
+		"feed42f97097c96c": {
+			"parent": "feedeb28c3cd6970",
+			"name": "rusty_metal_barrels_a_03",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 5.798139800706332,
+							"z": 87.57500565860657
+						},
+						"position": {
+							"x": 0.75,
+							"y": 0.3182370066642761,
+							"z": 0.8910170197486877
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feedf2461834c921": {
+			"parent": "feedeb28c3cd6970",
+			"name": "a_int_detail_fixture_a_23",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.6000000238418579,
+							"y": 1,
+							"z": -0.005684018135070801
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feed0ea1ed2cb4c9": {
+			"parent": "feedeb28c3cd6970",
+			"name": "CoverPlane 21",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -2.396866059223182
+						},
+						"position": {
+							"x": 1.3315800428390503,
+							"y": 0.969482421875,
+							"z": -0.005280017852783203
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.0285630226135254
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feedb76ea4480508": {
+			"parent": "feedeb28c3cd6970",
+			"name": "rusty_metal_barrels_a_02",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_a_snow.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -87.59952478799973,
+							"y": 42.01805858219631,
+							"z": 88.3927434103384
+						},
+						"position": {
+							"x": 0.75,
+							"y": -0.42028799653053284,
+							"z": 0.8501240015029907
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feed9fd83f9f3e22": {
+			"parent": "feedeb28c3cd6970",
+			"name": "CoverPlane 22",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -178.90982470800824
+						},
+						"position": {
+							"x": 0.3123970031738281,
+							"y": -1.1240229606628418,
+							"z": -0.005289999768137932
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.1004509925842285
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feeda1b93948c0f8": {
+			"parent": "feedeb28c3cd6970",
+			"name": "CoverPlane 23",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.5113144106866337
+						},
+						"position": {
+							"x": 0.17075400054454803,
+							"y": 0.9816280007362366,
+							"z": -0.005280000157654285
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.833279013633728
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feed54411a0a9fb1": {
+			"parent": "feedeb28c3cd6970",
+			"name": "a_int_detail_fixture_a_22",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.10000000149011612,
+							"y": 1,
+							"z": -0.005684018135070801
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feed42043c7fbcf5": {
+			"parent": "feedeb28c3cd6970",
+			"name": "rusty_metal_barrels_c_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/barrels_metal_a.template?/rusty_metal_barrels_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 51.901373089014804,
+							"z": 90
+						},
+						"position": {
+							"x": 0.75,
+							"y": -0.08313000202178955,
+							"z": 0.3180600106716156
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feed3366d11e78fc": {
+			"parent": "feedeb28c3cd6970",
+			"name": "CoverPlane 25",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.57681260306595
+						},
+						"position": {
+							"x": 1.2786329984664917,
+							"y": -1.1520999670028687,
+							"z": -0.0052919997833669186
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.8329650163650513
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedeb28c3cd6970"
+				}
+			}
+		},
+		"feed9a05201a7376": {
+			"parent": "feedf2461834c921",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 30.841035666060844,
+							"z": -90
+						},
+						"position": {
+							"x": -0.009812000207602978,
+							"y": -0.07061800360679626,
+							"z": 0.4728190004825592
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9efe0bd07a07",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921",
+					"postInit": true
+				}
+			}
+		},
+		"feed9efe0bd07a07": {
+			"parent": "feedf2461834c921",
+			"name": "Wire_CableString_A_08",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.005309999920427799,
+							"y": -0.6026610136032104,
+							"z": 1.2331520318984985
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -9.819999694824219
+					}
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9a49799d0a9f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921",
+					"postInit": true
+				}
+			}
+		},
+		"feedef2a9f10abb1": {
+			"parent": "feedf2461834c921",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -2.100006103515625,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921",
+					"postInit": true
+				}
+			}
+		},
+		"feedf8d2ad725349": {
+			"parent": "feedf2461834c921",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -2.100006103515625,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921"
+				}
+			}
+		},
+		"feedda6cf9225000": {
+			"parent": "feedf2461834c921",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 4.45987963062102,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9a05201a7376"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921"
+				}
+			}
+		},
+		"feed28f2138b2183": {
+			"parent": "feedf2461834c921",
+			"name": "Wire_CableString_A_10",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 128.54247111577055,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.03089899942278862,
+							"y": -2.075927972793579,
+							"z": 0.45971399545669556
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedef2a9f10abb1"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921"
+				}
+			}
+		},
+		"feed9a49799d0a9f": {
+			"parent": "feedf2461834c921",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.22043668456222,
+							"y": 85.81167960252611,
+							"z": 89.78034788353662
+						},
+						"position": {
+							"x": -0.007914000190794468,
+							"y": -1.5159300565719604,
+							"z": 1.1873070001602173
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed28f2138b2183"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf2461834c921"
+				}
+			}
+		},
+		"feede32f6d6e3b0b": {
+			"parent": "feed54411a0a9fb1",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -2.100006103515625,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feed2c38d4919a58": {
+			"parent": "feed54411a0a9fb1",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -2.100006103515625,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feedc028bf2037da": {
+			"parent": "feed54411a0a9fb1",
+			"name": "Wire_CableString_A_08",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.003717999905347824,
+							"y": -0.6556400060653687,
+							"z": 1.2356380224227905
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -9.819999694824219
+					}
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedaf4fcb1c3f50",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feed83d6e2cfb4c5": {
+			"parent": "feed54411a0a9fb1",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 30.09257783348267,
+							"z": -90
+						},
+						"position": {
+							"x": -0.009812000207602978,
+							"y": -0.06097399815917015,
+							"z": 0.48886701464653015
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc028bf2037da"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feed61ccd31f9347": {
+			"parent": "feed54411a0a9fb1",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 4.45987963062102,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed83d6e2cfb4c5"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feed23b8e240096f": {
+			"parent": "feed54411a0a9fb1",
+			"name": "Wire_CableString_A_10",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 120.07943795752303,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.03089899942278862,
+							"y": -2.070862054824829,
+							"z": 0.45971399545669556
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2c38d4919a58"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feedaf4fcb1c3f50": {
+			"parent": "feed54411a0a9fb1",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 180,
+							"y": 89.97577248830191,
+							"z": 0
+						},
+						"position": {
+							"x": -0.007904999889433384,
+							"y": -1.509032964706421,
+							"z": 1.2195849418640137
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed23b8e240096f"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54411a0a9fb1",
+					"postInit": true
+				}
+			}
+		},
+		"feed0838cad85faa": {
+			"parent": "feedfc14ac6cbb70",
+			"name": "Military_Box_Wooden_B_00_15",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.005127000156790018,
+							"z": -0.501570999622345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfc14ac6cbb70",
+					"postInit": true
+				}
+			}
+		},
+		"feed79fb2033aa2b": {
+			"parent": "feedfc14ac6cbb70",
+			"name": "CoverPlane 18",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.4929789876780575
+						},
+						"position": {
+							"x": -0.24999499320983887,
+							"y": 0.47338899970054626,
+							"z": -0.5037260055541992
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.2323909997940063
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0.9502990245819092
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfc14ac6cbb70",
+					"postInit": true
+				}
+			}
+		},
+		"feed74a61d141b74": {
+			"parent": "feedfc14ac6cbb70",
+			"name": "a_int_detail_fixture_a_27",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.800000011920929,
+							"y": -0.5999760031700134,
+							"z": -0.5037850141525269
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfc14ac6cbb70",
+					"postInit": true
+				}
+			}
+		},
+		"feed6d5c3030d007": {
+			"parent": "feedfc14ac6cbb70",
+			"name": "a_int_detail_fixture_a_25",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.578449010848999,
+							"y": -0.5999760031700134,
+							"z": -0.5037850141525269
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfc14ac6cbb70"
+				}
+			}
+		},
+		"feede8f5e5fe51ad": {
+			"parent": "feedfc14ac6cbb70",
+			"name": "CoverPlane 16",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.50111928699468
+						},
+						"position": {
+							"x": -0.24152199923992157,
+							"y": -0.43768298625946045,
+							"z": -0.5037239789962769
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.214717984199524
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0.9502990245819092
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfc14ac6cbb70"
+				}
+			}
+		},
+		"feed6c86b85ed2b8": {
+			"parent": "feed74a61d141b74",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 8.633528187677511,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1b31314bab5b",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed74a61d141b74",
+					"postInit": true
+				}
+			}
+		},
+		"feed235f6b470594": {
+			"parent": "feed74a61d141b74",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -86.71469502815835,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -1.0770260095596313,
+							"z": 1.011976957321167
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed74a61d141b74"
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed978a649e644d",
+					"postInit": true
+				}
+			}
+		},
+		"feed33e03d8cebd3": {
+			"parent": "feed74a61d141b74",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed74a61d141b74"
+				}
+			}
+		},
+		"feed1b31314bab5b": {
+			"parent": "feed74a61d141b74",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 84.727823824169,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -0.14459200203418732,
+							"z": 1.010661005973816
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed235f6b470594"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed74a61d141b74"
+				}
+			}
+		},
+		"feed978a649e644d": {
+			"parent": "feed74a61d141b74",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": -10.000001327900337,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed74a61d141b74"
+				}
+			}
+		},
+		"feed109f7a284b42": {
+			"parent": "feed6d5c3030d007",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -85.87336983109458,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -1.0765379667282104,
+							"z": 1.0193699598312378
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bLimitTranslation": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedae469bdd178a",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d5c3030d007",
+					"postInit": true
+				}
+			}
+		},
+		"feedae469bdd178a": {
+			"parent": "feed6d5c3030d007",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": -10.000001327900337,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d5c3030d007"
+				}
+			}
+		},
+		"feed16d356277f81": {
+			"parent": "feed6d5c3030d007",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 84.727823824169,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -0.14459200203418732,
+							"z": 1.010661005973816
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed109f7a284b42"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d5c3030d007"
+				}
+			}
+		},
+		"feedb4f05d55067b": {
+			"parent": "feed6d5c3030d007",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d5c3030d007"
+				}
+			}
+		},
+		"feeda3cea8a6e818": {
+			"parent": "feed6d5c3030d007",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 8.633528187677511,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed16d356277f81"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d5c3030d007"
+				}
+			}
+		},
+		"feedb5268222fce8": {
+			"parent": "feedb38bee54d4a5",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.5,
+							"y": 0.5,
+							"z": -0.005689024925231934
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb38bee54d4a5",
+					"postInit": true
+				}
+			}
+		},
+		"feed20321600c754": {
+			"parent": "feedb38bee54d4a5",
+			"name": "a_int_detail_fixture_a_26",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.5,
+							"y": -0.5500031113624573,
+							"z": -0.005689024925231934
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb38bee54d4a5"
+				}
+			}
+		},
+		"feed184cfd5d9975": {
+			"parent": "feedb38bee54d4a5",
+			"name": "Military_Box_Wooden_B_00_33",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -93.74011738655601
+						},
+						"position": {
+							"x": 0.1491529941558838,
+							"y": -0.04809600114822388,
+							"z": 0.49844399094581604
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb38bee54d4a5"
+				}
+			}
+		},
+		"feed0af54c02af0b": {
+			"parent": "feedb5268222fce8",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": -10.000001327900337,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5268222fce8"
+				}
+			}
+		},
+		"feedc8a6d77c856a": {
+			"parent": "feedb5268222fce8",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 4.45987963062102,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5268222fce8"
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedec92249fe291",
+					"postInit": true
+				}
+			}
+		},
+		"feed1c989559f4fe": {
+			"parent": "feedb5268222fce8",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0.000060999998822808266,
+							"y": -1.108312964439392,
+							"z": 1.5272419452667236
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0af54c02af0b"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5268222fce8"
+				}
+			}
+		},
+		"feedde6e09e96f4a": {
+			"parent": "feedb5268222fce8",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5268222fce8"
+				}
+			}
+		},
+		"feedec92249fe291": {
+			"parent": "feedb5268222fce8",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 85.1107476895639,
+							"y": 0.0030939738561943657,
+							"z": 0.024006943347554453
+						},
+						"position": {
+							"x": 0,
+							"y": -0.17361900210380554,
+							"z": 1.4967340230941772
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5268222fce8"
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed633a6097c915",
+					"postInit": true
+				}
+			}
+		},
+		"feed633a6097c915": {
+			"parent": "feedb5268222fce8",
+			"name": "Wire_CableString_A_06",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -0.197284996509552,
+							"z": 1.5252269506454468
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1c989559f4fe"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5268222fce8"
+				}
+			}
+		},
+		"feed8cfcefb33bf2": {
+			"parent": "feed20321600c754",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": -10.000001327900337,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed20321600c754",
+					"postInit": true
+				}
+			}
+		},
+		"feede35f984708f3": {
+			"parent": "feed20321600c754",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 0.009912169212234445,
+							"z": 0.009912169657226367
+						},
+						"position": {
+							"x": 0,
+							"y": -1.0883790254592896,
+							"z": 1.5254729986190796
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8cfcefb33bf2"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed20321600c754",
+					"postInit": true
+				}
+			}
+		},
+		"feed8d446c013fc8": {
+			"parent": "feed20321600c754",
+			"name": "Wire_CableString_A_06",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -0.18713800609111786,
+							"z": 1.5256530046463013
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feede35f984708f3"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed20321600c754",
+					"postInit": true
+				}
+			}
+		},
+		"feed9594604f17d0": {
+			"parent": "feed20321600c754",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 4.45987963062102,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc60f0c4d5887",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed20321600c754",
+					"postInit": true
+				}
+			}
+		},
+		"feedc60f0c4d5887": {
+			"parent": "feed20321600c754",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 85.1107476895639,
+							"y": 0.0030939738561943657,
+							"z": 0.024006943347554453
+						},
+						"position": {
+							"x": 0,
+							"y": -0.15743300318717957,
+							"z": 1.5146909952163696
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8d446c013fc8"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed20321600c754"
+				}
+			}
+		},
+		"feeda1a630a03596": {
+			"parent": "feed20321600c754",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed20321600c754"
+				}
+			}
+		},
+		"feed59ccb5bde510": {
+			"parent": "feed184cfd5d9975",
+			"name": "Military_Box_Wooden_B_00_15",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 3.7406319673202284
+						},
+						"position": {
+							"x": 0.001281999982893467,
+							"y": 0.005253000184893608,
+							"z": -0.501570999622345
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed184cfd5d9975",
+					"postInit": true
+				}
+			}
+		},
+		"feed233040bba741": {
+			"parent": "feed184cfd5d9975",
+			"name": "Military_Box_Wooden_B_00_34",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -175.13921092622758
+						},
+						"position": {
+							"x": 0.003478999948129058,
+							"y": 0.022647999227046967,
+							"z": 0.5015559792518616
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed184cfd5d9975"
+				}
+			}
+		},
+		"feedf71433d77ce8": {
+			"parent": "feed469edd46dce8",
+			"name": "CoverPlane 17",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.31776389983021
+						},
+						"position": {
+							"x": -0.9804080128669739,
+							"y": -0.009922999888658524,
+							"z": -0.5052800178527832
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.0494550466537476
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8",
+					"postInit": true
+				}
+			}
+		},
+		"feed5202cc5bc8b8": {
+			"parent": "feed469edd46dce8",
+			"name": "CoverPlane 19",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.42697535722095
+						},
+						"position": {
+							"x": 0.00646999990567565,
+							"y": -0.5246840119361877,
+							"z": -0.5052800178527832
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.9766520261764526
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8",
+					"postInit": true
+				}
+			}
+		},
+		"feedf8424a70dc7a": {
+			"parent": "feed469edd46dce8",
+			"name": "CoverPlane 15",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.2980541330357696
+						},
+						"position": {
+							"x": -0.004699999932199717,
+							"y": 0.5199189782142639,
+							"z": -0.5052800178527832
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.9573160409927368
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8",
+					"postInit": true
+				}
+			}
+		},
+		"feed0792242e6bfc": {
+			"parent": "feed469edd46dce8",
+			"name": "Military_Box_Wooden_B_00_15",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_wooden_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 178.7185305175136
+						},
+						"position": {
+							"x": 0.0018919999711215496,
+							"y": 0.015356999821960926,
+							"z": -0.5
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8",
+					"postInit": true
+				}
+			}
+		},
+		"feed950c30f42476": {
+			"parent": "feed469edd46dce8",
+			"name": "a_int_detail_fixture_a_25",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 178.7212812700177
+						},
+						"position": {
+							"x": -0.5805050134658813,
+							"y": -0.5961290001869202,
+							"z": -0.5053409934043884
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8",
+					"postInit": true
+				}
+			}
+		},
+		"feedb040467b1901": {
+			"parent": "feed469edd46dce8",
+			"name": "CoverPlane 18",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.85360710053826
+						},
+						"position": {
+							"x": 0.984375,
+							"y": 0.005121000111103058,
+							"z": -0.5052800178527832
+						}
+					}
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.0400489568710327
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8",
+					"postInit": true
+				}
+			}
+		},
+		"feed54078045bf7b": {
+			"parent": "feed469edd46dce8",
+			"name": "a_int_detail_fixture_a_27",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 178.7212812700177
+						},
+						"position": {
+							"x": 0.5985720157623291,
+							"y": -0.5629730224609375,
+							"z": -0.5053409934043884
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed469edd46dce8"
+				}
+			}
+		},
+		"feedeb79389e1cb2": {
+			"parent": "feed950c30f42476",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed950c30f42476",
+					"postInit": true
+				}
+			}
+		},
+		"feeddcbb6d017be1": {
+			"parent": "feed950c30f42476",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 10.000001327900337,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.19179105758667,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed950c30f42476",
+					"postInit": true
+				}
+			}
+		},
+		"feed72351e8b9027": {
+			"parent": "feed950c30f42476",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 8.633528187677511,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed80fb7ad7a5ce",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed950c30f42476",
+					"postInit": true
+				}
+			}
+		},
+		"feed80fb7ad7a5ce": {
+			"parent": "feed950c30f42476",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 79.8844498115123,
+							"y": 0.012719650938193487,
+							"z": 0.015183368517959867
+						},
+						"position": {
+							"x": 0,
+							"y": -0.14459200203418732,
+							"z": 1.010661005973816
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 10
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed427f81d2dd7b",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed950c30f42476",
+					"postInit": true
+				}
+			}
+		},
+		"feed427f81d2dd7b": {
+			"parent": "feed950c30f42476",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -78.64209864492905,
+							"y": -0.010828905030192447,
+							"z": -0.008880848709918699
+						},
+						"position": {
+							"x": 0.000060999998822808266,
+							"y": -1.0765379667282104,
+							"z": 1.0193699598312378
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddcbb6d017be1"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed950c30f42476",
+					"postInit": true
+				}
+			}
+		},
+		"feed001520ba4ecb": {
+			"parent": "feed54078045bf7b",
+			"name": "Wire_CableString_A_11",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 10.000001327900337,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54078045bf7b",
+					"postInit": true
+				}
+			}
+		},
+		"feeda2c1922051f9": {
+			"parent": "feed54078045bf7b",
+			"name": "Wire_CableString_A_09",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -79.48342099228955,
+							"y": -0.012662370436327008,
+							"z": 0.015183387281946372
+						},
+						"position": {
+							"x": 0,
+							"y": -1.0412590503692627,
+							"z": 1.0083119869232178
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feed001520ba4ecb"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54078045bf7b",
+					"postInit": true
+				}
+			}
+		},
+		"feeda1738b943129": {
+			"parent": "feed54078045bf7b",
+			"name": "a_int_detail_fixture_a_24",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_mumbai_trains.template?/a_int_detail_fixture_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": 0,
+							"y": -1.1934349536895752,
+							"z": 0
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1.5,
+						"y": 1.5,
+						"z": 1.5
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54078045bf7b",
+					"postInit": true
+				}
+			}
+		},
+		"feeda441fec761b4": {
+			"parent": "feed54078045bf7b",
+			"name": "Wire_CableString_A_05",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 79.8844498115123,
+							"y": 0.012719650938193487,
+							"z": 0.015183368517959867
+						},
+						"position": {
+							"x": 0,
+							"y": -0.11112099885940552,
+							"z": 1.0129159688949585
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda2c1922051f9"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 10
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54078045bf7b",
+					"postInit": true
+				}
+			}
+		},
+		"feed67ce2b1c2822": {
+			"parent": "feed54078045bf7b",
+			"name": "Wire_CableString_A_02",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 8.633528187677511,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.10568899661302567
+						}
+					}
+				},
+				"m_Material": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/environment/materials/props/wires/chain_a_rusted.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"m_bUseWireMaterialLength": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWireMaterialLength": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_rAnchorTransform": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda441fec761b4"
+				},
+				"m_fWireWidth": {
+					"type": "float32",
+					"value": 0.029999999329447746
+				},
+				"m_bUseTransformYAsTangents": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nNumWires": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_nNumRenderSegments": {
+					"type": "uint32",
+					"value": 5
+				},
+				"m_bAnchorEnd": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_nNumSimSegments": {
+					"type": "uint32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54078045bf7b",
+					"postInit": true
+				}
+			}
+		},
+		"feedf2d96e241d0f": {
+			"parent": "feed5f65be611f7a",
+			"name": "Locker Room",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed291b1d7088fb": {
+			"parent": "feedf2d96e241d0f",
+			"name": "Setpiece_Opulent_Container_Item_Locker2",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_stingray_unique.template?/setpiece_opulent_container_item_locker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_stingray_unique.template?/setpiece_opulent_container_item_locker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -0.61018443,
+							"y": 538.1496,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnPickup": {
+					"SetTrue": [
+
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed1fa239ec5bde": {
+			"parent": "feedf2d96e241d0f",
+			"name": "Setpiece_Opulent_Container_Item_Locker",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_stingray_unique.template?/setpiece_opulent_container_item_locker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_stingray_unique.template?/setpiece_opulent_container_item_locker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.7428061,
+							"y": 538.15234,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnPickup": {
+					"SetTrue": [
+
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf00717debf98": {
+			"parent": "feedf2d96e241d0f",
+			"name": "Locker_Bench_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/locker_bench_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/locker_bench_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.13321349,
+							"y": 535.75085,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed11a125cda676": {
+			"parent": "feedf00717debf98",
+			"name": "GymBag_A",
+			"factory": "0022B707FA4EF5E8",
+			"blueprint": "00A3AF9D11DF3619",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 176.7503893527306
+						},
+						"position": {
+							"x": -0.6354219913482666,
+							"y": -0.25883400440216064,
+							"z": 0.46260499954223633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf00717debf98"
+				}
+			}
+		},
+		"feeda127775ee056": {
+			"parent": "feedf00717debf98",
+			"name": "Bathroom_Towel_Folded_B_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.8806614563794
+						},
+						"position": {
+							"x": 0.8679350018501282,
+							"y": -0.3236280083656311,
+							"z": 0.4617590010166168
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf00717debf98"
+				}
+			}
+		},
+		"feedd7de5e6442e8": {
+			"parent": "feedf2d96e241d0f",
+			"name": "Washing_Machine_A28",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/washing_machine_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/washing_machine_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -1.2932948,
+							"y": 526.22876,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"On": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"SoundEnabled": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda578f870661e": {
+			"parent": "feedf2d96e241d0f",
+			"name": "Washing_Machine_A29",
+			"factory": "[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/washing_machine_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/washing_machine_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -1.2932948,
+							"y": 527.16034,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"SoundEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed37078aa880b8": {
+			"parent": "feedf2d96e241d0f",
+			"name": "Folding_Table_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/folding_furniture_a.template?/folding_table_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/folding_furniture_a.template?/folding_table_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.90000004,
+							"y": 523.5,
+							"z": 1.003433
+						}
+					}
+				},
+				"DarkLightVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feede5d83d17c45e": {
+			"parent": "feed92e8fd495e0d",
+			"name": "Car E 6 Lockerroom",
+			"factory": "[modules:/zaiareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zaiareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aAreaVolumes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedcc11963f6b58"
+					]
+				},
+				"m_rParentArea": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "ba31e51971255b92",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feedcc11963f6b58": {
+			"parent": "feede5d83d17c45e",
+			"name": "VolumeBox_AIArea",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.028372,
+							"y": 531.458,
+							"z": 2.336486
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 19.993000030517578,
+						"y": 3.9237000942230225,
+						"z": 3.0419399738311768
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feedeaa993908dbd": {
+			"parent": "feed086ae1adab5f",
+			"name": "Sibling door open",
+			"factory": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nDelayOnTrue": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_nDelayOnFalse": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "81265286956d7f96",
+						"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype",
+						"exposedEntity": "IsOpen"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"OpenDoorIn": [
+						"feed3da678c27648"
+					]
+				},
+				"OnFalse": {
+					"CloseDoor": [
+						"feed3da678c27648"
+					]
+				}
+			}
+		},
+		"feed1f0f0a880b67": {
+			"parent": "feed086ae1adab5f",
+			"name": "Sibling door open 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_nDelayOnTrue": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_nDelayOnFalse": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feed3da678c27648",
+						"externalScene": null,
+						"exposedEntity": "IsOpen"
+					},
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"OpenDoorIn": [
+						{
+							"ref": "81265286956d7f96",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						}
+					]
+				},
+				"OnFalse": {
+					"CloseDoor": [
+						{
+							"ref": "81265286956d7f96",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						}
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -25235,6 +31732,82 @@
 					}
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cef6fd5a854d620b",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.015964,
+							"y": 506.1261,
+							"z": 2.38033
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 30.5,
+						"y": 3.9237000942230225,
+						"z": 3.1296300888061523
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "81265286956d7f96",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OpenDir": {
+					"type": "IHM5Door.EOpenDir",
+					"value": "OD_OUT"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c4700d9d6f62eb86",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				},
+				{
+					"ref": "e086ec887687de6e",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.045406863,
+							"y": -3.0439453,
+							"z": 0
+						}
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
@@ -26056,6 +32629,10 @@
 		},
 		{
 			"ref": "181ae466ca373fc3",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "e608e3520609d9f9",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
