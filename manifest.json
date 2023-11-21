@@ -3,11 +3,15 @@
 	"id": "KevinRudd.FreelancerRomania",
 	"name": "Freelancer Romania Test",
 	"contentFolders": ["content"],
-	"description": "Proof of Concept",
+	"description": "Passenger Train Conversion of Romania",
 	"authors": ["Kevin Rudd"],
 	"dependencies": ["007D03F6DBCF9B27","001C7EFE78C71BEB",{
 		"runtimeID": "009BA9B9EC958320",
 		"comment": "NY Music",
+		"toChunk": 1
+	},{
+		"runtimeID": "0095439E192FDCF7",
+		"comment": "Snow Scooter",
 		"toChunk": 1
 	},{
 		"runtimeID": "000E2A63407134BF",

@@ -2849,11 +2849,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
+							"z": -90
 						},
 						"position": {
-							"x": -1.1109009,
-							"y": 487.1702,
+							"x": -1.4396145,
+							"y": 486.61246,
 							"z": 1
 						}
 					}
@@ -6510,8 +6510,8 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feed73ca3cfdea27": {
-			"parent": "feed2808dadfe18b",
-			"name": "Exits",
+			"parent": "feed11180191cef2",
+			"name": "Carriage Separation",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -12765,7 +12765,7 @@
 		},
 		"feed4bdaca56bc26": {
 			"parent": "feed45f9d3532a67",
-			"name": "VolumeBox_ServiceDoor",
+			"name": "VolumeBox_Snowmobile",
 			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
 			"properties": {
@@ -12778,23 +12778,23 @@
 							"z": 0
 						},
 						"position": {
-							"x": -8.909632682800293,
-							"y": 77.04814910888672,
-							"z": 17.653919219970703
+							"x": 0,
+							"y": 0,
+							"z": 0
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 10.454500198364258,
-						"y": 12.028599739074707,
+						"x": 8,
+						"y": 30,
 						"z": 3.449889898300171
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
+					"value": "feeda798dbdf99ed",
 					"postInit": true
 				}
 			}
@@ -21077,7 +21077,7 @@
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_musicexitcue.entitytemplate].pc_entityblueprint"
 		},
 		"feed066a789c8a45": {
-			"parent": "feed73ca3cfdea27",
+			"parent": "feed11180191cef2",
 			"name": "Exit_Evergreen_PushButton Back of Train",
 			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint",
@@ -21315,6 +21315,11 @@
 				"m_bDefaultHeroSpawn": {
 					"type": "bool",
 					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7cde9d5a10b4",
+					"postInit": true
 				}
 			}
 		},
@@ -30630,6 +30635,150 @@
 					]
 				}
 			}
+		},
+		"feed11180191cef2": {
+			"parent": "feed2808dadfe18b",
+			"name": "Exits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feeddb90fa7d69b7": {
+			"parent": "feed11180191cef2",
+			"name": "snowscooter_a",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_hokkaido_a.template?/snowscooter_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_hokkaido_a.template?/snowscooter_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -0.80770874,
+							"y": 510.67676,
+							"z": 1
+						}
+					}
+				},
+				"RedDiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"FrontAspectXByY": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"FrontFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.05000000074505806,
+						"y": 7
+					}
+				},
+				"LightOn": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda798dbdf99ed": {
+			"parent": "feed11180191cef2",
+			"name": "Exit_Evergreen_PushButton Snowmobile",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_evergreen.template?/exit_evergreen_pushbutton.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -0.647,
+							"y": 0.203,
+							"z": 0
+						}
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "3e307b89-ee30-4365-a9ce-849f09ce99f5"
+				},
+				"PromptPosition": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.559,
+							"y": 0,
+							"z": 0.8
+						}
+					}
+				},
+				"ExitIconPosition": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"Manual_Exit_Trigger_Needed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aUIHighlightGeom": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feeddb90fa7d69b7"
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddb90fa7d69b7"
+				}
+			},
+			"events": {
+				"Exit": {
+					"Trigger": [
+						"feeda798dbdf99ed"
+					],
+					"TransmitEvent": [
+						"feedf825a3f40a93"
+					]
+				}
+			},
+			"outputCopying": {
+				"Exit": {
+					"Trigger": [
+						"feeda798dbdf99ed"
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -32633,6 +32782,10 @@
 		},
 		{
 			"ref": "e608e3520609d9f9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "93fb2cf043e001d0",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
