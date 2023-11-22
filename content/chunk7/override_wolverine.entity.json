@@ -31787,12 +31787,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": 100.77249490115224
 						},
 						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 1.2816772,
+							"y": 403.326,
+							"z": 1
 						}
 					}
 				},
@@ -31806,7 +31806,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed7d8aee8eca3e",
+					"value": "fffffffffffffffe",
 					"postInit": true
 				}
 			},
