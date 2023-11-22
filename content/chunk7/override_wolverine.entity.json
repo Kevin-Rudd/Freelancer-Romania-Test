@@ -22747,7 +22747,7 @@
 			"events": {
 				"OnStart": {
 					"Start": [
-						"feed4a41cfce6dd4"
+						"feed881fb3538d5b"
 					]
 				}
 			}
@@ -22795,7 +22795,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feed4a41cfce6dd4",
+					"value": "feed881fb3538d5b",
 					"postInit": true
 				},
 				"m_aEnforcedOutfits": {
@@ -22941,7 +22941,7 @@
 			"events": {
 				"OnStart": {
 					"Start": [
-						"feeda9645d851c00"
+						"feedea55bc04d6bc"
 					]
 				}
 			}
@@ -22989,7 +22989,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feeda9645d851c00",
+					"value": "feedea55bc04d6bc",
 					"postInit": true
 				},
 				"m_aEnforcedOutfits": {
@@ -31945,7 +31945,7 @@
 			"properties": {
 				"m_nCooldown": {
 					"type": "float32",
-					"value": 45
+					"value": 50
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -32367,10 +32367,10 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -3.188131667755083
+							"z": 9.692112710555318
 						},
 						"position": {
-							"x": 1.7514343,
+							"x": 1.7126343,
 							"y": 404.41193,
 							"z": 1.0907898
 						}
@@ -32417,8 +32417,9 @@
 		},
 		"feedc5d1ae31cc75": {
 			"parent": "feed9479f3a7b721",
-			"name": "act_mr_sit_listen",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_listen.entitytemplate].pc_entityblueprint",
+			"name": "act_mr_sit_relaxed_b",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_relaxed_b.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_relaxed_b.entitytemplate].pc_entitytype",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -32426,18 +32427,77 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -2.71548385785067
+							"z": -8.087622727343867
 						},
 						"position": {
-							"x": 1.3061827,
-							"y": 404.19928,
+							"x": 1.1970792,
+							"y": 404.7494,
 							"z": 1
 						}
 					}
 				},
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": -1
+					"value": 40
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed765ac8842ea3",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed57177703424f"
+					]
+				}
+			},
+			"subsets": {
+
+			}
+		},
+		"feed765ac8842ea3": {
+			"parent": "feed9479f3a7b721",
+			"name": "Role",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f6ab719490"
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype"
+		},
+		"feed57177703424f": {
+			"parent": "feed9479f3a7b721",
+			"name": "act_mr_stand_think",
+			"blueprint": "005EA44287DA6F3F",
+			"factory": "004A09618804D9BB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -95.46332055740963
+						},
+						"position": {
+							"x": -0.2998352,
+							"y": 377.65356,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 20
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -32453,19 +32513,13 @@
 			"subsets": {
 
 			},
-			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_listen.entitytemplate].pc_entitytype"
-		},
-		"feed765ac8842ea3": {
-			"parent": "feed9479f3a7b721",
-			"name": "Role",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0f6ab719490"
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedc5d1ae31cc75"
+					]
 				}
-			},
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype"
+			}
 		}
 	},
 	"propertyOverrides": [
