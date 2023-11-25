@@ -6493,6 +6493,9 @@
 					],
 					"TransmitEvent": [
 						"ebec9f9c2445d551"
+					],
+					"Set": [
+						"feeda7eb21cea6b8"
 					]
 				}
 			}
@@ -35253,6 +35256,227 @@
 				}
 			},
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype"
+		},
+		"feed7431f347e125": {
+			"parent": "feed300d0628f434",
+			"name": "Peter Burnwood",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed4a2fdd77a251"
+					]
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feededd8da0b092f"
+					]
+				}
+			}
+		},
+		"feedcc88a44ccb76": {
+			"parent": "feed7431f347e125",
+			"name": "act_mr_sit_phone_text_legscrossed",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.22635448,
+							"y": 392.34067,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4a2fdd77a251",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed7a353b86bd43"
+					]
+				}
+			}
+		},
+		"feed7a353b86bd43": {
+			"parent": "feed7431f347e125",
+			"name": "Act_MR_Stand_Drink_Glass_75cm_Fallback",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_iteminteraction_fallback.template?/act_mr_stand_drink_glass_75cm_fallback.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_iteminteraction_fallback.template?/act_mr_stand_drink_glass_75cm_fallback.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -93.72638979109705
+						},
+						"position": {
+							"x": -0.2817688,
+							"y": 374.22632,
+							"z": 1
+						}
+					}
+				},
+				"m_Color": {
+					"type": "SColorRGB",
+					"value": "#0000ff"
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 40
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4a2fdd77a251",
+					"postInit": true
+				}
+			},
+			"subsets": {
+
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedcc88a44ccb76"
+					]
+				}
+			}
+		},
+		"feed4a2fdd77a251": {
+			"parent": "feed7431f347e125",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedda15c2f4b24c",
+					"postInit": true
+				}
+			}
+		},
+		"feede9bdd4734cb7": {
+			"parent": "feed7431f347e125",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7431f347e125",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedcc88a44ccb76"
+					],
+					"Set": [
+						"feeda7eb21cea6b8"
+					]
+				}
+			}
+		},
+		"feedda15c2f4b24c": {
+			"parent": "feed7431f347e125",
+			"name": "CHAR_Passenger_Peter",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "4b4aca9b-d73f-4e82-8725-35feee255e9e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "34cb98d8-d551-4c2f-b0ff-43c5d5c63016"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 4
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "John Doe"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedcc88a44ccb76",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda7eb21cea6b8": {
+			"parent": "feedda15c2f4b24c",
+			"name": "vri_civ_male_vip_no_bodyguard",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_civ_male_vip_no_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_civ_male_vip_no_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4a2fdd77a251"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
