@@ -35941,6 +35941,393 @@
 				}
 			},
 			"factory": "[modules:/zsoundbankentity.class].pc_entitytype"
+		},
+		"feed77d9a33e5734": {
+			"parent": "feed8f7e3b029fee",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -0.26077723503112793,
+							"y": 371.721435546875,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedc12876b6a808": {
+			"parent": "feed1c72e30be990",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -0.2767769396305084,
+							"y": 373.11004638671875,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed61ef60b24c83": {
+			"parent": "feeda88fb85c14bc",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -1.6197398900985718,
+							"y": 373.21429443359375,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed7e6ea1c35d8b": {
+			"parent": "feedbefa79bc3da4",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -0.16378262639045715,
+							"y": 375.86279296875,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed6897c3229b22": {
+			"parent": "feedf6b3acbb3ac2",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -0.33404871821403503,
+							"y": 380.166748046875,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed9cd66dfdfb4b": {
+			"parent": "feed02abf843ccab",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -1.6125388145446777,
+							"y": 379.25714111328125,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed918fd208bf88": {
+			"parent": "feed7e84c82b38a5",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -1.8230316638946533,
+							"y": 376.8384704589844,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedf4b0c1230ff9": {
+			"parent": "feed09a98fc19bf8",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.35224004193654557,
+							"y": -0.9149286350634355,
+							"z": 179.92865700371337
+						},
+						"position": {
+							"x": -1.8162897825241089,
+							"y": 376.31402587890625,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed13572b936085": {
+			"parent": "feed3541ad4c3c34",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.3520904171461196,
+							"y": -0.9154138538308048,
+							"z": -128.24955621250785
+						},
+						"position": {
+							"x": -1.6390209197998047,
+							"y": 373.97796630859375,
+							"z": 1
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.4000000059604645,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
