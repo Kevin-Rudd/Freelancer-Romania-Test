@@ -15652,60 +15652,6 @@
 			},
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
 		},
-		"feedd467393c3a67": {
-			"parent": "feed62ba1eb074e0",
-			"name": "Main Target X is Dead",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype"
-		},
-		"feed4a1b0f290206": {
-			"parent": "feed62ba1eb074e0",
-			"name": "ActorDeath",
-			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
-			"properties": {
-				"m_rActor": {
-					"type": "SEntityTemplateReference",
-					"value": "feed62ba1eb074e0",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnDead": {
-					"SetTrue": [
-						"feedd467393c3a67"
-					],
-					"SetFalse": [
-						"feedaa8f68c4b1b8"
-					]
-				},
-				"OnAlive": {
-					"SetFalse": [
-						"feedd467393c3a67"
-					],
-					"SetTrue": [
-						"feedaa8f68c4b1b8"
-					]
-				},
-				"OnPacified": {
-					"SetFalse": [
-						"feedaa8f68c4b1b8"
-					]
-				}
-			},
-			"factory": "[modules:/zactordeathentity.class].pc_entitytype"
-		},
-		"feedaa8f68c4b1b8": {
-			"parent": "feed62ba1eb074e0",
-			"name": "Main Target X is Conscious",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_bValue": {
-					"type": "bool",
-					"value": true
-				}
-			},
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype"
-		},
 		"feed22ab2ded8dd7": {
 			"parent": "feed62ba1eb074e0",
 			"name": "Passenger Sitting Drama",
@@ -36327,6 +36273,456 @@
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
 				}
+			}
+		},
+		"feed11686a25bb22": {
+			"parent": "feed300d0628f434",
+			"name": "CHAR_Passenger_M_07",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "8978cbc6-7f05-4314-941f-f9615cc2dbee"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "56d608fb-f196-4f41-b1cc-bcce956ed18d"
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "John Doe"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 2
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54c484254789",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			},
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
+		},
+		"feed332797b3dd9b": {
+			"parent": "feed11686a25bb22",
+			"name": "Passenger Eating Drama",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedd1add36cf59f"
+					]
+				},
+				"m_nBasePriority": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				}
+			},
+			"factory": "005B2A6454B76874"
+		},
+		"feed54c484254789": {
+			"parent": "feed332797b3dd9b",
+			"name": "S03_Act_MR_Sit_Chair_Table_EatMeal_Enter_B_L",
+			"factory": "00A556CE293B3E27",
+			"blueprint": "003DBEAFC84FAD73",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 3.198798502247939
+						},
+						"position": {
+							"x": -0.018127576,
+							"y": 329.32642,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_Color": {
+					"type": "SColorRGB",
+					"value": "#e60000"
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd1add36cf59f",
+					"postInit": true
+				},
+				"m_rRepositoryKeyToFind": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd23c734283a3",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnReached": {
+					"Set": [
+
+					]
+				},
+				"OnActTimeout": {
+					"Done": [
+
+					],
+					"Disable": [
+
+					]
+				},
+				"OnStart": {
+					"Enable": [
+
+					]
+				}
+			},
+			"outputCopying": {
+				"OnEating": {
+					"OnEating": [
+
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedcc804158df0e": {
+			"parent": "feed332797b3dd9b",
+			"name": "DramaSituation2Proxy",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed332797b3dd9b",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed54c484254789"
+					]
+				}
+			},
+			"factory": "000C288A323918F9"
+		},
+		"feedd1add36cf59f": {
+			"parent": "feed332797b3dd9b",
+			"name": "Passenger Role",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed11686a25bb22",
+					"postInit": true
+				}
+			},
+			"factory": "00808A03B82188F7"
+		},
+		"feedd23c734283a3": {
+			"parent": "feed332797b3dd9b",
+			"name": "ItemKey_Poisonable_FoodPlate_01",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f174ec0e-da7a-46be-920a-782ecaf65cbc"
+				}
+			}
+		},
+		"feed32b8ea0c0ebc": {
+			"parent": "feed5073c66be451",
+			"name": "Food Server",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed7882b4b6c31a"
+					]
+				},
+				"m_bTerminateOnDone": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_aEnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed7882b4b6c31a": {
+			"parent": "feed32b8ea0c0ebc",
+			"name": "Waiter",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddc8e8417cfad",
+					"postInit": true
+				}
+			}
+		},
+		"feed8859b58c6244": {
+			"parent": "feed32b8ea0c0ebc",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed32b8ea0c0ebc",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedfb687e588e22"
+					]
+				}
+			}
+		},
+		"feed85af504639d0": {
+			"parent": "feed32b8ea0c0ebc",
+			"name": "Act_MR_Chef_CarryPlate_PutDown_075cm",
+			"factory": "00A28A607C97FC0A",
+			"blueprint": "00A348F5927BC806",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 95.50066803179125
+						},
+						"position": {
+							"x": 0.72531193,
+							"y": 328.1143,
+							"z": 1
+						}
+					}
+				},
+				"m_Color": {
+					"type": "SColorRGB",
+					"value": "#e60000"
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7882b4b6c31a",
+					"postInit": true
+				},
+				"m_rRepositoryKeyToFind": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd23c734283a3",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActDone": {
+					"Start": [
+						"feedfb687e588e22"
+					]
+				},
+				"Plate_On_Table": {
+					"Start": [
+						"feedfb687e588e22"
+					]
+				},
+				"On_No_Item_Restart_PickUp_Act": {
+					"Done": [
+						"feed8859b58c6244"
+					]
+				}
+			}
+		},
+		"feedfb687e588e22": {
+			"parent": "feed32b8ea0c0ebc",
+			"name": "Act_MR_Chef_CarryPlate_PickUp_100CM",
+			"factory": "0030A773A076E67C",
+			"blueprint": "001AAC568F4EEDD3",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 81.91406256499106
+						},
+						"position": {
+							"x": -0.7724304,
+							"y": 423.24014,
+							"z": 1
+						}
+					}
+				},
+				"m_Color": {
+					"type": "SColorRGB",
+					"value": "#e60000"
+				},
+				"m_bSpawnOnStart": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bSelectVisibleOnly": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd23c734283a3",
+					"postInit": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7882b4b6c31a",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActDone": {
+					"Start": [
+						"feed85af504639d0"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeddc8e8417cfad": {
+			"parent": "feed32b8ea0c0ebc",
+			"name": "CHAR_Trapped_Worker_Hospitality_M_00",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "d6129960-dbcc-4f67-b5e9-80e853709a22"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "589d5082-92e5-4136-922d-786646fb781a"
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 3
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "John Doe"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb687e588e22",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
 			}
 		}
 	},
