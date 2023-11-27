@@ -36373,7 +36373,7 @@
 		},
 		"feedbf9d9ce0276c": {
 			"parent": "feed911204ea9c17",
-			"name": "Locker_Bench_A_00_01",
+			"name": "Locker_Bench_A_00_02",
 			"factory": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/locker_bench_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/locker_bench_a_00.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -36383,11 +36383,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": 90
 						},
 						"position": {
-							"x": 0.13321349,
-							"y": 535.75085,
+							"x": 1.9226921,
+							"y": 525.59863,
 							"z": 1
 						}
 					}
@@ -36641,41 +36641,6 @@
 				}
 			}
 		},
-		"feedb5ac9a29f4bb": {
-			"parent": "feed911204ea9c17",
-			"name": "storage_rack_a_color_02",
-			"factory": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_a_color.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_a_color.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.02574270261806
-						},
-						"position": {
-							"x": -0.3836132287979126,
-							"y": 535.6170654296875,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.6499999761581421,
-						"y": 0.6499999761581421,
-						"z": 0.6499999761581421
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
 		"feed527d6c1b2605": {
 			"parent": "feed911204ea9c17",
 			"name": "Ironing_Board_A_01",
@@ -36769,33 +36734,6 @@
 				}
 			}
 		},
-		"feed170a63c68a33": {
-			"parent": "feed911204ea9c17",
-			"name": "laundry_carts_d_01",
-			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_carts_a.template?/laundry_carts_d.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_carts_a.template?/laundry_carts_d.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -0.23821111080587054
-						},
-						"position": {
-							"x": -1.2586133480072021,
-							"y": 541.1229248046875,
-							"z": 1.0029562711715698
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
 		"feeda8cac7d9ea29": {
 			"parent": "feed911204ea9c17",
 			"name": "washing_laundry_india_b",
@@ -36808,12 +36746,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.7656214101577
+							"z": 180
 						},
 						"position": {
-							"x": -0.6079691648483276,
-							"y": 524.2990112304688,
-							"z": 0.9892075657844543
+							"x": -1.4149374,
+							"y": 524.89014,
+							"z": 0.9893503
 						}
 					}
 				},
@@ -36835,11 +36773,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 179.0943135639333
+							"z": -90
 						},
 						"position": {
-							"x": 1.5318419933319092,
-							"y": 525.9649047851562,
+							"x": -0.47586977,
+							"y": 528.28204,
 							"z": 1
 						}
 					}
@@ -37148,60 +37086,6 @@
 				}
 			}
 		},
-		"feed9ec65e0107fe": {
-			"parent": "feedbf9d9ce0276c",
-			"name": "GymBag_A",
-			"factory": "0022B707FA4EF5E8",
-			"blueprint": "00A3AF9D11DF3619",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 176.7503893527306
-						},
-						"position": {
-							"x": -0.6354219913482666,
-							"y": -0.25883400440216064,
-							"z": 0.46260499954223633
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedbf9d9ce0276c"
-				}
-			}
-		},
-		"feed329f651d19fe": {
-			"parent": "feedbf9d9ce0276c",
-			"name": "Bathroom_Towel_Folded_B_00_02",
-			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -177.8806614563794
-						},
-						"position": {
-							"x": 0.8679350018501282,
-							"y": -0.3236280083656311,
-							"z": 0.4617590010166168
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedbf9d9ce0276c"
-				}
-			}
-		},
 		"feedb78872763953": {
 			"parent": "feedbf9d9ce0276c",
 			"name": "PFObstacle",
@@ -37214,7 +37098,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -179.39477389999956
+							"z": -180
 						},
 						"position": {
 							"x": 0.10894775390625,
@@ -38423,924 +38307,6 @@
 				}
 			}
 		},
-		"feedbd14bbc76aa5": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Fabric_Stack_Marrakesh_Color_C_00",
-			"factory": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_color_c_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_color_c_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": -0.6203539967536926,
-							"y": 0.15779100358486176,
-							"z": 1.3383790254592896
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 0.7797110080718994
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed3b80823462f5": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "basin_plastic_a_03",
-			"factory": "00C1E617A9C1570C",
-			"blueprint": "002C62D0CBF5423F",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -168.96456806762097
-						},
-						"position": {
-							"x": 0.9469069838523865,
-							"y": 0.14213599264621735,
-							"z": 0.5520480275154114
-						},
-						"scale": {
-							"x": 0.9999999419815007,
-							"y": 0.9999999419815007,
-							"z": 1
-						}
-					}
-				},
-				"ColorTint": {
-					"type": "SColorRGB",
-					"value": "#a6e9ff"
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed4493df82cc27": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "poster_corruption_box_b_00",
-			"factory": "[assembly:/_pro/environment/templates/props/paintings/posters_corruption_a.template?/poster_corruption_box_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/paintings/posters_corruption_a.template?/poster_corruption_box_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -150.0045584486387
-						},
-						"position": {
-							"x": 0.8174290060997009,
-							"y": -0.14115099608898163,
-							"z": 1.7875369787216187
-						},
-						"scale": {
-							"x": 0.9999996404827636,
-							"y": 0.9999996404827636,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.7425000071525574,
-						"y": 0.7425000071525574,
-						"z": 0.7425000071525574
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed01f60e0cbafb": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "laundry_liquid_b01_04",
-			"factory": "00AB86D10346024C",
-			"blueprint": "00C71D2303633C76",
-			"properties": {
-				"1975703448": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_b_nodiffuse.mi].pc_mi",
-						"flag": "5F"
-					}
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 73.86670301769118
-						},
-						"position": {
-							"x": 0.19159699976444244,
-							"y": 0.096160888671875,
-							"z": 0.39885708689689636
-						},
-						"scale": {
-							"x": 1.0000003880043673,
-							"y": 1.0000003880043673,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.8500000238418579,
-						"y": 0.8500000238418579,
-						"z": 0.8500000238418579
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feedba1fca445d1d": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "poster_corruption_box_a_00",
-			"factory": "[assembly:/_pro/environment/templates/props/paintings/posters_corruption_a.template?/poster_corruption_box_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/paintings/posters_corruption_a.template?/poster_corruption_box_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -9.161334447290166
-						},
-						"position": {
-							"x": 0.24672700464725494,
-							"y": 0.13613100349903107,
-							"z": 1.7821199893951416
-						},
-						"scale": {
-							"x": 1.0000001524853852,
-							"y": 1.0000001524853852,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.7425000071525574,
-						"y": 0.7425000071525574,
-						"z": 0.7425000071525574
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed4408e48ea9d9": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "laundry_liquid_b01_02",
-			"factory": "00AB86D10346024C",
-			"blueprint": "00C71D2303633C76",
-			"properties": {
-				"1975703448": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_b_nodiffuse.mi].pc_mi",
-						"flag": "5F"
-					}
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 84.42509411840535
-						},
-						"position": {
-							"x": -0.05820465087890625,
-							"y": 0.096160888671875,
-							"z": 0.39885708689689636
-						},
-						"scale": {
-							"x": 0.9999999405439441,
-							"y": 0.9999999405439441,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.8500000238418579,
-						"y": 0.8500000238418579,
-						"z": 0.8500000238418579
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed18c1468685f3": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "laundry_liquid_b01_03",
-			"factory": "00AB86D10346024C",
-			"blueprint": "00C71D2303633C76",
-			"properties": {
-				"1975703448": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_b_nodiffuse.mi].pc_mi",
-						"flag": "5F"
-					}
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -102.27833974992554
-						},
-						"position": {
-							"x": 0.063995361328125,
-							"y": 0.096160888671875,
-							"z": 0.39885708689689636
-						},
-						"scale": {
-							"x": 0.9999999245090985,
-							"y": 0.9999999245090985,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.8500000238418579,
-						"y": 0.8500000238418579,
-						"z": 0.8500000238418579
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed3a8b554dc90e": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Fabric_Stack_Marrakesh_Color_B_00",
-			"factory": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_color_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_color_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -173.11609242544907
-						},
-						"position": {
-							"x": 0.10160800069570541,
-							"y": 0.030990999191999435,
-							"z": 1.3130340576171875
-						},
-						"scale": {
-							"x": 0.9999999031540101,
-							"y": 0.9999999031540101,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed5cdec79f5443": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "scoop_plastic_b_02",
-			"factory": "00A3DE7B47177C60",
-			"blueprint": "005C6F11A8B19BF7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -49.53255561762626
-						},
-						"position": {
-							"x": -0.5956649780273438,
-							"y": 0.21984900534152985,
-							"z": 1.7821199893951416
-						},
-						"scale": {
-							"x": 1.000000443451274,
-							"y": 1.000000443451274,
-							"z": 1
-						}
-					}
-				},
-				"ColorTint": {
-					"type": "SColorRGB",
-					"value": "#8f97eb"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed8bbb0282a321": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Bathroom_Towel_Folded_Mask_B_01_01",
-			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_b_01.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_b_01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 14.299884164321599
-						},
-						"position": {
-							"x": 0.44035300612449646,
-							"y": 0.1770399957895279,
-							"z": 0.891182005405426
-						},
-						"scale": {
-							"x": 0.999999555762674,
-							"y": 0.999999555762674,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feedef5fef8ca5b1": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "basin_plastic_a_02",
-			"factory": "00C1E617A9C1570C",
-			"blueprint": "002C62D0CBF5423F",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -168.96456806762097
-						},
-						"position": {
-							"x": 0.9469069838523865,
-							"y": 0.14213599264621735,
-							"z": 0.5035099983215332
-						},
-						"scale": {
-							"x": 0.9999999419815007,
-							"y": 0.9999999419815007,
-							"z": 1
-						}
-					}
-				},
-				"ColorTint": {
-					"type": "SColorRGB",
-					"value": "#a6e9ff"
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feedb6cdb7592bff": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "basin_plastic_a_01",
-			"factory": "00C1E617A9C1570C",
-			"blueprint": "002C62D0CBF5423F",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -168.96456806762097
-						},
-						"position": {
-							"x": 0.9469069838523865,
-							"y": 0.14213599264621735,
-							"z": 0.4497219920158386
-						},
-						"scale": {
-							"x": 0.9999999419815007,
-							"y": 0.9999999419815007,
-							"z": 1
-						}
-					}
-				},
-				"ColorTint": {
-					"type": "SColorRGB",
-					"value": "#a6e9ff"
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feeddd5c4bd9c5dd": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "basin_plastic_a",
-			"factory": "00C1E617A9C1570C",
-			"blueprint": "002C62D0CBF5423F",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -168.96456806762097
-						},
-						"position": {
-							"x": 0.9469069838523865,
-							"y": 0.14213599264621735,
-							"z": 0.3988569974899292
-						},
-						"scale": {
-							"x": 0.9999999419815007,
-							"y": 0.9999999419815007,
-							"z": 1
-						}
-					}
-				},
-				"ColorTint": {
-					"type": "SColorRGB",
-					"value": "#a6e9ff"
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed21a4c7d57780": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "laundry_liquid_b01_01",
-			"factory": "00AB86D10346024C",
-			"blueprint": "00C71D2303633C76",
-			"properties": {
-				"1975703448": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/environment/materials/decals/dirt/decal_dirt_facade_b_nodiffuse.mi].pc_mi",
-						"flag": "5F"
-					}
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -66.54272784496747
-						},
-						"position": {
-							"x": -0.19121600687503815,
-							"y": 0.09616100043058395,
-							"z": 0.3988569974899292
-						},
-						"scale": {
-							"x": 0.9999996607998982,
-							"y": 0.9999996607998982,
-							"z": 1
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 0.8500000238418579,
-						"y": 0.8500000238418579,
-						"z": 0.8500000238418579
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feedacb493b6eb65": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Blanket_A_Folded_E_clean_00",
-			"factory": "[assembly:/_pro/environment/templates/props/bedroom/bedding_a.template?/blanket_a_folded_e_clean_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/bedroom/bedding_a.template?/blanket_a_folded_e_clean_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -13.477590547755579
-						},
-						"position": {
-							"x": -0.12652599811553955,
-							"y": 0.2695919871330261,
-							"z": -0.010002000257372856
-						},
-						"scale": {
-							"x": 0.9999996592333711,
-							"y": 0.9999996592333711,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb",
-					"postInit": true
-				}
-			}
-		},
-		"feed57fc3d5b1abc": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Bathroom_Towel_Folded_Mask_A_01",
-			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_a_01.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_a_01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": -0.07132700085639954,
-							"y": 0.1770399957895279,
-							"z": 0.891182005405426
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb"
-				}
-			}
-		},
-		"feed71ed18c36e6c": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Bathroom_Towel_Folded_Mask_B_01",
-			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_b_01.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_b_01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 0.9542239904403687,
-							"y": 0.1770399957895279,
-							"z": 0.891182005405426
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb"
-				}
-			}
-		},
-		"feed6d65bc61ee67": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "Container_Styrofoam_D_closed",
-			"factory": "[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_styrofoam_d_closed.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_styrofoam_d_closed.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": -0.7135469913482666,
-							"y": 0.09084299951791763,
-							"z": 2.21014404296875
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb5ac9a29f4bb"
-				}
-			}
-		},
-		"feede85c2122929e": {
-			"parent": "feedb5ac9a29f4bb",
-			"name": "PFObstacle",
-			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
-			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -179.39477389999956
-						},
-						"position": {
-							"x": 0.10894775390625,
-							"y": -0.4071711301803589,
-							"z": 0.34639692306518555
-						}
-					}
-				},
-				"m_fPenaltyMultiplier": {
-					"type": "float32",
-					"value": -1
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 2.940000057220459,
-						"y": 1.7214499711990356,
-						"z": 1.5
-					}
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed945db2d2b681"
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feedd1d1a8f42c31": {
-			"parent": "feed3b80823462f5",
-			"name": "scoop_plastic_b_01",
-			"factory": "00A3DE7B47177C60",
-			"blueprint": "005C6F11A8B19BF7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -161.6559147391451
-						},
-						"position": {
-							"x": 0.4573400020599365,
-							"y": 0.07227300107479095,
-							"z": 0.025032000616192818
-						},
-						"scale": {
-							"x": 1.0000008428548348,
-							"y": 1.0000008428548348,
-							"z": 1
-						}
-					}
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed3b80823462f5"
-				}
-			}
-		},
-		"feed6c546da8a5ee": {
-			"parent": "feedef5fef8ca5b1",
-			"name": "scoop_plastic_b_01",
-			"factory": "00A3DE7B47177C60",
-			"blueprint": "005C6F11A8B19BF7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -75.67811720291687
-						},
-						"position": {
-							"x": 0.4573400020599365,
-							"y": 0.07227300107479095,
-							"z": 0.025032000616192818
-						},
-						"scale": {
-							"x": 0.9999993406028536,
-							"y": 0.9999993406028536,
-							"z": 1
-						}
-					}
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedef5fef8ca5b1",
-					"postInit": true
-				}
-			}
-		},
-		"feed6ca1856e71ed": {
-			"parent": "feedb6cdb7592bff",
-			"name": "scoop_plastic_b_01",
-			"factory": "00A3DE7B47177C60",
-			"blueprint": "005C6F11A8B19BF7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -133.00273036115513
-						},
-						"position": {
-							"x": 0.4573329985141754,
-							"y": 0.07227300107479095,
-							"z": 0.025032000616192818
-						},
-						"scale": {
-							"x": 0.9999993880396296,
-							"y": 0.9999993880396296,
-							"z": 1
-						}
-					}
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb6cdb7592bff",
-					"postInit": true
-				}
-			}
-		},
-		"feed3945a53d3e9d": {
-			"parent": "feeddd5c4bd9c5dd",
-			"name": "scoop_plastic_b_01",
-			"factory": "00A3DE7B47177C60",
-			"blueprint": "005C6F11A8B19BF7",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0.9637027590945392
-						},
-						"position": {
-							"x": 0.4573479890823364,
-							"y": 0.07227300107479095,
-							"z": 0.025032000616192818
-						},
-						"scale": {
-							"x": 1.00000084947807,
-							"y": 1.00000084947807,
-							"z": 1
-						}
-					}
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeddd5c4bd9c5dd",
-					"postInit": true
-				}
-			}
-		},
-		"feed72969540623f": {
-			"parent": "feedacb493b6eb65",
-			"name": "Pillow_A_Crumpled_A_Clean_00",
-			"factory": "[assembly:/_pro/environment/templates/props/bedroom/bedding_a.template?/pillow_a_crumpled_a_clean_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/bedroom/bedding_a.template?/pillow_a_crumpled_a_clean_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 13.58367331455118,
-							"y": -20.135150956931845,
-							"z": -12.875711741642261
-						},
-						"position": {
-							"x": -0.24808500707149506,
-							"y": -0.08737999945878983,
-							"z": 0.21186800301074982
-						},
-						"scale": {
-							"x": 0.999998910940807,
-							"y": 1.0000005772863938,
-							"z": 1.0000006458771182
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedacb493b6eb65",
-					"postInit": true
-				}
-			}
-		},
 		"feed4cd344459c29": {
 			"parent": "feed527d6c1b2605",
 			"name": "PFObstacle",
@@ -39400,12 +38366,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -148.30466926276344
+							"z": -148.30467609005225
 						},
 						"position": {
-							"x": -1.1108970642089844,
-							"y": 522.3972778320312,
-							"z": 2.260648250579834
+							"x": -1.5149232,
+							"y": 522.3973,
+							"z": 2.003989
 						}
 					}
 				},
@@ -40230,6 +39196,535 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feed1bbc3f2ba0f1"
+				}
+			}
+		},
+		"feed29a3e0e48fe4": {
+			"parent": "feed911204ea9c17",
+			"name": "Setpiece_Opulent_Container_Item_Locker3",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_stingray_unique.template?/setpiece_opulent_container_item_locker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_stingray_unique.template?/setpiece_opulent_container_item_locker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -0.61018443,
+							"y": 534.93854,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnPickup": {
+					"SetTrue": [
+
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedd8d892dd82a8": {
+			"parent": "feed911204ea9c17",
+			"name": "Lockers_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/lockers_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/lockers_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.5632173,
+							"y": 540.7573,
+							"z": 1
+						}
+					}
+				},
+				"Door_B": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -27.99987909216151
+						},
+						"position": {
+							"x": -0.030621999874711037,
+							"y": 0.013623000122606754,
+							"z": 0.10775800049304962
+						}
+					}
+				},
+				"Door_A": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.00000250447806
+						},
+						"position": {
+							"x": 0.7799999713897705,
+							"y": 0.014000000432133675,
+							"z": 0.1080000028014183
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feede3e47f5fa277": {
+			"parent": "feedd8d892dd82a8",
+			"name": "Man_Staff_Shoes_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/man_staff_shoes_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/man_staff_shoes_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.6078220009803772,
+							"y": 0.11035200208425522,
+							"z": 0.10785599797964096
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedd8d892dd82a8",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedb5c33b784691": {
+			"parent": "feed911204ea9c17",
+			"name": "Lockers_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/lockers_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/lockers_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -0.61018443,
+							"y": 536.5471,
+							"z": 1
+						}
+					}
+				},
+				"Door_B": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -67.99987414510936
+						},
+						"position": {
+							"x": -0.030621999874711037,
+							"y": 0.013623000122606754,
+							"z": 0.10775800049304962
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed6e4ae5d21364": {
+			"parent": "feedb5c33b784691",
+			"name": "soda_cup_a_05",
+			"factory": "000E467FD9A29547",
+			"blueprint": "009A6DFC54CC9F80",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -129.35037540525212
+						},
+						"position": {
+							"x": 0.5962330102920532,
+							"y": 0.17350800335407257,
+							"z": 2.2858009338378906
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb5c33b784691",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feede31d3cc0675c": {
+			"parent": "feed6f48b496a669",
+			"name": "Lamp_Strip_Light_C_SizeA_2020_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -46.86299682006259,
+							"y": -0.26479541510527244,
+							"z": 89.78135448876772
+						},
+						"position": {
+							"x": -1.8640159,
+							"y": -1.5199585,
+							"z": 2.932262
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#aaecbf"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0700000524520874,
+						"y": 6.46999979019165
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed4e53df5a3f67": {
+			"parent": "feed899b0824a85c",
+			"name": "Lamp_Strip_Light_C_SizeA_2020_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -47.610639571895945,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -1.9050505,
+							"y": 6.001892,
+							"z": 2.932248
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#aaecbf"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0700000524520874,
+						"y": 6.559999942779541
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5,
+						"y": 1.0700000524520874
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed483d0ace9b33": {
+			"parent": "feed136e13d5658a",
+			"name": "Lamp_Strip_Light_C_SizeA_2020_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_c_sizea_2020.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -59.472342235511945,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -1.9532804,
+							"y": -7.7020264,
+							"z": 2.932271
+						}
+					}
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 7
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#aaecbf"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"SpotFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.0700000524520874,
+						"y": 6.559999942779541
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5,
+						"y": 1.0700000524520874
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed81e34e8052b5"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed9cf8e95abe1b": {
+			"parent": "feed911204ea9c17",
+			"name": "Locker_Bench_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/locker_bench_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/wardrobe_furniture_a.template?/locker_bench_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.13321349,
+							"y": 535.75085,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedecfc41bdb319": {
+			"parent": "feed9cf8e95abe1b",
+			"name": "GymBag_A",
+			"factory": "0022B707FA4EF5E8",
+			"blueprint": "00A3AF9D11DF3619",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 176.7503893527306
+						},
+						"position": {
+							"x": -0.6354219913482666,
+							"y": -0.25883400440216064,
+							"z": 0.46260499954223633
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9cf8e95abe1b"
+				}
+			}
+		},
+		"feedfbdd10542994": {
+			"parent": "feed9cf8e95abe1b",
+			"name": "Bathroom_Towel_Folded_B_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.8806614563794
+						},
+						"position": {
+							"x": 0.8679350018501282,
+							"y": -0.3236280083656311,
+							"z": 0.4617590010166168
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9cf8e95abe1b"
+				}
+			}
+		},
+		"feed5b4fe8e8f53f": {
+			"parent": "feed9cf8e95abe1b",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.39477389999956
+						},
+						"position": {
+							"x": 0.10894775390625,
+							"y": -0.4071711301803589,
+							"z": 0.34639692306518555
+						}
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.940000057220459,
+						"y": 1.7214499711990356,
+						"z": 1.5
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed945db2d2b681"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
 				}
 			}
 		}
@@ -42414,6 +41909,10 @@
 		},
 		{
 			"ref": "536f22f7ebb51ec5",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "efb196855ec3722f",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
