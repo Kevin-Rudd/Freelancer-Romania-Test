@@ -11045,7 +11045,7 @@
 				},
 				"m_eOutfitType": {
 					"type": "EOutfitType",
-					"value": "eOT_Worker"
+					"value": "eOT_Waiter"
 				},
 				"m_bHeroDisguiseAvailable": {
 					"type": "bool",
@@ -11087,9 +11087,9 @@
 		},
 		"feed951f1418f53f": {
 			"parent": "feed130fe337fa19",
-			"name": "KeywordEntity_FOLEY_OUTFIT_ENGINEER",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entityblueprint",
+			"name": "KeywordEntity_FOLEY_OUTFIT_SUIT47",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rHolder": {
 					"type": "SEntityTemplateReference",
@@ -12394,7 +12394,9 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed7b4543c73f2d"
+						"feed7b4543c73f2d",
+						"feed43fc0e015fe1",
+						"feeddc8e8417cfad"
 					],
 					"postInit": true
 				},
@@ -12402,10 +12404,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed99f925674cee",
 					"postInit": true
-				},
-				"UniqueActorRequirements": {
-					"type": "SEntityTemplateReference",
-					"value": "feedcba29b5e6938"
 				}
 			},
 			"subsets": {
@@ -14310,7 +14308,7 @@
 				},
 				"m_eOutfitType": {
 					"type": "EOutfitType",
-					"value": "eOT_Worker"
+					"value": "eOT_Waiter"
 				},
 				"m_rNameTextResource": {
 					"type": "ZRuntimeResourceID",
@@ -35814,7 +35812,7 @@
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
-					"value": 0
+					"value": 5
 				},
 				"m_sActorName": {
 					"type": "ZString",
@@ -35872,9 +35870,9 @@
 		},
 		"feed54c484254789": {
 			"parent": "feed332797b3dd9b",
-			"name": "S03_Act_MR_Sit_Chair_Table_EatMeal_Enter_B_L",
-			"factory": "00A556CE293B3E27",
-			"blueprint": "003DBEAFC84FAD73",
+			"name": "Act_MR_Sit_Chair_Table_EatMeal_Enter_S_L",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_sit_chair_table_eatmeal_enter_s_l.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_sit_chair_table_eatmeal_enter_s_l.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -35882,11 +35880,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 3.198798502247939
+							"z": 90
 						},
 						"position": {
-							"x": -0.018127576,
-							"y": 329.32642,
+							"x": 0.6836271,
+							"y": 328.9248,
 							"z": 1
 						}
 					}
@@ -35895,24 +35893,23 @@
 					"type": "float32",
 					"value": -1
 				},
-				"m_Color": {
-					"type": "SColorRGB",
-					"value": "#e60000"
+				"Consume_Duration": {
+					"type": "int32",
+					"value": 280000
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
 					"value": "feedd1add36cf59f",
 					"postInit": true
 				},
-				"m_rRepositoryKeyToFind": {
-					"type": "SEntityTemplateReference",
-					"value": "feedd23c734283a3",
-					"postInit": true
-				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
+				},
+				"m_bValueshouldconsume": {
+					"type": "bool",
+					"value": true
 				}
 			},
 			"events": {
@@ -39727,6 +39724,146 @@
 					"value": "ROOM_DYNAMIC"
 				}
 			}
+		},
+		"feed67b0c333ba44": {
+			"parent": "feed6edc3c25b572",
+			"name": "ClothBundleSpawn Hospitality",
+			"factory": "[modules:/zclothbundlespawnentity.class].pc_entitytype",
+			"blueprint": "[modules:/zclothbundlespawnentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.13297288,
+							"y": 535.0755,
+							"z": 1
+						}
+					}
+				},
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "589d5082-92e5-4136-922d-786646fb781a"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed416dfdea3bfc": {
+			"parent": "feed130fe337fa19",
+			"name": "Keyword_Can_Mix_Drink",
+			"factory": "[modules:/zkeywordentity.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sKeyword": {
+					"type": "ZString",
+					"value": "CAN_MIX_DRINK"
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed130fe337fa19",
+					"postInit": true
+				}
+			}
+		},
+		"feedf76c0f2156e4": {
+			"parent": "feed130fe337fa19",
+			"name": "Prof_Golden_Worker_EventStaff",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_eventstaff.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_worker_eventstaff.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed130fe337fa19"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed617e546c6541": {
+			"parent": "feed6edc3c25b572",
+			"name": "ItemKey_Rat Poison",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "8b37a3a8-8a20-4262-81c5-0fcd15f4bba9"
+				}
+			}
+		},
+		"feedb6b872b23bcd": {
+			"parent": "feed617e546c6541",
+			"name": "ItemSpawner Maintenance Closet",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 34.228683648102255
+						},
+						"position": {
+							"x": -1.5328674,
+							"y": 306.73444,
+							"z": 1
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed617e546c6541",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed4a94646f805b": {
+			"parent": "feed617e546c6541",
+			"name": "ItemSpawner 3",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 34.228683648102255
+						},
+						"position": {
+							"x": -1.5328674,
+							"y": 306.73444,
+							"z": 1
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed617e546c6541"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -41016,6 +41153,31 @@
 					"value": "0098DA0E68D0F761"
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9322e129cdaaf7b6",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -92.7135751900217
+						},
+						"position": {
+							"x": 0.222,
+							"y": -1.629,
+							"z": 0.74500203
+						}
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
@@ -41913,6 +42075,42 @@
 		},
 		{
 			"ref": "efb196855ec3722f",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "62f8ba573015b1f5",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c90745bda89e540",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "3347882561153719",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "ca893a3acbf7ca6d",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "7276017e3316182c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "95a0abf2aeccf79b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "7b2a9207db6b09df",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d65d98e51bbf0b3b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "ba6424e6b49ec98e",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
