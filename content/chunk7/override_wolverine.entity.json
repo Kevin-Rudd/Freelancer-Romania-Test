@@ -22662,7 +22662,7 @@
 				},
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 40
+					"value": 60
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -30307,6 +30307,20 @@
 					"value": [
 						"feeddb1e186f5765",
 						"feedc094650468b3"
+					],
+					"postInit": true
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feededce00680e4d"
+					],
+					"postInit": true
+				},
+				"m_aEnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed3889078946b3"
 					],
 					"postInit": true
 				}
@@ -40201,7 +40215,7 @@
 			"events": {
 				"OnActTimeout": {
 					"Start": [
-						"feed75f1a9be8797"
+						"feeda5ffe98a6720"
 					]
 				}
 			}
@@ -40420,7 +40434,7 @@
 			"events": {
 				"WaitDone": {
 					"Start": [
-						"feedfb687e588e22"
+						"feeda5ffe98a6720"
 					],
 					"Done": [
 						"feed50b05f1c6d57"
@@ -40675,6 +40689,319 @@
 						"externalScene": null,
 						"exposedEntity": "Spatial_Item"
 					}
+				}
+			}
+		},
+		"feeda5ffe98a6720": {
+			"parent": "feed32b8ea0c0ebc",
+			"name": "act_fr_stand_waiterchef_arms_on_back 2",
+			"factory": "00266091D331E899",
+			"blueprint": "00675988B6D6DC6C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -119.56522081749789
+						},
+						"position": {
+							"x": 0.65179443,
+							"y": 319.89395,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 8
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7882b4b6c31a",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed75f1a9be8797"
+					]
+				}
+			}
+		},
+		"feededce00680e4d": {
+			"parent": "feeda5ffe98a6720",
+			"name": "Woman Drinking Checkin",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aStartConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedecb0342f994b"
+					]
+				},
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed26c69b0050cd",
+						"feede441a2ba08bb"
+					]
+				},
+				"m_nCooldown": {
+					"type": "float32",
+					"value": 45
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype"
+		},
+		"feed26c69b0050cd": {
+			"parent": "feededce00680e4d",
+			"name": "Hospitality",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feedef2eb6cc47af",
+					"postInit": true
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype"
+		},
+		"feedecb0342f994b": {
+			"parent": "feededce00680e4d",
+			"name": "Both In acts",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb06326291553",
+						"feed54e850397277"
+					],
+					"postInit": true
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entitytype"
+		},
+		"feed0fc9946c066f": {
+			"parent": "feededce00680e4d",
+			"name": "DramaSituationProxy",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feededce00680e4d"
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedc7812d8b5188"
+					]
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype"
+		},
+		"feedef2eb6cc47af": {
+			"parent": "feededce00680e4d",
+			"name": "ActorProviderWaypoint",
+			"blueprint": "[modules:/zactorproviderapproach.class].pc_entityblueprint",
+			"properties": {
+				"m_aWaypoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feeda5ffe98a6720"
+					]
+				},
+				"m_fMaxApproachDistance": {
+					"type": "float32",
+					"value": 1
+				}
+			},
+			"factory": "[modules:/zactorproviderapproach.class].pc_entitytype"
+		},
+		"feedc7812d8b5188": {
+			"parent": "feededce00680e4d",
+			"name": "happymeal01",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pAudioEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/bangkok/4000_ambient/dr4886_kitchen_guest_staff_happymeal01_waitress01.sweetdialog].pc_dialogevent",
+						"flag": "5F"
+					}
+				},
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed26c69b0050cd"
+				}
+			},
+			"events": {
+				"WaitDone": {
+					"Start": [
+						"feed6c2310b03703"
+					]
+				}
+			}
+		},
+		"feed54e850397277": {
+			"parent": "feedecb0342f994b",
+			"name": "Woman Drinking",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rActBehavior": {
+					"type": "SEntityTemplateReference",
+					"value": "feed583c8f4f5445"
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"SetTrue": [
+
+					]
+				},
+				"OnFalse": {
+					"SetFalse": [
+
+					]
+				}
+			}
+		},
+		"feed6c2310b03703": {
+			"parent": "feedc7812d8b5188",
+			"name": "Woman responds",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pAudioEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/bangkok/4000_ambient/dr4889_kitchen_guest_staff_happymeal02_fem05.sweetdialog].pc_dialogevent",
+						"flag": "5F"
+					}
+				},
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feede441a2ba08bb"
+				}
+			},
+			"events": {
+				"WaitDone": {
+					"Start": [
+						"feed87c6f6e7114a"
+					]
+				}
+			}
+		},
+		"feed87c6f6e7114a": {
+			"parent": "feed6c2310b03703",
+			"name": "dr11065_refillnowaiterreply",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pAudioEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/bangkok/4000_ambient/dr4896_kitchen_guest_staff_happymeal03_waitress01.sweetdialog].pc_dialogevent",
+						"flag": "5F"
+					}
+				},
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed26c69b0050cd"
+				}
+			},
+			"events": {
+				"WaitDone": {
+					"Start": [
+						"feedfb687e588e22"
+					],
+					"Done": [
+						"feed0fc9946c066f"
+					]
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entitytype"
+		},
+		"feed49157b6b9f75": {
+			"parent": "feeda5ffe98a6720",
+			"name": "Is standing there",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"events": {
+				"OnValue": {
+					"UpdateEnable": [
+
+					]
+				}
+			}
+		},
+		"feed9e8c750d1127": {
+			"parent": "feed49157b6b9f75",
+			"name": "NOT standing there",
+			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_rCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feed49157b6b9f75"
+				}
+			}
+		},
+		"feed3889078946b3": {
+			"parent": "feed49157b6b9f75",
+			"name": "Waitress NOT standing there",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9e8c750d1127"
+					],
+					"postInit": true
+				}
+			},
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entitytype"
+		},
+		"feedb06326291553": {
+			"parent": "feedecb0342f994b",
+			"name": "Hospitality in act",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
+			"properties": {
+				"m_bIsPlaying": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rActBehavior": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda5ffe98a6720"
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"SetTrue": [
+						"feed49157b6b9f75"
+					]
+				},
+				"OnFalse": {
+					"SetFalse": [
+						"feed49157b6b9f75"
+					]
 				}
 			}
 		}
