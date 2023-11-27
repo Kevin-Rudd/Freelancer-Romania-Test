@@ -3014,6 +3014,10 @@
 						"c5a68ede0aa12a1f"
 					],
 					"postInit": true
+				},
+				"NPCDispatchKeyword": {
+					"type": "SEntityTemplateReference",
+					"value": "feed99f925674cee"
 				}
 			},
 			"subsets": {
@@ -3037,21 +3041,21 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": 90
 						},
 						"position": {
-							"x": -0.01591300033032894,
-							"y": 6.5300750732421875,
-							"z": 1.2742199897766113
+							"x": 1.8227136,
+							"y": -2.5424805,
+							"z": 0
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 4.549409866333008,
-						"y": 3.9452500343322754,
-						"z": 2.687730073928833
+						"x": 4.8,
+						"y": 4,
+						"z": 3
 					}
 				},
 				"m_eRoomBehaviour": {
