@@ -37128,6 +37128,705 @@
 					"postInit": true
 				}
 			}
+		},
+		"feedd714adab49ad": {
+			"parent": "feeda41d85a6fe81",
+			"name": "Locker room",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedf99dee80d3c7": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_1",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.3127866515760116
+						},
+						"position": {
+							"x": 0.051966920495033264,
+							"y": 538.951171875,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.399999976158142
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedc85be366a314": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_8",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.100740207869396
+						},
+						"position": {
+							"x": -1.0038542747497559,
+							"y": 521.5604858398438,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed2155efc357d9": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_2",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.88809416285156
+						},
+						"position": {
+							"x": -0.22385241091251373,
+							"y": 534.10595703125,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed82648a815147": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_3",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -1.0262196072248577
+						},
+						"position": {
+							"x": -0.1296049803495407,
+							"y": 529.49951171875,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eMediumCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed76bf0d9d215e": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_4",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.88809416285156
+						},
+						"position": {
+							"x": -0.21595703065395355,
+							"y": 527.8258666992188,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eMediumCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed1935f87b9103": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_5",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.16902045319060086
+						},
+						"position": {
+							"x": -1.0566188097000122,
+							"y": 541.5957641601562,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed8aac1eeed61d": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_6",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.9542911300761895
+						},
+						"position": {
+							"x": 1.0735865831375122,
+							"y": 541.6156005859375,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed0d660b61cdbe": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_7",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.0640403884080474
+						},
+						"position": {
+							"x": 1.002220630645752,
+							"y": 521.5169067382812,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed2ccaefbb3a8f": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_9",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.88809416285156
+						},
+						"position": {
+							"x": 0.993438720703125,
+							"y": 521.3171997070312,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed34f2235f4fd0": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_10",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.88809416285156
+						},
+						"position": {
+							"x": -1.007916808128357,
+							"y": 521.3624267578125,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedd6d1b966ae16": {
+			"parent": "feedd714adab49ad",
+			"name": "CoverPlane_11",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.88809416285156
+						},
+						"position": {
+							"x": 0.8918590545654297,
+							"y": 541.3258666992188,
+							"z": 1.0634663105010986
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 0.800000011920929
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eHighCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fCoverDepth": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
