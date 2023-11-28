@@ -36583,15 +36583,23 @@
 		},
 		"feed816132ab9ca8": {
 			"parent": "feed1541b2eab4a0",
-			"name": "Grumpy AIModifierActor",
+			"name": "Assassin AIModifierActor",
 			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
 			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
 			"properties": {
-				"m_bWantsPrivacy": {
+				"m_bIgnoreWeapons": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bIgnoreDeadBodies": {
 					"type": "bool",
 					"value": true
 				},
 				"m_bSuppressSocialGreeting": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDisableHelpCivilian": {
 					"type": "bool",
 					"value": true
 				},
@@ -37060,6 +37068,63 @@
 					"value": [
 
 					],
+					"postInit": true
+				}
+			}
+		},
+		"feed3794e506745d": {
+			"parent": "feed1541b2eab4a0",
+			"name": "PrivateArea Ass. Cabin",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed571303c65cd0"
+					]
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb0e3015dc939"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedb0e3015dc939": {
+			"parent": "feed3794e506745d",
+			"name": "Ass. Cabin volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.202918,
+							"y": 399.45135,
+							"z": 1.6884074
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
 					"postInit": true
 				}
 			}
@@ -39495,7 +39560,11 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
 		{
-			"ref": "9ff4fedc58bf4cae",
+			"ref": "92fa3cc028dec2b0",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "22df71323f53c419",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
