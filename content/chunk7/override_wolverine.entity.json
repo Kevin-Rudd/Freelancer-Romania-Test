@@ -25166,6 +25166,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feedd6b52d0363e8",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -25569,6 +25573,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feedf9ebd2c9fba1",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -26325,6 +26333,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed17f6ff6f747b",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -27151,6 +27163,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed9de07b3912fa",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -27709,6 +27725,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed1a60582138e1",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -28025,6 +28045,11 @@
 					"Start": [
 						"feede74c02108a45"
 					]
+				},
+				"OnReached": {
+					"In": [
+						"feed9b32665e3f12"
+					]
 				}
 			}
 		},
@@ -28265,6 +28290,10 @@
 					"value": [
 						"feed43fc0e015fe1"
 					]
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -28753,7 +28782,7 @@
 		},
 		"feeda2d9a580e0e5": {
 			"parent": "feed160e14584a1a",
-			"name": "Hospitality in position and near lady",
+			"name": "Both in Acts",
 			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aValues": {
@@ -28879,26 +28908,19 @@
 		},
 		"feedbf089ba440f0": {
 			"parent": "feeda2d9a580e0e5",
-			"name": "5m radial to Nancy",
-			"blueprint": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entityblueprint",
+			"name": "Nancy in act",
+			"factory": "007E378EA87BA806",
+			"blueprint": "0018FB9506135A96",
 			"properties": {
-				"m_fRadius": {
-					"type": "float32",
-					"value": 5
+				"m_bIsPlaying": {
+					"type": "bool",
+					"value": true
 				},
-				"m_TriggerEntities": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed43fc0e015fe1"
-					]
-				},
-				"m_eidParent": {
+				"m_rActBehavior": {
 					"type": "SEntityTemplateReference",
-					"value": "feed22a65b70d1bf",
-					"postInit": true
+					"value": "feeda8de59a58806"
 				}
-			},
-			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
+			}
 		},
 		"feed14fbae1dc344": {
 			"parent": "feed50750b865d6a",
@@ -29165,6 +29187,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feede8aefc1f8f9e",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -29711,6 +29737,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feeddb84c7812576",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -34583,6 +34613,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed90fbee0fe444",
 					"postInit": true
+				},
+				"m_TriggerOnActorDead": {
+					"type": "bool",
+					"value": false
 				}
 			},
 			"factory": "[assembly:/_pro/design/logic.template?/distancetriggercharacter.entitytemplate].pc_entitytype"
@@ -36315,6 +36349,25 @@
 					]
 				}
 			}
+		},
+		"feed9b32665e3f12": {
+			"parent": "feed75f1a9be8797",
+			"name": "TimerSimple to prevent getting stuck",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": {
+					"type": "int32",
+					"value": 30000
+				}
+			},
+			"events": {
+				"Out": {
+					"Done": [
+						"feed2d3541e76575"
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -37627,6 +37680,28 @@
 							"z": 0.74500203
 						}
 					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c94e8b34201e1bd6",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				},
+				{
+					"ref": "f1c7e4cb5a83fe88",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				},
+				{
+					"ref": "9867ca372361feb4",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"ShutterClosed": {
+					"type": "bool",
+					"value": true
 				}
 			}
 		}
