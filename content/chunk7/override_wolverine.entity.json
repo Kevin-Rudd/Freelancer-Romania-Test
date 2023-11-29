@@ -11089,6 +11089,13 @@
 						"feed35720e88d8bc"
 					],
 					"postInit": true
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002BF35A526696D2",
+						"flag": "5F"
+					}
 				}
 			}
 		},
@@ -14325,7 +14332,7 @@
 				"m_rNameTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_raccoon.sweetmenutext?/outfits_raccoon_worker_bankteller_f_name_b4efb93d-2400-4087-919d-c5c3d7017740.sweetline].pc_sweetline",
+						"resource": "002BF35A526696D2",
 						"flag": "5F"
 					}
 				},
@@ -40222,6 +40229,46 @@
 							"ref": "fe97a62bf82aa5a8",
 							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c268f382ac051966",
+					"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVMALEHI01",
+						"eAVV_CIVMALEHI02",
+						"eAVV_CIVMALEHI03",
+						"eAVV_CIVMALECH01",
+						"eAVV_CIVMALECH02"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "6f3be723e977ff26",
+					"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVFEMHI01",
+						"eAVV_CIVFEMHI02",
+						"eAVV_CIVFEMHI03",
+						"eAVV_CIVFEMCH01",
+						"eAVV_CIVFEMCH02"
 					]
 				}
 			}
