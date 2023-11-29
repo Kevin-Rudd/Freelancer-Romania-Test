@@ -1886,12 +1886,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 126.7378925098841
+							"z": 161.81406626828544
 						},
 						"position": {
-							"x": 0.991363525390625,
-							"y": 518.8826293945312,
-							"z": 1.9922410249710083
+							"x": 1.5325973,
+							"y": 531.91016,
+							"z": 1.4065539
 						}
 					}
 				},
@@ -3895,10 +3895,10 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": 90
 						},
 						"position": {
-							"x": 1.0152588,
+							"x": 1.4002706,
 							"y": 439.17294,
 							"z": 1
 						}
@@ -40541,6 +40541,44 @@
 						"x": 4,
 						"y": 4,
 						"z": 3
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cc8191cbac13775f",
+					"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pEventResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/evergreen/handler/ed030_welcomea_train_diana.sweetdialog].pc_dialogevent",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "10bbbcc20ac9a070",
+					"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+				},
+				{
+					"ref": "549af80690ed2764",
+					"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pTitleResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/menutext_s3_trapped.sweetmenutext?/ui_location_parent_trapped_name.sweetline].pc_sweetline",
+						"flag": "5F"
 					}
 				}
 			}
