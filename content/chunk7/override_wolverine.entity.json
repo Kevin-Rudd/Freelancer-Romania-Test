@@ -22300,14 +22300,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.35224004193654557,
-							"y": -0.9149286350634355,
-							"z": 179.92865700371337
+							"x": 0,
+							"y": 0,
+							"z": 0
 						},
 						"position": {
-							"x": -0.06916993856430054,
-							"y": 250.5643310546875,
-							"z": 1.0256216526031494
+							"x": 0,
+							"y": 0.076,
+							"z": 0
 						}
 					}
 				},
@@ -22318,8 +22318,8 @@
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.799968910217285,
-						"y": 0.8341999530792236,
+						"x": 0.7,
+						"y": 0.83,
 						"z": 1.5
 					}
 				},
@@ -22330,6 +22330,10 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed71f3147dc8bc"
 				}
 			}
 		},
@@ -22343,14 +22347,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.35224004193654557,
-							"y": -0.9149286350634355,
-							"z": 179.92865700371337
+							"x": 0,
+							"y": 0,
+							"z": 0
 						},
 						"position": {
-							"x": -0.9864672422409058,
-							"y": 251.32249450683594,
-							"z": 1
+							"x": 0.262,
+							"y": -0.111,
+							"z": 0
 						}
 					}
 				},
@@ -22361,7 +22365,7 @@
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 2.599968910217285,
+						"x": 2.1,
 						"y": 0.8341999530792236,
 						"z": 1.5
 					}
@@ -22373,6 +22377,10 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "93c666592da84f85"
 				}
 			}
 		},
@@ -31334,23 +31342,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
+							"x": 54.33634050798584,
+							"y": 0.000018783020217535063,
+							"z": -90.00010495731571
 						},
 						"position": {
-							"x": -0.47586977,
-							"y": 528.28204,
-							"z": 1
+							"x": 0.010465696,
+							"y": 528.2415,
+							"z": 1.7187423
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 0.8999999761581421,
-						"y": 0.8999999761581421,
-						"z": 0.8999999761581421
+						"x": 0.7,
+						"y": 0.7,
+						"z": 0.8
 					}
 				},
 				"m_eRoomBehaviour": {
@@ -31540,49 +31548,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feed2507dabca746"
-				}
-			}
-		},
-		"feed930492fc5bd8": {
-			"parent": "feed2507dabca746",
-			"name": "PFObstacle",
-			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
-			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.63852691324578
-						},
-						"position": {
-							"x": -1.506493091583252,
-							"y": 531.417236328125,
-							"z": 1
-						}
-					}
-				},
-				"m_fPenaltyMultiplier": {
-					"type": "float32",
-					"value": -1
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 2,
-						"y": 1.399999976158142,
-						"z": 1.5
-					}
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
 				}
 			}
 		},
@@ -34026,8 +33991,8 @@
 							"z": 0
 						},
 						"position": {
-							"x": -0.13297288,
-							"y": 535.0755,
+							"x": -0.20847583,
+							"y": 535.14923,
 							"z": 1
 						}
 					}
@@ -34433,7 +34398,7 @@
 				},
 				"OnReached": {
 					"Set": [
-						"feed7195d324c2d7"
+
 					]
 				}
 			},
@@ -35544,31 +35509,6 @@
 				}
 			}
 		},
-		"feed7195d324c2d7": {
-			"parent": "feedcece1ce89386",
-			"name": "Pissing AIModifierActor",
-			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
-			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
-			"properties": {
-				"m_bWantsPrivacy": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bIgnoreLowNoise": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bSuppressSocialGreeting": {
-					"type": "bool",
-					"value": true
-				},
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "feed90fbee0fe444",
-					"postInit": true
-				}
-			}
-		},
 		"feed2e45944b6081": {
 			"parent": "feed939b0e430708",
 			"name": "PFObstacle",
@@ -36334,7 +36274,7 @@
 						"feed707eada21670"
 					],
 					"Clear": [
-						"feed7195d324c2d7"
+
 					]
 				}
 			}
@@ -37827,6 +37767,63 @@
 					"value": false
 				}
 			}
+		},
+		"feed63d2df4c59b5": {
+			"parent": "feed0e5b5edcd7b4",
+			"name": "PrivateArea Central Bathroom",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed90fbee0fe444"
+					]
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedc328d6a998ea"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedc328d6a998ea": {
+			"parent": "feed63d2df4c59b5",
+			"name": "Central Bathroom volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.38512927,
+							"y": 343.55444,
+							"z": 1.4
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4.1,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -39184,6 +39181,234 @@
 						"eAVV_BDYGRD07",
 						"eAVV_SPECOPS01",
 						"eAVV_SPECOPS02"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2cf4437d2be35ae9",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_Areas": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede5d83d17c45e",
+						{
+							"ref": "3b12c367fa9870c3",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "ab94b604b6e8f254",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "980ccd451947a876",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a8f2dc9aabeb788c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "888bbb6cdb45107d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "18cfa0d643932faa",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "c7072d503d870bcf",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "c4edb57ecc56f9f6",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "932d970f8bb49fcb",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "d35d3f97bde4b750",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "9d93b6719bf722e3",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "6202a2508faa974d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "2b34beaf2b890bbb",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "27163d81eefbaf5b",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "8b438953f3bf7fce",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a639a5b36da83c54",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "58f7c706b30d7a00",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "7f72cc376506772f",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "d0e7b6c963b201cd",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "22a80c534f95e52a",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "01e182f6ae718519",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "bde16675d086319f",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "e6678e628be2b157",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "1f0a2727eac9bd2e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "ae39df8de3337630",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "b01656f54ea0bb94",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "89ddda95013075a2",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "b5abaa2d90553727",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "20fb1893217e489e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "679ddafc0c03409d",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "3539d630d20db3c0",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "125dfd42ae64786b",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "2c508abcc166bb10",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "1cbc5c239d631f51",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a917023068bb1e37",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "5ce7fa072d2180ce",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "b40c88d661bffc77",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "e4cff426a173913a",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "cc7557a8b40c0412",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "fd84e2d00005b80c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "19cdba81db611ee4",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "9404ed77e5a6a93f",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "d707f04ad160dd8a",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "0b8aadf43d123c44",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a139e536b4bf3840",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "95082302ccf5f79b",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "ef9c1a2b3ad3f1cc",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f223d072d11354c8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "70b9d1a5b5f567ee",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "e933fb102040b69e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "ba31e51971255b92",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "dad0222d8e2145ca",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "fe97a62bf82aa5a8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						}
 					]
 				}
 			}
