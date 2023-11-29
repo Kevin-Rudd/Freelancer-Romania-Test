@@ -35883,6 +35883,9 @@
 				"OnInterrupted": {
 					"Abort": [
 						"feed8bd63ce181e2"
+					],
+					"Stop": [
+						"feed46386c2c2333"
 					]
 				}
 			}
@@ -37815,6 +37818,395 @@
 					"value": {
 						"x": 4.1,
 						"y": 4,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feede1ab04c5615b": {
+			"parent": "feedab88d27037d6",
+			"name": "47 is any Guard",
+			"factory": "[modules:/zherokeywordcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zherokeywordcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_bCheckRightHand": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rRequirements": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0b1219e246d6"
+				}
+			}
+		},
+		"feed61a5643020ca": {
+			"parent": "feedab88d27037d6",
+			"name": "47 is Hospitality",
+			"factory": "[modules:/zherokeywordcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zherokeywordcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_bCheckRightHand": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rRequirements": {
+					"type": "SEntityTemplateReference",
+					"value": "feedaba33c44f40f"
+				}
+			}
+		},
+		"feed2d4a65feb601": {
+			"parent": "feedab88d27037d6",
+			"name": "47 is Security or Hospitality",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede1ab04c5615b",
+						"feed61a5643020ca"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feeddb5e5433494c": {
+			"parent": "feed2d4a65feb601",
+			"name": "47 is NOT Security or Hospitality",
+			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_rCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2d4a65feb601"
+				}
+			}
+		},
+		"feed5bb61cc7a854": {
+			"parent": "feed23deacaf4452",
+			"name": "PrivateArea Cabin",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed17f6ff6f747b",
+						"feeda0f6ab719490"
+					]
+				},
+				"m_rEnableCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddb5e5433494c"
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedaa04f829e3da"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedaa04f829e3da": {
+			"parent": "feed5bb61cc7a854",
+			"name": "Cabin volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.1269226,
+							"y": 403.53165,
+							"z": 1
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed7436a5cf4b2f": {
+			"parent": "feed22a65b70d1bf",
+			"name": "PrivateArea Cabin",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed22a65b70d1bf",
+						"feedda15c2f4b24c"
+					]
+				},
+				"m_rEnableCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddb5e5433494c"
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed6b0c3d1936a1"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed6b0c3d1936a1": {
+			"parent": "feed7436a5cf4b2f",
+			"name": "Cabin volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 1.2050084,
+							"y": 391.53113,
+							"z": 1
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed39968d6a0a98": {
+			"parent": "feed92e2ab989f01",
+			"name": "PrivateArea Cabin",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede8aefc1f8f9e"
+					]
+				},
+				"m_rEnableCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddb5e5433494c"
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feeda0bdc890d249"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feeda0bdc890d249": {
+			"parent": "feed39968d6a0a98",
+			"name": "Cabin volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 1.2050084,
+							"y": 395.54272,
+							"z": 1.589349
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed76f98aee4538": {
+			"parent": "feedfa2f1257452f",
+			"name": "PrivateArea Cabin",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedd138f48133ea",
+						"feed7284991f4c43",
+						{
+							"ref": "06f59d0c2eaa0337",
+							"externalScene": null,
+							"exposedEntity": "Role"
+						}
+					]
+				},
+				"m_aPreferredActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "06f59d0c2eaa0337",
+							"externalScene": null,
+							"exposedEntity": "Role"
+						},
+						"feed7284991f4c43"
+					]
+				},
+				"m_rEnableCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddb5e5433494c"
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedc4515d6bb9af"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedc4515d6bb9af": {
+			"parent": "feed76f98aee4538",
+			"name": "Cabin volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -1.2883301,
+							"y": 241.55495,
+							"z": 1.1495801
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4,
+						"y": 3,
+						"z": 4
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed41b6930b087f": {
+			"parent": "feed362644405733",
+			"name": "PrivateArea Cabin",
+			"factory": "[modules:/zprivateareaentity.class].pc_entitytype",
+			"blueprint": "[modules:/zprivateareaentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb08bbed49e3d",
+						"feed9381a5131d2e"
+					]
+				},
+				"m_rEnableCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "feeddb5e5433494c"
+				},
+				"m_aZones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed1c8c4203848f"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed1c8c4203848f": {
+			"parent": "feed41b6930b087f",
+			"name": "Cabin volumebox",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -1.1653434,
+							"y": 245.52095,
+							"z": 1.1495801
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 4,
+						"y": 3,
 						"z": 4
 					}
 				},
