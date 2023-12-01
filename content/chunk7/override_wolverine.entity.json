@@ -39339,10 +39339,6 @@
 				{
 					"ref": "3d3f5f061be21756",
 					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
-				},
-				{
-					"ref": "904e932fd734d145",
-					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 				}
 			],
 			"properties": {
@@ -39353,6 +39349,10 @@
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_Undefined"
+				},
+				"m_bWeaponUnholstered": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		},
@@ -41714,6 +41714,10 @@
 		},
 		{
 			"ref": "58d09e48ef6715b3",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d06ac775c96d1586",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
