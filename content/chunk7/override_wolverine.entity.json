@@ -36792,7 +36792,7 @@
 		},
 		"feed171a733a172b": {
 			"parent": "feedab88d27037d6",
-			"name": "Assassin Cabin Rules",
+			"name": "Staff Area Rules",
 			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
 			"properties": {
@@ -36815,9 +36815,7 @@
 				"m_KeeperProfessions": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed9d33c22452cf",
-						"feed0b1219e246d6",
-						"feedaba33c44f40f"
+						"feed9d33c22452cf"
 					],
 					"postInit": true
 				},
@@ -36825,7 +36823,8 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"feed0b1219e246d6",
-						"feedaba33c44f40f"
+						"feedf76055829ea8",
+						"feed0642e28d299e"
 					],
 					"postInit": true
 				}
@@ -36833,7 +36832,7 @@
 		},
 		"feedf005001922ac": {
 			"parent": "feed171a733a172b",
-			"name": "Cabin Area",
+			"name": "Staff Area",
 			"factory": "[modules:/zdisguisezoneentity.class].pc_entitytype",
 			"blueprint": "[modules:/zdisguisezoneentity.class].pc_entityblueprint",
 			"properties": {
@@ -36844,7 +36843,7 @@
 				"m_aExitPoints": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						"feed9e1ef29d3fc6"
 					]
 				},
 				"m_Boxes": {
@@ -36858,7 +36857,7 @@
 		},
 		"feedbbf4103f914b": {
 			"parent": "feedf005001922ac",
-			"name": "Cabin",
+			"name": "Staff",
 			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -36871,23 +36870,23 @@
 							"z": 0
 						},
 						"position": {
-							"x": 1.202918,
-							"y": 399.45135,
-							"z": 1.6884074
+							"x": 0.046417236,
+							"y": 516.1687,
+							"z": 5
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 3,
-						"y": 4,
-						"z": 4
+						"x": 6,
+						"y": 210,
+						"z": 10
 					}
 				},
 				"m_order": {
 					"type": "EEntityOrdering",
-					"value": "EO_HIGH"
+					"value": "EO_LOW"
 				}
 			}
 		},
@@ -38809,6 +38808,130 @@
 				"m_rActor": {
 					"type": "SEntityTemplateReference",
 					"value": "feed571303c65cd0"
+				}
+			}
+		},
+		"feed6a1e4914b467": {
+			"parent": "feedab88d27037d6",
+			"name": "Assassin Cabin Rules",
+			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bDeepTrespassing": {
+					"type": "bool",
+					"value": false
+				},
+				"m_Zones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed878da44bf5ca"
+					]
+				},
+				"m_ExcludedFromDeepTrespassingProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_KeeperProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9d33c22452cf",
+						"feed0b1219e246d6",
+						"feedaba33c44f40f"
+					],
+					"postInit": true
+				},
+				"m_AllowedProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed0b1219e246d6",
+						"feedaba33c44f40f"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed878da44bf5ca": {
+			"parent": "feed6a1e4914b467",
+			"name": "Cabin Area",
+			"factory": "[modules:/zdisguisezoneentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdisguisezoneentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aExitPoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb414ca4ce55e"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedb414ca4ce55e": {
+			"parent": "feed878da44bf5ca",
+			"name": "Cabin",
+			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.202918,
+							"y": 399.45135,
+							"z": 1.6884074
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_order": {
+					"type": "EEntityOrdering",
+					"value": "EO_HIGH"
+				}
+			}
+		},
+		"feed9e1ef29d3fc6": {
+			"parent": "feedf005001922ac",
+			"name": "Escort out point Staff Area",
+			"factory": "008B662A16642728",
+			"blueprint": "003621696476C9AC",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 7.98952157406862
+						},
+						"position": {
+							"x": -1.0004883,
+							"y": 406.35202,
+							"z": 1
+						}
+					}
 				}
 			}
 		}
