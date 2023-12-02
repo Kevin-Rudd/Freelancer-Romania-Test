@@ -65,6 +65,21 @@
 		"runtimeID": "00501B18151D6980",
 		"comment": "container cardbox",
 		"toChunk": 1
+	},
+	{
+		"runtimeID": "00596C4252F362FD",
+		"comment": "miami trash",
+		"toChunk": 1
+	},
+	{
+		"runtimeID": "00516836F8B7F8C7",
+		"comment": "miami table",
+		"toChunk": 1
+	},
+	{
+		"runtimeID": "00C92C7DD5D3C19D",
+		"comment": "suitcase green",
+		"toChunk": 1
 	}
 ],
 	"options": [{
