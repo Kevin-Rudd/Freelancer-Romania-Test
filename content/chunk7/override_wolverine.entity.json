@@ -4396,12 +4396,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -0.3856295456920109
+							"z": -0.3856295490027021
 						},
 						"position": {
-							"x": 1.5069791,
-							"y": 543.9448,
-							"z": 1
+							"x": -0.7221512198448181,
+							"y": 543.899658203125,
+							"z": 0.9980431199073792
 						}
 					}
 				},
@@ -43091,7 +43091,6 @@
 			"ref": "cc623c64b87cd463",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
-	
 		{
 			"ref": "787d2933d3f8716e",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
@@ -43210,27 +43209,83 @@
 		},
 		{
 			"ref": "31647fc06f310e17",
-			"comment" :"ledges for laundry room removed",
+			"comment": "ledges for laundry room removed",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
 		{
 			"ref": "20da6e2a0e07db6f",
-			"comment" :"ledges for laundry room removed",
+			"comment": "ledges for laundry room removed",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
 		{
 			"ref": "16f22bc4710fc9c1",
-			"comment" :"ledges for laundry room removed",
+			"comment": "ledges for laundry room removed",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
 		{
 			"ref": "528accc02ccef63a",
-			"comment" :"ledges for laundry room removed",
+			"comment": "ledges for laundry room removed",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
 		{
-			"ref": "9d82ffa2bbfc2b83",
-			"comment" :"coverplane safe removed",
+			"ref": "83455dab75bbc9ea",
+			"comment": "coverplane safe removed",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "852a0ad666e0b3ae",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "7f2a9a53c21d13e8",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "220f26bc9ba879d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "92e0181cbf13655b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "06a4690d265a1942",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "7f549c70ec3be6bb",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "220f26bc9ba879d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "1db4cde73148c1b9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "1517c801cad8a02b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "59449d9a7d80fc74",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d0dee292f1b407c2",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "15c9e0f668ffd2b8",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "92e0181cbf13655b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "bac699f603d6c163",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
