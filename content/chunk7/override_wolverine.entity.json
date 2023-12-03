@@ -41094,6 +41094,20 @@
 		{
 			"entities": [
 				{
+					"ref": "174582edaff4e20b",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"FloodLight": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
 					"ref": "6b04ddcbc20e5e29",
 					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 				},
@@ -43192,6 +43206,31 @@
 		},
 		{
 			"ref": "a0ed0829ffc06064",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "31647fc06f310e17",
+			"comment" :"ledges for laundry room removed",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "20da6e2a0e07db6f",
+			"comment" :"ledges for laundry room removed",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "16f22bc4710fc9c1",
+			"comment" :"ledges for laundry room removed",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "528accc02ccef63a",
+			"comment" :"ledges for laundry room removed",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "9d82ffa2bbfc2b83",
+			"comment" :"coverplane safe removed",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
