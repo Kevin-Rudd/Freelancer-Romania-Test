@@ -43077,10 +43077,7 @@
 			"ref": "cc623c64b87cd463",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		},
-		{
-			"ref": "255df13c9717e365",
-			"externalScene": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a_prefab.template?/passenger_unlockable.entitytemplate].pc_entitytype"
-		},
+	
 		{
 			"ref": "787d2933d3f8716e",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
@@ -43213,8 +43210,7 @@
 		"[assembly:/_pro/scenes/bricks/outfits_cinematics.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/trapped/tod_day.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype",
-		"[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a_prefab.template?/passenger_unlockable.entitytemplate].pc_entitytype"
+		"[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
