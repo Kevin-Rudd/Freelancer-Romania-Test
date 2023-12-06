@@ -13126,18 +13126,18 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 9.872649978244388
+							"z": 8.590090716277732
 						},
 						"position": {
-							"x": 1.6979065,
-							"y": 250.11429,
+							"x": 1.6449343,
+							"y": 251.36603,
 							"z": 1
 						}
 					}
 				},
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 15
+					"value": 20
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -13176,7 +13176,7 @@
 				},
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 15
+					"value": 20
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
@@ -34041,7 +34041,8 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed130fe337fa19"
+						"feed130fe337fa19",
+						"feedd449b700bf82"
 					],
 					"postInit": true
 				}
@@ -40673,6 +40674,107 @@
 					]
 				}
 			}
+		},
+		"feed0c7e2668f58f": {
+			"parent": "feedab88d27037d6",
+			"name": "Early Cabin Rules",
+			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bDeepTrespassing": {
+					"type": "bool",
+					"value": false
+				},
+				"m_Zones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed155f1e927754"
+					]
+				},
+				"m_ExcludedFromDeepTrespassingProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_KeeperProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9d33c22452cf",
+						"feed0b1219e246d6",
+						"feedaba33c44f40f"
+					],
+					"postInit": true
+				},
+				"m_AllowedProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed0b1219e246d6",
+						"feedaba33c44f40f"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed155f1e927754": {
+			"parent": "feed0c7e2668f58f",
+			"name": "Cabin Area",
+			"factory": "[modules:/zdisguisezoneentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdisguisezoneentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aExitPoints": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed149c08952666"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed149c08952666": {
+			"parent": "feed155f1e927754",
+			"name": "Cabin",
+			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.32864938623226714
+						},
+						"position": {
+							"x": -1.3112774,
+							"y": 237.4272,
+							"z": 1.3279045
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 3,
+						"y": 4,
+						"z": 4
+					}
+				},
+				"m_order": {
+					"type": "EEntityOrdering",
+					"value": "EO_HIGH"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -42476,10 +42578,27 @@
 		},
 		{
 			"entities": [
-
+				{
+					"ref": "f1b5d7642bd3b027",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
 			],
 			"properties": {
-
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 1.233873,
+							"y": 3.9714203,
+							"z": 0
+						}
+					}
+				}
 			}
 		}
 	],
