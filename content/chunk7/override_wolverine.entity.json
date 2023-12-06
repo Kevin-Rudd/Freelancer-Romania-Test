@@ -20391,7 +20391,7 @@
 			}
 		},
 		"feedc200573a15f6": {
-			"parent": "feed6440d676b025",
+			"parent": "feed876191835801",
 			"name": "DramaSituation",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
@@ -40466,6 +40466,211 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feede9c59e39142e"
+				}
+			}
+		},
+		"feedbde0b7037b85": {
+			"parent": "feed067fe327e0be",
+			"name": "Office",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed8c220f84ce8f": {
+			"parent": "feedbde0b7037b85",
+			"name": "Sean Bean's guard",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "22f7d205-8a3e-4b12-9a41-6204a6ff3e90"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "653ad7d6-7d5d-4554-9551-7573be7205be"
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "John Doe"
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_nWeaponIndex": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed57e95143b319",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed978542ef3fe0": {
+			"parent": "feed8c220f84ce8f",
+			"name": "DramaSituation",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9b29c7114026"
+					]
+				}
+			}
+		},
+		"feed9b29c7114026": {
+			"parent": "feed978542ef3fe0",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c220f84ce8f",
+					"postInit": true
+				}
+			}
+		},
+		"feed3e70c386c16f": {
+			"parent": "feed978542ef3fe0",
+			"name": "act_mr_guard_stand_idle 2",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_idle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_idle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 133.8920753563549
+						},
+						"position": {
+							"x": 1.7673035,
+							"y": 718.90424,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 40
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9b29c7114026",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed57e95143b319"
+					]
+				}
+			}
+		},
+		"feed57e95143b319": {
+			"parent": "feed978542ef3fe0",
+			"name": "act_mr_guard_stand_idle",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_idle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_idle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.40835219419655
+						},
+						"position": {
+							"x": -1.8657837,
+							"y": 728.05334,
+							"z": 1
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9b29c7114026"
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 40
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed3e70c386c16f"
+					]
+				}
+			},
+			"subsets": {
+
+			}
+		},
+		"feede64efce3e39e": {
+			"parent": "feed978542ef3fe0",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed978542ef3fe0",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed57e95143b319"
+					]
 				}
 			}
 		}
