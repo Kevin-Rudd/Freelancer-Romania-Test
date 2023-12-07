@@ -13130,7 +13130,7 @@
 						},
 						"position": {
 							"x": 1.6449343,
-							"y": 251.36603,
+							"y": 251.05585,
 							"z": 1
 						}
 					}
@@ -15619,7 +15619,7 @@
 		},
 		"feed62ba1eb074e0": {
 			"parent": "feed9fb0a25d0181",
-			"name": "CHAR_Passenger_M__02",
+			"name": "CHAR_Passenger_M__10",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
@@ -15647,15 +15647,15 @@
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
-					"value": 5
+					"value": 11
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Charles Lang"
+					"value": "John Doe"
 				},
 				"m_nOutfitCharset": {
 					"type": "int32",
-					"value": 0
+					"value": 4
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -15705,8 +15705,8 @@
 		},
 		"feedaeeb7a8e2dd9": {
 			"parent": "feed22ab2ded8dd7",
-			"name": "act_mr_sit_depressed",
-			"blueprint": "00400E4BA2698BEA",
+			"name": "act_mr_sit_phone_text_legscrossed",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -15717,8 +15717,8 @@
 							"z": 0
 						},
 						"position": {
-							"x": 1.5413208,
-							"y": 212.16861,
+							"x": -1.7488524,
+							"y": 221.35928,
 							"z": 1
 						}
 					}
@@ -15735,9 +15735,11 @@
 				}
 			},
 			"subsets": {
-
+				"Replicable": [
+					"fffffffffffffffe"
+				]
 			},
-			"factory": "0044B51F9F444B08"
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entitytype"
 		},
 		"feedd7736f235282": {
 			"parent": "feed22ab2ded8dd7",
@@ -20751,7 +20753,7 @@
 			}
 		},
 		"feeddba03d31a7e8": {
-			"parent": "feedc200573a15f6",
+			"parent": "feed3549c032a5e7",
 			"name": "ItemRepositoryKey Coffee Glass",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
@@ -21349,7 +21351,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": 0.94289565,
+							"x": 1.8698413,
 							"y": 215.68806,
 							"z": 1
 						}
@@ -40775,6 +40777,402 @@
 					"value": "EO_HIGH"
 				}
 			}
+		},
+		"feeda0cf3fa38baf": {
+			"parent": "feed9fb0a25d0181",
+			"name": "Sit then drink F",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed6817d92ccc03"
+					]
+				}
+			}
+		},
+		"feedf67cded67449": {
+			"parent": "feeda0cf3fa38baf",
+			"name": "act_fr_stand_drink_waterbottle_100cm_fallback",
+			"factory": "[assembly:/_pro/design/actor/acts/fr_iteminteraction_fallback.template?/act_fr_stand_drink_waterbottle_100cm_fallback.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/fr_iteminteraction_fallback.template?/act_fr_stand_drink_waterbottle_100cm_fallback.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -129.53321255259283
+						},
+						"position": {
+							"x": 1.5750122,
+							"y": 220.65051,
+							"z": 0.91
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6817d92ccc03",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed6c879e2fb60b"
+					]
+				}
+			}
+		},
+		"feed6c879e2fb60b": {
+			"parent": "feeda0cf3fa38baf",
+			"name": "act_fr_sit_read_magazine",
+			"factory": "008A06A580F89C68",
+			"blueprint": "00F5C1A0A4062CAB",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.8297913,
+							"y": 220.7431,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 40
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6817d92ccc03",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feedf67cded67449"
+					]
+				}
+			}
+		},
+		"feed6817d92ccc03": {
+			"parent": "feeda0cf3fa38baf",
+			"name": "Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda447ca6b85ec",
+					"postInit": true
+				}
+			}
+		},
+		"feedc28296678d31": {
+			"parent": "feeda0cf3fa38baf",
+			"name": "DramaSituationProxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0cf3fa38baf",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feedf67cded67449"
+					]
+				}
+			}
+		},
+		"feeda447ca6b85ec": {
+			"parent": "feeda0cf3fa38baf",
+			"name": "CHAR_Passenger_F_08",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "4b4aca9b-d73f-4e82-8725-35feee255e9e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "34cb98d8-d551-4c2f-b0ff-43c5d5c63016"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 9
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Jane Doe"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf67cded67449",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					],
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedb32952dfe415": {
+			"parent": "feedf67cded67449",
+			"name": "SpawnSetpieceItem",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedf67cded67449",
+						"externalScene": null,
+						"exposedEntity": "Spatial_GlassPosition"
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed726a3ab4df3c",
+					"postInit": true
+				}
+			}
+		},
+		"feed726a3ab4df3c": {
+			"parent": "feed3549c032a5e7",
+			"name": "ItemRepositoryKey Water Bottle",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "b35bf4d6-8f46-429a-b036-1254b90676bb"
+				}
+			}
+		},
+		"feed89aba6fb570e": {
+			"parent": "feed9fb0a25d0181",
+			"name": "CHAR_Passenger_M_02",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "8978cbc6-7f05-4314-941f-f9615cc2dbee"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "56d608fb-f196-4f41-b1cc-bcce956ed18d"
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 5
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Charles Lang"
+				},
+				"m_nOutfitCharset": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9c6648f44527",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			},
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype"
+		},
+		"feed5acaf2434c32": {
+			"parent": "feed89aba6fb570e",
+			"name": "Passenger Sitting Drama",
+			"blueprint": "00BD25C96EAAC850",
+			"properties": {
+				"m_aRoles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedbd2243527898"
+					]
+				},
+				"m_nBasePriority": {
+					"type": "int32",
+					"value": 0
+				},
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				}
+			},
+			"factory": "005B2A6454B76874"
+		},
+		"feed9c6648f44527": {
+			"parent": "feed5acaf2434c32",
+			"name": "act_mr_sit_depressed",
+			"blueprint": "00400E4BA2698BEA",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.5413208,
+							"y": 212.16861,
+							"z": 1
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbd2243527898",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+
+			},
+			"factory": "0044B51F9F444B08"
+		},
+		"feedb6c614c89dea": {
+			"parent": "feed5acaf2434c32",
+			"name": "DramaSituation2Proxy",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": {
+				"m_rOriginalDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5acaf2434c32",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed9c6648f44527"
+					]
+				}
+			},
+			"factory": "000C288A323918F9"
+		},
+		"feedbd2243527898": {
+			"parent": "feed5acaf2434c32",
+			"name": "Test",
+			"blueprint": "0064725514B34594",
+			"properties": {
+				"m_rActorProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "feed89aba6fb570e",
+					"postInit": true
+				}
+			},
+			"factory": "00808A03B82188F7"
 		}
 	},
 	"propertyOverrides": [
@@ -42596,6 +42994,81 @@
 							"x": 1.233873,
 							"y": 3.9714203,
 							"z": 0
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "0147c20977810047",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 85,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -2.24714,
+							"y": 4.5,
+							"z": 0.9
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "084004776e594748",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 85,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -2.24714,
+							"y": -1.5,
+							"z": 0.9
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c86093fcee7830a6",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 85,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 2.249735116958618,
+							"y": 1.5,
+							"z": 0.9
 						}
 					}
 				}
