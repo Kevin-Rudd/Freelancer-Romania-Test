@@ -41190,13 +41190,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0.4710492504713577,
-							"y": -0.49694091233661936,
-							"z": 86.93561715168799
+							"x": 0.47104922547351263,
+							"y": -0.49694092515229715,
+							"z": 86.93561764278444
 						},
 						"position": {
-							"x": -1.1140432357788086,
-							"y": 346.56610107421875,
+							"x": -1.1601017,
+							"y": 346.49045,
 							"z": 1
 						}
 					}
@@ -41217,41 +41217,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -0.020041869716990415,
-							"y": 4.119748392947098,
-							"z": -1.6443577317073703
+							"x": -0.02004186943829337,
+							"y": 4.119748553090489,
+							"z": -1.644357690675109
 						},
 						"position": {
-							"x": -1.251058578491211,
-							"y": 347.0213623046875,
+							"x": -1.2510586,
+							"y": 346.94186,
 							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feedfba8259bdaea": {
-			"parent": "feedfaad67a11431",
-			"name": "GymBag_A07",
-			"factory": "0022B707FA4EF5E8",
-			"blueprint": "00A3AF9D11DF3619",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.06270867630209602,
-							"y": -0.6211661131142518,
-							"z": -87.58577506647036
-						},
-						"position": {
-							"x": -1.2463116645812988,
-							"y": 346.5104675292969,
-							"z": 1.9728540182113647
 						}
 					}
 				},
@@ -41288,33 +41261,6 @@
 				}
 			}
 		},
-		"feedd3f2d29c3115": {
-			"parent": "feedfaad67a11431",
-			"name": "Suitcase_B0102",
-			"factory": "0079ED90192AA757",
-			"blueprint": "0013AA579AC29896",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 1.661583307608869,
-							"y": -0.7386611306372214,
-							"z": -179.61598833325044
-						},
-						"position": {
-							"x": -1.2950180768966675,
-							"y": 347.4358825683594,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
 		"feed09fa48c44d27": {
 			"parent": "feedfaad67a11431",
 			"name": "Suitcase_B02_Red",
@@ -41327,45 +41273,14 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -93.4003699859535
+							"z": -93.400371201634
 						},
 						"position": {
-							"x": -1.4273335933685303,
-							"y": 346.4286193847656,
+							"x": -1.4571322,
+							"y": 346.42862,
 							"z": 1
 						}
 					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feed9a7e71be6956": {
-			"parent": "feedfaad67a11431",
-			"name": "Bag_Wicker_F_00_01",
-			"factory": "[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/bag_wicker_f_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/bag_wicker_f_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 125.47908266050389
-						},
-						"position": {
-							"x": -1.7905693054199219,
-							"y": 347.2802734375,
-							"z": 1.4428459405899048
-						}
-					}
-				},
-				"m_fLODScale": {
-					"type": "float32",
-					"value": 1.75
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
