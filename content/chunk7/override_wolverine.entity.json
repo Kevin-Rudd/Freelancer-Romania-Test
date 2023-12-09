@@ -41287,6 +41287,4676 @@
 					"value": "ROOM_DYNAMIC"
 				}
 			}
+		},
+		"feed9f8c1792cb46": {
+			"parent": "feed5f65be611f7a",
+			"name": "Perm shortcut room",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed7c4b9bf09088": {
+			"parent": "feed9f8c1792cb46",
+			"name": "Storage_Rack_F_00",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.4087827125919177
+						},
+						"position": {
+							"x": -1.0399930477142334,
+							"y": 309.1053466796875,
+							"z": 0.48785507678985596
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedb56f40fec2fb": {
+			"parent": "feed9f8c1792cb46",
+			"name": "Storage_Rack_F_Small_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_small_color.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_small_color.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 91.70716470302881
+						},
+						"position": {
+							"x": -0.25523436069488525,
+							"y": 305.6904602050781,
+							"z": 1.017765760421753
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed9265a25816c7": {
+			"parent": "feed9f8c1792cb46",
+			"name": "SetPiece_Distraction_VacuumCleaner",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_distractions.template?/setpiece_distraction_vacuumcleaner.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_distractions.template?/setpiece_distraction_vacuumcleaner.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 46.92909434651076
+						},
+						"position": {
+							"x": -0.442379355430603,
+							"y": 308.073486328125,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedc73ba4e51b2f"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedbd57821a761f": {
+			"parent": "feed9f8c1792cb46",
+			"name": "Setpiece_Raccoon_Wetfloor_Sign",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_raccoon_unique.template?/setpiece_raccoon_wetfloor_sign.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_raccoon_unique.template?/setpiece_raccoon_wetfloor_sign.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -33.036714469281875
+						},
+						"position": {
+							"x": -1.6894601583480835,
+							"y": 308.1907653808594,
+							"z": 1
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bForceVisible": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"feedee754b46d70a": {
+			"parent": "feed7c4b9bf09088",
+			"name": "Parcel_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.5158447027206421,
+							"y": -0.21394293010234833,
+							"z": 179.49429321289065
+						},
+						"position": {
+							"x": 0.3745889961719513,
+							"y": -0.01996403932571411,
+							"z": 0.613610029220581
+						},
+						"scale": {
+							"x": 0.9999999999999998,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c4b9bf09088",
+					"postInit": true
+				}
+			}
+		},
+		"feed0d03f9a59f36": {
+			"parent": "feed7c4b9bf09088",
+			"name": "Parcel_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 155.73171997070313,
+							"y": 89.26617431640622,
+							"z": 134.4985809326172
+						},
+						"position": {
+							"x": -0.5581589937210083,
+							"y": 0.10076099634170532,
+							"z": 0.8546710014343262
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 1,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c4b9bf09088",
+					"postInit": true
+				}
+			}
+		},
+		"feedc642e41c6099": {
+			"parent": "feed7c4b9bf09088",
+			"name": "Parcel_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.5158447027206421,
+							"y": -0.21394293010234833,
+							"z": 179.49429321289065
+						},
+						"position": {
+							"x": -0.1289082020521164,
+							"y": -0.01996403932571411,
+							"z": 0.613610029220581
+						},
+						"scale": {
+							"x": 0.9999999999999998,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c4b9bf09088",
+					"postInit": true
+				}
+			}
+		},
+		"feedcda8d9c05505": {
+			"parent": "feed7c4b9bf09088",
+			"name": "Container_Plastic_Closed_B_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -174.00071716308594
+						},
+						"position": {
+							"x": 0.1982107013463974,
+							"y": -0.05077600106596947,
+							"z": 2.0637929439544678
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c4b9bf09088",
+					"postInit": true
+				}
+			}
+		},
+		"feed5b8ac90daea6": {
+			"parent": "feed7c4b9bf09088",
+			"name": "Parcel_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.5463248491287229,
+							"y": -0.12249846011400223,
+							"z": -170.5061492919922
+						},
+						"position": {
+							"x": -0.05491600185632706,
+							"y": -0.021338999271392822,
+							"z": 0.8918669819831848
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 1,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c4b9bf09088",
+					"postInit": true
+				}
+			}
+		},
+		"feed6b3f23fcc9c4": {
+			"parent": "feed7c4b9bf09088",
+			"name": "Container_Plastic_Closed_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.00534057617188
+						},
+						"position": {
+							"x": -0.030372999608516693,
+							"y": -0.02619899995625019,
+							"z": 1.391626000404358
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7c4b9bf09088"
+				}
+			}
+		},
+		"feed8b89f4fc9113": {
+			"parent": "feedee754b46d70a",
+			"name": "drainage_tubes_a01",
+			"factory": "00AB0BF0D40E3373",
+			"blueprint": "00EBB2EEF08D9EFD",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.5207735300064087,
+							"y": 0.25639945268630976,
+							"z": 0.0011459270026534796
+						},
+						"position": {
+							"x": -0.025421999394893646,
+							"y": 0.05291900038719177,
+							"z": 0.4122940003871918
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1.0000000000000002
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedee754b46d70a"
+				}
+			}
+		},
+		"feed65aaf5e83131": {
+			"parent": "feedee754b46d70a",
+			"name": "drainage_tubes_a",
+			"factory": "00AB0BF0D40E3373",
+			"blueprint": "00EBB2EEF08D9EFD",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.027159716933965683,
+							"y": 0.6055703163146972,
+							"z": -71.0683364868164
+						},
+						"position": {
+							"x": -0.005044000223278999,
+							"y": 0.06902100145816803,
+							"z": 0.29553401470184326
+						},
+						"scale": {
+							"x": 1,
+							"y": 1,
+							"z": 1.0000000000000002
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedee754b46d70a"
+				}
+			}
+		},
+		"feed540adf7a36ec": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_30",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": 0.1579730063676834,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed941d62d57d4f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_04",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960335835814476
+						},
+						"position": {
+							"x": 0.5550240278244019,
+							"y": 0.136694997549057,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed69406cd3f8c5": {
+			"parent": "feedb56f40fec2fb",
+			"name": "cardboard_box_b_02_03",
+			"factory": "00E4C673C00728A1",
+			"blueprint": "00F97FC56B4BDE78",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -91.91890716552734
+						},
+						"position": {
+							"x": 0.6608579754829407,
+							"y": -0.13463999330997467,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed527a441ed026": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_A01_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960335835814476
+						},
+						"position": {
+							"x": -0.2544269859790802,
+							"y": 0.12818799912929535,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed0baf9a2b1a18": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_08",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960335835814476
+						},
+						"position": {
+							"x": 0.32183799147605896,
+							"y": -0.01539700012654066,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed3930381994aa": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_64",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -128.64503479003906
+						},
+						"position": {
+							"x": 0.5466560125350952,
+							"y": 0.07811599969863892,
+							"z": 2.741734027862549
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feeda46cb044d0b0": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": -0.276775985956192,
+							"y": -0.03949100151658058,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed3cb05414ec33": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_20",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.15328200161457062,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedcbf4882e4091": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_11",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.13561925292015078
+						},
+						"position": {
+							"x": -0.5708670020103455,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed871b102e958f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_40",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": 0.8953850269317627,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed57ca1e398c44": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_12",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": -0.43732398748397827,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed62d4ac0fd652": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_10",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.5708690285682678,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed27250c2813f9": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_54",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": 0.5049039721488953,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed9ef8cc099d77": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_03",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.8714240193367004,
+							"y": 0.10460200160741806,
+							"z": 2.1797029972076416
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed72f1fcadf4cf": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_62",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.28689199686050415,
+							"y": 0.10459800064563751,
+							"z": 2.1770710945129395
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed16523b79587f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.45388793945313
+						},
+						"position": {
+							"x": -0.010556000284850597,
+							"y": -0.10977999866008759,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedbe9c0b36e824": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": -0.02194100059568882,
+							"y": -0.02900799922645092,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed144fa58942b6": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_A01_04",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.019767044112086296
+						},
+						"position": {
+							"x": -0.5684049725532532,
+							"y": -0.062238000333309174,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed57abb9f80707": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_36",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": -0.4373230040073395,
+							"y": 0.10459800064563751,
+							"z": 2.299170970916748
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedc33c8ed377bd": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_34",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": -0.2837660014629364,
+							"y": -0.045625001192092896,
+							"z": 2.299170970916748
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed9603612b0bda": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_17",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": -0.2971799969673157,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed26913cea7c60": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_A01",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.019767044112086296
+						},
+						"position": {
+							"x": 0.07636900246143341,
+							"y": -0.01539700012654066,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed846febf52929": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_60",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 69.0276641845703
+						},
+						"position": {
+							"x": 0.3003090023994446,
+							"y": -0.045625001192092896,
+							"z": 2.1770710945129395
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedb6ac9f5b12e4": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": 0.7856199741363525,
+							"y": -0.02900799922645092,
+							"z": 0.8639559745788574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed0bb39dfc95f2": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_56",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.8953859806060791,
+							"y": 0.10459800064563751,
+							"z": 2.2999379634857178
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed094954354df8": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": 0.785618007183075,
+							"y": -0.02900799922645092,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed5c032b101c51": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_38",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.1398591250181198
+						},
+						"position": {
+							"x": -0.5708659887313843,
+							"y": -0.045625001192092896,
+							"z": 2.299170970916748
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed9a91ccb905ba": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": -0.6523659825325012,
+							"y": -0.03949100151658058,
+							"z": 0.8639559745788574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed484e87afe97d": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_18",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": -0.2837660014629364,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed1b1364a4cac3": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_01",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.8580129742622375,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed1dd6dd05ce8a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_13",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.43732398748397827,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed8baa519799fa": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_24",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.016385000199079514,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed035f0e98285a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_29",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.14455899596214294,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedd95238ef9e6a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_14",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.4239110052585602,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedfda176e090b2": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_06",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -6.1282339096069345
+						},
+						"position": {
+							"x": 0.5675470232963562,
+							"y": -0.15411800146102905,
+							"z": 1.3710479736328125
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedd41c534ff781": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_63",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": 0.3003079891204834,
+							"y": -0.045625001192092896,
+							"z": 2.0558319091796875
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed551e993ab4c9": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_42",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": 0.908797025680542,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed795ecdbc4e55": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_46",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": 0.7701399922370911,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedeb59e9c6417f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.44960021972656
+						},
+						"position": {
+							"x": -0.647816002368927,
+							"y": 0.06129800155758858,
+							"z": 2.7467041015625
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedf5e231d05075": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_19",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.2837679982185364,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed412ad639ac9a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_33",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": -0.2971799969673157,
+							"y": 0.10459800064563751,
+							"z": 2.299170970916748
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedd8f39e05cf95": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_A01_02",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.019767044112086296
+						},
+						"position": {
+							"x": -0.2544269859790802,
+							"y": -0.06168799847364426,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedbc81497e29d1": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_37",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -110.1386489868164
+						},
+						"position": {
+							"x": -0.5842819809913635,
+							"y": 0.10459800064563751,
+							"z": 2.299170970916748
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedca048e35eb2a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_22",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": -0.13986800611019135,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed9684a2eb268a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_09",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.5842800140380859,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feeda96d81bec62c": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_06",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -82.30712127685547
+						},
+						"position": {
+							"x": -0.7041230201721191,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed50a0d63022e7": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_27",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.0029730000533163548,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedcf7f4f56157c": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_16",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.2971799969673157,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed90453518d8c5": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_28",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": 0.14455899596214294,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed7d9a4101a814": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_03",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 7.085482120513916
+						},
+						"position": {
+							"x": 0.8255079984664917,
+							"y": -0.1616940051317215,
+							"z": 1.3710479736328125
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedaeb750ae319b": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_07",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -110.1386489868164
+						},
+						"position": {
+							"x": -0.7175350189208984,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed1fc62560b733": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_55",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": 0.9088000059127808,
+							"y": -0.045625001192092896,
+							"z": 2.2999379634857178
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed7283a051db87": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_A01_05",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 85.41068267822266
+						},
+						"position": {
+							"x": -0.873652994632721,
+							"y": -0.06478600203990936,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedad4978896fab": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_32",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.8714240193367004,
+							"y": 0.10460200160741806,
+							"z": 2.299170970916748
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed665bfb29885a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_09",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -6.128461837768555
+						},
+						"position": {
+							"x": 0.325314998626709,
+							"y": -0.15411800146102905,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedaff63cab1bff": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.44960021972656
+						},
+						"position": {
+							"x": 0.09114599972963333,
+							"y": 0.06129699945449829,
+							"z": 2.7467041015625
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed3517bb9359cc": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_04",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.7175340056419373,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed42f294b21433": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_48",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": 0.6273840069770813,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedf7b49e5706c4": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_50",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": 0.6407989859580994,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedb9e534571234": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_05",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.7041230201721191,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed086c1286e71f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_58",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.7567269802093506,
+							"y": 0.10459800064563751,
+							"z": 2.2999379634857178
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedc2ec32677aa1": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_53",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.4914880096912384,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed5fb8a0de1db7": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_57",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.6273840069770813,
+							"y": 0.10459800064563751,
+							"z": 2.2999379634857178
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed086c85455acd": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_43",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 108.80570983886719
+						},
+						"position": {
+							"x": 0.770143985748291,
+							"y": -0.045628998428583145,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feeddb5b516fcba0": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_A01_03",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.019767044112086296
+						},
+						"position": {
+							"x": -0.5684049725532532,
+							"y": 0.12763899564743042,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feeddff7bf8ba812": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_26",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": -0.002971000038087368,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedb502b42aab7f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_51",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -155.3743438720703
+						},
+						"position": {
+							"x": 0.5049039721488953,
+							"y": -0.04562100023031235,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedd9b300a86ed7": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_02",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.8580129742622375,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed421a2ed3345a": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": -0.8714240193367004,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedd604b2a1a143": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": -0.7922070026397705,
+							"y": -0.03949100151658058,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feeda082903ed4c8": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": 0.5307829976081848,
+							"y": -0.03949100151658058,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed62618b321e5b": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": -0.5373719930648804,
+							"y": -0.02900799922645092,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed0385cac9f8a5": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": 0.5307850241661072,
+							"y": -0.03949100151658058,
+							"z": 0.8639559745788574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed604d19dcd9e7": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_49",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.6273840069770813,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedced78c54a311": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_07",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960335835814476
+						},
+						"position": {
+							"x": 0.31279200315475464,
+							"y": 0.136694997549057,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed06f1cb75a6f5": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_05",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960335835814476
+						},
+						"position": {
+							"x": 0.564070999622345,
+							"y": -0.01539700012654066,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedf5250b2f0918": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_61",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": 0.28689199686050415,
+							"y": 0.10460200160741806,
+							"z": 2.0558319091796875
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed38da80b08590": {
+			"parent": "feedb56f40fec2fb",
+			"name": "cardboard_box_b_02_04",
+			"factory": "00E4C673C00728A1",
+			"blueprint": "00F97FC56B4BDE78",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -91.91890716552734
+						},
+						"position": {
+							"x": -0.6943659782409668,
+							"y": -0.1371539980173111,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed3cfd96a25a6b": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_35",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": -0.423907995223999,
+							"y": -0.045625001192092896,
+							"z": 2.299170970916748
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feed7252fc663ffe": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_15",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.47195434570313
+						},
+						"position": {
+							"x": -0.4239090085029602,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb",
+					"postInit": true
+				}
+			}
+		},
+		"feedf411bdd7604d": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_47",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": 0.6407999992370605,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed980b16ba3865": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960335835814476
+						},
+						"position": {
+							"x": 0.8129860162734985,
+							"y": 0.12915700674057007,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed2610e92c2dae": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utilities/spray_bottle_a.template?/spray_bottle_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.019767044112086296
+						},
+						"position": {
+							"x": 0.8220329880714417,
+							"y": -0.02293499931693077,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feedeaf8971b7738": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_31",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": 0.15797099471092224,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feedd0e7d030d7df": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_41",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.8953850269317627,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feedf6ad871ebe0d": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_52",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": 0.4914880096912384,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed1d505c2838e3": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_44",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -19.99992942810059
+						},
+						"position": {
+							"x": 0.7567269802093506,
+							"y": 0.10460200160741806,
+							"z": 2.0584640502929688
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feedb18c878922f4": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_45",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": 0.7567269802093506,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feede734825ba187": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Laundry_Liquid_B01_11",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_b01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_b01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.019767044112086296
+						},
+						"position": {
+							"x": 0.0673229992389679,
+							"y": 0.136694997549057,
+							"z": 1.3710479736328125
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feedf357c8362aa9": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_39",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 156.4720001220703
+						},
+						"position": {
+							"x": 0.9087989926338196,
+							"y": -0.045625001192092896,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed8281cba2bead": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_21",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": -0.15328200161457062,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed5ab4440547f3": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_59",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -128.64508056640625
+						},
+						"position": {
+							"x": 0.6408010125160217,
+							"y": -0.045625001192092896,
+							"z": 2.2999379634857178
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed0babb37cc4cf": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_23",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.01949691772461
+						},
+						"position": {
+							"x": -0.13987000286579132,
+							"y": -0.045625001192092896,
+							"z": 2.0584640502929688
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed39e29401c52f": {
+			"parent": "feedb56f40fec2fb",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.04141998291016
+						},
+						"position": {
+							"x": -0.4031609892845154,
+							"y": -0.03949100151658058,
+							"z": 0.8639559745788574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed6325386d9ca4": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_25",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 82.86162567138672
+						},
+						"position": {
+							"x": -0.016385000199079514,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feed35d230a06a38": {
+			"parent": "feedb56f40fec2fb",
+			"name": "toilet_paper_a_08",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -110.1386489868164
+						},
+						"position": {
+							"x": -0.5842819809913635,
+							"y": 0.10459800064563751,
+							"z": 2.1797029972076416
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb56f40fec2fb"
+				}
+			}
+		},
+		"feedc73ba4e51b2f": {
+			"parent": "feed9265a25816c7",
+			"name": "VolumeBox01",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -33.8956,
+							"y": -42.9808,
+							"z": -1.5
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 20,
+						"y": 15,
+						"z": 3
+					}
+				}
+			}
+		},
+		"feed6be0cc02287f": {
+			"parent": "feed5f65be611f7a",
+			"name": "Container Storage room props",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed426856e23c66": {
+			"parent": "feed6be0cc02287f",
+			"name": "Parcel_Cart_F_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_cart_f_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_cart_f_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 87.85777890327529
+						},
+						"position": {
+							"x": -0.8525005578994751,
+							"y": 447.5094299316406,
+							"z": 1.2618097066879272
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed5772de888650": {
+			"parent": "feed6be0cc02287f",
+			"name": "Storage_Rack_F_Small_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_small_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_small_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.15628858783853
+						},
+						"position": {
+							"x": 0.8289525508880615,
+							"y": 444.44268798828125,
+							"z": 1.247577428817749
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feed57df2c5548d6": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_09",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 4.148800300107579
+						},
+						"position": {
+							"x": -0.5089110136032104,
+							"y": 0.04402000084519386,
+							"z": 1.6118329763412476
+						},
+						"scale": {
+							"x": 1.0000009892168704,
+							"y": 1.0000009892168704,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed43fad81e8dcf": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_11",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -176.65380056072667
+						},
+						"position": {
+							"x": -0.5089719891548157,
+							"y": 0.20648199319839478,
+							"z": 1.8650230169296265
+						},
+						"scale": {
+							"x": 0.9999998653701611,
+							"y": 0.9999998653701611,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feeda2af47f2f765": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_01",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.2170410007238388,
+							"y": -0.12516599893569946,
+							"z": 1.5693379640579224
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed55360bd09a31": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_03",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 175.75060283078844
+						},
+						"position": {
+							"x": 0.12448100000619888,
+							"y": 0.2879849970340729,
+							"z": 1.5693379640579224
+						},
+						"scale": {
+							"x": 1.0000000188724503,
+							"y": 1.0000000188724503,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed4082d88c805e": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_02",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0.49157699942588806,
+							"y": -0.12516599893569946,
+							"z": 1.5693379640579224
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feedbe2f9a32a31c": {
+			"parent": "feed426856e23c66",
+			"name": "military_server_case_open_c",
+			"factory": "00D3153F300A054F",
+			"blueprint": "001836B44A071FE0",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -2.5918563791753457,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0.24710099399089813,
+							"y": 0.03177599981427193,
+							"z": 1.4183779954910278
+						},
+						"scale": {
+							"x": 0.999999996404509,
+							"y": 1,
+							"z": 0.999999996404509
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8500000238418579,
+						"y": 0.8500000238418579,
+						"z": 0.8500000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed210194045df2": {
+			"parent": "feed426856e23c66",
+			"name": "storage_box_medium_d_03",
+			"factory": "007EB1EBF8753929",
+			"blueprint": "00E6A9987C771C9C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.5489500164985657,
+							"y": 0.031773000955581665,
+							"z": 0.2639180123806
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8500000238418579,
+						"y": 0.8500000238418579,
+						"z": 0.8500000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed50c991162117": {
+			"parent": "feed426856e23c66",
+			"name": "military_server_case_open_b",
+			"factory": "0021C521104D0DA7",
+			"blueprint": "006A9BE3CE9A99E2",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -2.5918563791753457,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0.25714099407196045,
+							"y": 0.03177599981427193,
+							"z": 1.1492420434951782
+						},
+						"scale": {
+							"x": 0.999999996404509,
+							"y": 1,
+							"z": 0.999999996404509
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8500000238418579,
+						"y": 0.8500000238418579,
+						"z": 0.8500000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed8d5e9c062177": {
+			"parent": "feed426856e23c66",
+			"name": "storage_box_medium_d_04",
+			"factory": "007EB1EBF8753929",
+			"blueprint": "00E6A9987C771C9C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.5489500164985657,
+							"y": 0.031773000955581665,
+							"z": 0.6781550049781799
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8500000238418579,
+						"y": 0.8500000238418579,
+						"z": 0.8500000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed79d5a8255649": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_05",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.5649995633930647
+						},
+						"position": {
+							"x": 0.15625,
+							"y": 0.054854001849889755,
+							"z": 1.8193379640579224
+						},
+						"scale": {
+							"x": 1.0000000180717732,
+							"y": 1.0000000180717732,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66",
+					"postInit": true
+				}
+			}
+		},
+		"feed13f255987779": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_d_02",
+			"factory": "00D41EE90D43249A",
+			"blueprint": "00244BAD32C50A46",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 179.97203966235674
+						},
+						"position": {
+							"x": -0.5088809728622437,
+							"y": -0.23537999391555786,
+							"z": 1.1013489961624146
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feedb00a76701b0f": {
+			"parent": "feed426856e23c66",
+			"name": "storage_box_medium_d_01",
+			"factory": "007EB1EBF8753929",
+			"blueprint": "00E6A9987C771C9C",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.09652700275182724,
+							"y": 0.031773000955581665,
+							"z": 0.6781550049781799
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8500000238418579,
+						"y": 0.8500000238418579,
+						"z": 0.8500000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed6fd7ba33b745": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_d",
+			"factory": "00D41EE90D43249A",
+			"blueprint": "00244BAD32C50A46",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.01976704358638215
+						},
+						"position": {
+							"x": -0.5088809728622437,
+							"y": 0.27905699610710144,
+							"z": 1.1013489961624146
+						},
+						"scale": {
+							"x": 1.0000001190250052,
+							"y": 1.0000001190250052,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feedbc6dec9f9c43": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.03179899975657463,
+							"y": -0.12516599893569946,
+							"z": 1.5693379640579224
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feedea2da01f33e6": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_06",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.1521809409441628
+						},
+						"position": {
+							"x": -0.5089110136032104,
+							"y": 0.025293000042438507,
+							"z": 1.3588240146636963
+						},
+						"scale": {
+							"x": 1.0000003721634096,
+							"y": 1.0000003721634096,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feedb47ada236aea": {
+			"parent": "feed426856e23c66",
+			"name": "storage_box_medium_a",
+			"factory": "00CA965E9EFD5686",
+			"blueprint": "00CD1A65308D4C24",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0.1801449954509735,
+							"y": 0.031773000955581665,
+							"z": 0.2639180123806
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.8500000238418579,
+						"y": 0.8500000238418579,
+						"z": 0.8500000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed68d66e6af70c": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_04",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179.05228441274923
+						},
+						"position": {
+							"x": 0.1318970024585724,
+							"y": -0.2321850061416626,
+							"z": 1.8193379640579224
+						},
+						"scale": {
+							"x": 0.9999996474209149,
+							"y": 0.9999996474209149,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed5207c650186d": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_10",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 4.148400078016518
+						},
+						"position": {
+							"x": -0.5089110136032104,
+							"y": 0.28130200505256653,
+							"z": 1.6138169765472412
+						},
+						"scale": {
+							"x": 0.9999999758948663,
+							"y": 0.9999999758948663,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed3efff9fe1c4d": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_07",
+			"factory": "00A6CBAA912AE06A",
+			"blueprint": "0077CF5AD9042186",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.6379443676405044
+						},
+						"position": {
+							"x": -0.5477910041809082,
+							"y": -0.23454099893569946,
+							"z": 1.3588240146636963
+						},
+						"scale": {
+							"x": 0.999999992127768,
+							"y": 0.999999992127768,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed1d34cca492fa": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_e",
+			"factory": "006F2B539C17AE9D",
+			"blueprint": "008D5AB3ABFEE9D8",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 2.4807078325494096
+						},
+						"position": {
+							"x": -0.5089110136032104,
+							"y": 0.29460299015045166,
+							"z": 1.3588240146636963
+						},
+						"scale": {
+							"x": 1.0000003260491186,
+							"y": 1.0000003260491186,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feedab106c2f4a99": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_d_01",
+			"factory": "00D41EE90D43249A",
+			"blueprint": "00244BAD32C50A46",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.027960337643270574
+						},
+						"position": {
+							"x": -0.5357059836387634,
+							"y": 0.01842300035059452,
+							"z": 1.1013489961624146
+						},
+						"scale": {
+							"x": 1.0000002381439907,
+							"y": 1.0000002381439907,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed33d30ae50349": {
+			"parent": "feed426856e23c66",
+			"name": "military_rations_box_a_08",
+			"factory": "006F2B539C17AE9D",
+			"blueprint": "008D5AB3ABFEE9D8",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.1518372598539617
+						},
+						"position": {
+							"x": -0.5089110136032104,
+							"y": -0.2379249930381775,
+							"z": 1.6118329763412476
+						},
+						"scale": {
+							"x": 1.000000130920301,
+							"y": 1.000000130920301,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed426856e23c66"
+				}
+			}
+		},
+		"feed5a4a17d6a4ed": {
+			"parent": "feed5772de888650",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -107.69938659667969
+						},
+						"position": {
+							"x": 0.5518490076065063,
+							"y": 0.0015409999759867787,
+							"z": 2.058465003967285
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650",
+					"postInit": true
+				}
+			}
+		},
+		"feed9c38c29f0626": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_e_02",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 62.09394836425781
+						},
+						"position": {
+							"x": 0.5239560008049011,
+							"y": -0.07773199677467346,
+							"z": 1.3710500001907349
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650",
+					"postInit": true
+				}
+			}
+		},
+		"feed5a9051ec61e5": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_b",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.6980590224266052,
+							"y": 0.06094399839639664,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed03d4fcdf3520": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_c_04",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -168.27162170410156
+						},
+						"position": {
+							"x": -0.3820649981498718,
+							"y": -0.11337299644947052,
+							"z": 1.3710500001907349
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed7219e9487dcd": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_c_03",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 150.7576141357422
+						},
+						"position": {
+							"x": -0.6226959824562073,
+							"y": 0.10247399657964706,
+							"z": 1.3710500001907349
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999999,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed6d39c06d134a": {
+			"parent": "feed5772de888650",
+			"name": "Container_Plastic_Closed_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -174.71821594238278
+						},
+						"position": {
+							"x": -0.4852449893951416,
+							"y": -0.02149200066924095,
+							"z": 2.058465003967285
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feeda5fc58611dca": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_e",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.7544400095939636,
+							"y": 0.031311001628637314,
+							"z": 2.7417330741882324
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed1546250b4151": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_f_02",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_f.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 69.376708984375
+						},
+						"position": {
+							"x": 0.6123200058937073,
+							"y": -0.09244900196790695,
+							"z": 2.7417330741882324
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feedf8d96ac07bd9": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_d",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.7672730088233948,
+							"y": 0.012637999840080738,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feedce0914882c5d": {
+			"parent": "feed5772de888650",
+			"name": "old_paint_cans_e_02",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/old_paint_cans_e.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/old_paint_cans_e.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 111.02374267578125
+						},
+						"position": {
+							"x": -0.4148249924182892,
+							"y": 0.015174999833106995,
+							"z": 0.6136130094528198
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed3972899fcb28": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_c",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -0.8366699814796448,
+							"y": -0.11336900293827057,
+							"z": 1.3710500001907349
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feedb9368fd2cb14": {
+			"parent": "feed5772de888650",
+			"name": "Container_Plastic_Closed_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 75.94742584228516
+						},
+						"position": {
+							"x": -0.2313230037689209,
+							"y": -0.20369000732898712,
+							"z": 2.7417330741882324
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed8c98dd8e8087": {
+			"parent": "feed5772de888650",
+			"name": "tub_of_nails_a",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.7805330157279968,
+							"y": 0.05157500132918358,
+							"z": 1.3710500001907349
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feedb50d146fa8ee": {
+			"parent": "feed5772de888650",
+			"name": "Container_Plastic_Closed_B_ColorMask_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_b_colormask_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -86.52430725097656
+						},
+						"position": {
+							"x": 0.2039639949798584,
+							"y": 0.0015409999759867787,
+							"z": 2.058465003967285
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed589bf4a1ae53": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_d_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -53.20782470703125
+						},
+						"position": {
+							"x": 0.7922059893608093,
+							"y": 0.012626999989151955,
+							"z": 0.6136130094528198
+						},
+						"scale": {
+							"x": 0.9999999999999998,
+							"y": 0.9999999999999998,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feeda400acdebc13": {
+			"parent": "feed5772de888650",
+			"name": "old_paint_cans_e",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/old_paint_cans_e.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/old_paint_cans_e.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -132.80958557128906
+						},
+						"position": {
+							"x": 0.7859339714050293,
+							"y": 0.10679200291633606,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed6e80408293bf": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_f",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_f.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.8093410134315491,
+							"y": 0.04497100040316582,
+							"z": 2.058465003967285
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed381c194c9259": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_e_01",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.4401400089263916,
+							"y": 0.031311001628637314,
+							"z": 2.7417330741882324
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feed2d40ca95b10f": {
+			"parent": "feed5772de888650",
+			"name": "rusty_metal_buckets_c_02",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 174.921875
+						},
+						"position": {
+							"x": -0.6226959824562073,
+							"y": -0.14986400306224823,
+							"z": 1.3710500001907349
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5772de888650"
+				}
+			}
+		},
+		"feedaf5fc9590797": {
+			"parent": "feed8c98dd8e8087",
+			"name": "tub_of_nails_nail_f",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_f.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 72.9981918334961,
+							"y": 83.1486587524414,
+							"z": 157.67317199707028
+						},
+						"position": {
+							"x": 0.10572800040245056,
+							"y": 0.02284199930727482,
+							"z": -9.999999974752427e-7
+						},
+						"scale": {
+							"x": 0.9999999999999999,
+							"y": 0.9999999999999998,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c98dd8e8087",
+					"postInit": true
+				}
+			}
+		},
+		"feedb19ba6361082": {
+			"parent": "feed8c98dd8e8087",
+			"name": "tub_of_nails_nail_g",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_g.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_g.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 84.31468963623036,
+							"z": -180
+						},
+						"position": {
+							"x": 0.07701099663972855,
+							"y": -0.105942003428936,
+							"z": 9.999999974752427e-7
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1,
+							"z": 1.0000000000000002
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c98dd8e8087",
+					"postInit": true
+				}
+			}
+		},
+		"feed48d120109645": {
+			"parent": "feed8c98dd8e8087",
+			"name": "tub_of_nails_nail_c",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_c.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_c.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0005783363012596965,
+							"y": 84.31410217285155,
+							"z": 74.69450378417969
+						},
+						"position": {
+							"x": 0.1072240024805069,
+							"y": -0.014759000390768051,
+							"z": 0
+						},
+						"scale": {
+							"x": 1.0000000000000002,
+							"y": 1.0000000000000002,
+							"z": 1
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c98dd8e8087",
+					"postInit": true
+				}
+			}
+		},
+		"feedd2bb6b33adbb": {
+			"parent": "feed8c98dd8e8087",
+			"name": "tub_of_nails_nail_d",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -7.821372032165529,
+							"y": 79.43952178955078,
+							"z": -168.75738525390625
+						},
+						"position": {
+							"x": 0.07067900151014328,
+							"y": -0.06525799632072449,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c98dd8e8087"
+				}
+			}
+		},
+		"feedfee6bdbca819": {
+			"parent": "feed8c98dd8e8087",
+			"name": "tub_of_nails_nail_a",
+			"factory": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/tub_of_nails_a.template?/tub_of_nails_nail_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 86.21260070800781,
+							"z": -180
+						},
+						"position": {
+							"x": 0.17260700464248657,
+							"y": 0.003470999887213111,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8c98dd8e8087"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -44625,6 +49295,86 @@
 		},
 		{
 			"ref": "06d62ab6c9faa141",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d7e1e10ad8bffa28",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "2cd4906f02d0e74e",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "05d7bef58870f5f5",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "81038f91e03d38c4",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "615be59b9e469c0d",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "af317f56f6ea58b8",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d2bb39dc3cefaa4c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d739f4607c5ec514",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c6a52c10080f497",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "cd3ddec3b1101198",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "4e88081590462bb9",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "0b4eb68fa88b06bd",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "2df845fe356aef63",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "4cc30d71d0fc6ac1",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "3f6e51e357b422c8",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "84de51d73470fb65",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "c572d2ad1334a63c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "d3f69e16bdde4b4a",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "8f3d4da9dfc11d52",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "51010fc3aa5ff0b1",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
