@@ -442,12 +442,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 175.77357957320083
+							"z": -142.6709584777073
 						},
 						"position": {
-							"x": -1.3148499,
-							"y": 309.12006,
-							"z": 2.0023534
+							"x": -0.47036615,
+							"y": 308.99994,
+							"z": 1.8774177
 						}
 					}
 				},
@@ -908,7 +908,7 @@
 		},
 		"4a7da649ad67a3f3": {
 			"parent": "200f93ee418e43d8",
-			"name": "Helper_Evergreen_SupplierPackage_01",
+			"name": "Helper_Evergreen_SupplierPackage_01 Container",
 			"factory": "00C24824C594949D",
 			"blueprint": "001A45D430502A4A",
 			"properties": {
@@ -918,12 +918,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 54.70236351541765
+							"z": -44.0290830315326
 						},
 						"position": {
-							"x": -0.961792,
-							"y": 451.08087,
-							"z": 1
+							"x": -1.1209083,
+							"y": 446.5055,
+							"z": 1.2477722
 						}
 					}
 				},
@@ -1031,21 +1031,21 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 30.852540362635015
+							"z": -45
 						},
 						"position": {
-							"x": -0.15228271484375,
-							"y": 1.8516845703125,
-							"z": 1.2770638465881348
+							"x": -0.99,
+							"y": -1.479,
+							"z": 1.277
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 11.696599960327148,
-						"y": 6.0527801513671875,
-						"z": 2.671329975128174
+						"x": 8,
+						"y": 6,
+						"z": 2.67
 					}
 				},
 				"m_eidParent": {
@@ -5582,7 +5582,7 @@
 							"z": 97.80539242380699
 						},
 						"position": {
-							"x": -0.03829956,
+							"x": 0.14270104,
 							"y": 447.48096,
 							"z": 1.2477722
 						}
@@ -34077,9 +34077,9 @@
 							"z": 34.228683648102255
 						},
 						"position": {
-							"x": -1.5328674,
-							"y": 306.73444,
-							"z": 1
+							"x": -1.7064464,
+							"y": 309.0494,
+							"z": 1.8630514
 						}
 					}
 				},
@@ -41379,11 +41379,15 @@
 						"feedc73ba4e51b2f"
 					],
 					"postInit": true
+				},
+				"NPCDispatchKeyword": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2bc4232f9423"
 				}
 			}
 		},
 		"feedbd57821a761f": {
-			"parent": "feed9f8c1792cb46",
+			"parent": "feed14f6f5c69129",
 			"name": "Setpiece_Raccoon_Wetfloor_Sign",
 			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_raccoon_unique.template?/setpiece_raccoon_wetfloor_sign.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_raccoon_unique.template?/setpiece_raccoon_wetfloor_sign.entitytemplate].pc_entityblueprint",
@@ -41394,11 +41398,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -33.036714469281875
+							"z": -33.03671318509748
 						},
 						"position": {
-							"x": -1.6894601583480835,
-							"y": 308.1907653808594,
+							"x": -1.077443,
+							"y": 302.70575,
 							"z": 1
 						}
 					}
@@ -44469,20 +44473,20 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
+							"z": -90
 						},
 						"position": {
-							"x": -33.8956,
-							"y": -42.9808,
-							"z": -1.5
+							"x": -0.8451843,
+							"y": 307.5885,
+							"z": 1.7727916
 						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
 					"value": {
-						"x": 20,
-						"y": 15,
+						"x": 14,
+						"y": 7,
 						"z": 3
 					}
 				}
@@ -45444,60 +45448,6 @@
 				}
 			}
 		},
-		"feeda5fc58611dca": {
-			"parent": "feed5772de888650",
-			"name": "rusty_metal_buckets_e",
-			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0.7544400095939636,
-							"y": 0.031311001628637314,
-							"z": 2.7417330741882324
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed5772de888650"
-				}
-			}
-		},
-		"feed1546250b4151": {
-			"parent": "feed5772de888650",
-			"name": "rusty_metal_buckets_f_02",
-			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 69.376708984375
-						},
-						"position": {
-							"x": 0.6123200058937073,
-							"y": -0.09244900196790695,
-							"z": 2.7417330741882324
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed5772de888650"
-				}
-			}
-		},
 		"feedf8d96ac07bd9": {
 			"parent": "feed5772de888650",
 			"name": "rusty_metal_buckets_d",
@@ -45570,33 +45520,6 @@
 							"x": -0.8366699814796448,
 							"y": -0.11336900293827057,
 							"z": 1.3710500001907349
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed5772de888650"
-				}
-			}
-		},
-		"feedb9368fd2cb14": {
-			"parent": "feed5772de888650",
-			"name": "Container_Plastic_Closed_A_00_04",
-			"factory": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/containers/containers_b.template?/container_plastic_closed_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 75.94742584228516
-						},
-						"position": {
-							"x": -0.2313230037689209,
-							"y": -0.20369000732898712,
-							"z": 2.7417330741882324
 						}
 					}
 				},
@@ -45742,33 +45665,6 @@
 							"x": 0.8093410134315491,
 							"y": 0.04497100040316582,
 							"z": 2.058465003967285
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed5772de888650"
-				}
-			}
-		},
-		"feed381c194c9259": {
-			"parent": "feed5772de888650",
-			"name": "rusty_metal_buckets_e_01",
-			"factory": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/rusty_metal_buckets_a.template?/rusty_metal_buckets_e.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0.4401400089263916,
-							"y": 0.031311001628637314,
-							"z": 2.7417330741882324
 						}
 					}
 				},
