@@ -3017,7 +3017,7 @@
 				},
 				"NPCDispatchKeyword": {
 					"type": "SEntityTemplateReference",
-					"value": "feed99f925674cee"
+					"value": "feedfebcf570e9db"
 				}
 			},
 			"subsets": {
@@ -12421,7 +12421,7 @@
 				},
 				"m_rRequirements": {
 					"type": "SEntityTemplateReference",
-					"value": "feed99f925674cee",
+					"value": "feedaba33c44f40f",
 					"postInit": true
 				}
 			},
@@ -34043,8 +34043,7 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed130fe337fa19",
-						"feedd449b700bf82"
+
 					],
 					"postInit": true
 				}
@@ -36826,8 +36825,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"feed0b1219e246d6",
-						"feedf76055829ea8",
-						"feed0642e28d299e"
+						"feedf76055829ea8"
 					],
 					"postInit": true
 				}
@@ -36943,14 +36941,17 @@
 		},
 		"feedf76055829ea8": {
 			"parent": "feede8feb0dc7ee7",
-			"name": "Prof_Trapped_Worker",
+			"name": "Prof_Trapped_Worker (+ Guard)",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_worker.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_worker.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						{
+							"ref": "445913a3c0cbe5e3",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/outfits_wolverine.brick].pc_entitytype"
+						}
 					]
 				}
 			}
@@ -36985,14 +36986,14 @@
 		},
 		"feedfebcf570e9db": {
 			"parent": "feede8feb0dc7ee7",
-			"name": "prof_trapped_worker_doctor",
+			"name": "prof_trapped_worker_doctor (Civ Staff)",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_worker_doctor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_worker_doctor.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						"feed4ee15e7e21f8"
 					]
 				}
 			}
@@ -37006,7 +37007,8 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						"feed130fe337fa19",
+						"feedd449b700bf82"
 					],
 					"postInit": true
 				}
@@ -41360,11 +41362,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 46.92909434651076
+							"z": 90
 						},
 						"position": {
-							"x": -0.442379355430603,
-							"y": 308.073486328125,
+							"x": -0.29753107,
+							"y": 308.2053,
 							"z": 1
 						}
 					}
@@ -41382,7 +41384,7 @@
 				},
 				"NPCDispatchKeyword": {
 					"type": "SEntityTemplateReference",
-					"value": "feed2bc4232f9423"
+					"value": "feedf76055829ea8"
 				}
 			}
 		},
@@ -41398,11 +41400,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -33.03671318509748
+							"z": -41.781868832328364
 						},
 						"position": {
-							"x": -1.077443,
-							"y": 302.70575,
+							"x": 1.7609792,
+							"y": 301.02054,
 							"z": 1
 						}
 					}
