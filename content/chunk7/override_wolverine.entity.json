@@ -39779,49 +39779,6 @@
 				}
 			}
 		},
-		"feed0e781f9945fe": {
-			"parent": "feed5bdf732b60c7",
-			"name": "PFObstacle",
-			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
-			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -179.39477389999956
-						},
-						"position": {
-							"x": -1.008941650390625,
-							"y": 433.4871520996094,
-							"z": 1
-						}
-					}
-				},
-				"m_fPenaltyMultiplier": {
-					"type": "float32",
-					"value": -1
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": {
-						"x": 2.940000057220459,
-						"y": 1.7214499711990356,
-						"z": 1.5
-					}
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
 		"feedda3f9453cd21": {
 			"parent": "feed0071912b0a5b",
 			"name": "CHAR_Miami_Sambuca_ElusiveTarget_Sambuca_M_PRO118850",
