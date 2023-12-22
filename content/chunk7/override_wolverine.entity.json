@@ -45815,7 +45815,7 @@
 		},
 		"feed8479eb0bbfc7": {
 			"parent": "feed5f65be611f7a",
-			"name": "luguages 4",
+			"name": "Stash Replacements",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -45873,33 +45873,6 @@
 				}
 			}
 		},
-		"feed82a0756b80cc": {
-			"parent": "feed8479eb0bbfc7",
-			"name": "Suitcase_B01_02",
-			"factory": "0079ED90192AA757",
-			"blueprint": "0013AA579AC29896",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0.5736762299666304,
-							"y": -4.85579397976223,
-							"z": 0.715358190180947
-						},
-						"position": {
-							"x": -1.5168802738189697,
-							"y": 232.32908630371094,
-							"z": 1.2792915105819702
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
 		"feed7d66d18d9686": {
 			"parent": "feed8479eb0bbfc7",
 			"name": "GymBag_A07",
@@ -45918,60 +45891,6 @@
 							"x": -0.9360995888710022,
 							"y": 236.29444885253906,
 							"z": 0.9918447136878967
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feed8043d327ed10": {
-			"parent": "feed8479eb0bbfc7",
-			"name": "Suitcase_A02_12",
-			"factory": "00C63CD1AF578489",
-			"blueprint": "00F3DB6C117DC18C",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0.5260395461580162,
-							"y": -0.5233684956486072,
-							"z": 178.7033237290504
-						},
-						"position": {
-							"x": -1.4911624193191528,
-							"y": 232.00868225097656,
-							"z": 1.2250808477401733
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feede83d2ed3f9e5": {
-			"parent": "feed8479eb0bbfc7",
-			"name": "Suitcase_B02_06",
-			"factory": "001D9FB1A2E00B66",
-			"blueprint": "0006135958AF7EE9",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90.13084062321703,
-							"y": -0.265314349173702,
-							"z": 179.95103179352628
-						},
-						"position": {
-							"x": -1.4826204776763916,
-							"y": 232.47596740722656,
-							"z": 1.4003469944000244
 						}
 					}
 				},
@@ -46035,137 +45954,6 @@
 				}
 			}
 		},
-		"feedead811f8b8b4": {
-			"parent": "feed5f65be611f7a",
-			"name": "luguages bar room",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -1.232177734375,
-							"y": 382.9070739746094,
-							"z": 1
-						}
-					}
-				}
-			}
-		},
-		"feed739675b91eed": {
-			"parent": "feedead811f8b8b4",
-			"name": "Suitcase_B02_08",
-			"factory": "00A8F502378B30A8",
-			"blueprint": "009B477FEA18AEC6",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0.46035797297849984,
-							"y": -0.5068611288659223,
-							"z": 179.76300089592155
-						},
-						"position": {
-							"x": -1.2374857664108276,
-							"y": 384.57098388671875,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feedae018b573aff": {
-			"parent": "feedead811f8b8b4",
-			"name": "Suitcase_A01_02",
-			"factory": "00D3A25B845BED4E",
-			"blueprint": "001DD91F326D9CF2",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -86.13106050310364
-						},
-						"position": {
-							"x": -1.8812295198440552,
-							"y": 384.5342102050781,
-							"z": 1
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feeda26130bdad8f": {
-			"parent": "feedead811f8b8b4",
-			"name": "Suitcase_A02_13",
-			"factory": "00C63CD1AF578489",
-			"blueprint": "00F3DB6C117DC18C",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -1.1137177352108465,
-							"y": -2.1442776889071764,
-							"z": -178.09950267398654
-						},
-						"position": {
-							"x": -1.7972546815872192,
-							"y": 384.11810302734375,
-							"z": 1.0014270544052124
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
-		"feed65a4bf7eb5c4": {
-			"parent": "feedead811f8b8b4",
-			"name": "Suitcase_B02_Red",
-			"factory": "001D9FB1A2E00B66",
-			"blueprint": "0006135958AF7EE9",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 1.0913159071147303,
-							"y": -0.18430780993737167,
-							"z": -3.1217567179168966
-						},
-						"position": {
-							"x": -1.194855809211731,
-							"y": 384.13970947265625,
-							"z": 1.002629041671753
-						}
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
-			}
-		},
 		"feedfe9aa51193b3": {
 			"parent": "feed8479eb0bbfc7",
 			"name": "Parcel_Cart_D_00",
@@ -46193,11 +45981,11 @@
 				}
 			}
 		},
-		"feed233a9d92d56e": {
+		"feed6d65b911a2e2": {
 			"parent": "feed8479eb0bbfc7",
-			"name": "Parcel_Cart_D_00",
-			"factory": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_cart_d_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/industrial/parcel_cart_a_00.template?/parcel_cart_d_00.entitytemplate].pc_entityblueprint",
+			"name": "cleaner_trolley_A_Bulldog",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/cleaner_trolley_a_bulldog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/cleaner_trolley_a_bulldog.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -46205,11 +45993,241 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -92.8735584813959
+							"z": 85.15974113782444
 						},
 						"position": {
-							"x": -1.567267894744873,
-							"y": 232.68016052246094,
+							"x": -1.3916132,
+							"y": 232.6762,
+							"z": 1
+						}
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedd84b38782554": {
+			"parent": "feed6d65b911a2e2",
+			"name": "Fabric_Stack_Marrakesh_B_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.6502860188484192,
+							"y": -0.0005610000225715339,
+							"z": 0.5113189816474915
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 0.75
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d65b911a2e2",
+					"postInit": true
+				}
+			}
+		},
+		"feed297b66c11356": {
+			"parent": "feed6d65b911a2e2",
+			"name": "Bathroom_Towel_C_White_03",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_white.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_white.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -178.21357194191916
+						},
+						"position": {
+							"x": -0.624455988407135,
+							"y": -0.008067999966442585,
+							"z": 0.9285230040550232
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9449999928474426,
+						"y": 0.9449999928474426,
+						"z": 0.9449999928474426
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d65b911a2e2",
+					"postInit": true
+				}
+			}
+		},
+		"feed826d43e23f86": {
+			"parent": "feed6d65b911a2e2",
+			"name": "Bathroom_Towel_C_White_02",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_white.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_white.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 177.6139152901748
+						},
+						"position": {
+							"x": -0.6244609951972961,
+							"y": -0.008098999969661236,
+							"z": 0.8589029908180237
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.9449999928474426,
+						"y": 0.9449999928474426,
+						"z": 0.9449999928474426
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d65b911a2e2",
+					"postInit": true
+				}
+			}
+		},
+		"feed323bcfd850e0": {
+			"parent": "feed6d65b911a2e2",
+			"name": "Bathroom_Towel_C_White_04",
+			"factory": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_white.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_white.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 5.537545823274866
+						},
+						"position": {
+							"x": -0.6263589859008789,
+							"y": -0.00822100043296814,
+							"z": 1.0022070407867432
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.7087500095367432,
+						"y": 0.7087500095367432,
+						"z": 0.7087500095367432
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d65b911a2e2",
+					"postInit": true
+				}
+			}
+		},
+		"feed1119c54788ac": {
+			"parent": "feed6d65b911a2e2",
+			"name": "Fabric_Stack_Marrakesh_B_00",
+			"factory": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90.00005729577937
+						},
+						"position": {
+							"x": -0.6370570063591003,
+							"y": -0.016932999715209007,
+							"z": 0.1715250015258789
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.75,
+						"y": 0.75,
+						"z": 0.75
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed6d65b911a2e2"
+				}
+			}
+		},
+		"feedfaf605c1ebcb": {
+			"parent": "feed8479eb0bbfc7",
+			"name": "Service_Cart_B",
+			"factory": "[assembly:/_pro/environment/templates/props/equipment/service_equipment_a.template?/service_cart_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/equipment/service_equipment_a.template?/service_cart_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -89.33976909854806
+						},
+						"position": {
+							"x": -1.5099897,
+							"y": 384.40146,
 							"z": 1
 						}
 					}
@@ -46217,6 +46235,1987 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		"feedfc18fc0261df": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Wine_Box_Closed_A_01",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_a.template?/wine_box_closed_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_a.template?/wine_box_closed_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.053164999932050705,
+							"y": -0.5138239860534668,
+							"z": 0.13769200444221497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feedd304c278525f": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.21326300501823425,
+							"y": -0.6144099831581116,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed26c9bbc0bd28": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1942799985408783,
+							"y": -0.17236299812793732,
+							"z": 1.0231529474258423
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed9910ac1fcb42": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "humidor_a",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/colombia_furniture_a.template?/humidor_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/colombia_furniture_a.template?/humidor_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.04184100031852722,
+							"y": 0.3007200062274933,
+							"z": 0.3508090078830719
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feed421296cab5a6": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.0811660289764404
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed9d0864d716e5": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1751510053873062,
+							"y": 0.15475499629974365,
+							"z": 1.0048890113830566
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feed99c8f077734d": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_16",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1751510053873062,
+							"y": 0.15475499629974365,
+							"z": 1.0370179414749146
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feedbfea78209a1f": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "humidor_closed_a",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/colombia_furniture_a.template?/humidor_closed_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/colombia_furniture_a.template?/humidor_closed_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.04184100031852722,
+							"y": 0.3007200062274933,
+							"z": 0.13769200444221497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feedc7adc011c5ad": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.15475499629974365,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feed2198749c5bb5": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf5e2778f0f0e": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Ashtray_A_Empty_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -5.902100700057031
+						},
+						"position": {
+							"x": 0.2793009877204895,
+							"y": 0.3936159908771515,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed8fa0f99cf302": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -47.81334522897919
+						},
+						"position": {
+							"x": -0.20862199366092682,
+							"y": -0.05923499912023544,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed15d44444f5d1": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_13",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": -2.984109927493229,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1764499992132187,
+							"y": -0.16873200237751007,
+							"z": 1.0629340410232544
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6629212832ef": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.3803099989891052,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feedbc72c1fd99c6": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "wicker_basket_d",
+			"factory": "[assembly:/_pro/environment/geometry/props/containers/wicker_basket_a.wl2?/wicker_basket_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.21500900387763977,
+							"y": -0.48809799551963806,
+							"z": 0.13769200444221497
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feedc094bc122e82": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.15475499629974365,
+							"z": 1.015570044517517
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feed0b720824f1ae": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_12",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1942799985408783,
+							"y": -0.17236299812793732,
+							"z": 1.049973964691162
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda0f42b031fe2": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "wicker_basket_d_01",
+			"factory": "[assembly:/_pro/environment/geometry/props/containers/wicker_basket_a.wl2?/wicker_basket_d.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 8.497601593216128
+						},
+						"position": {
+							"x": 0.21594999730587006,
+							"y": -0.07757599651813507,
+							"z": 0.13769200444221497
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feeddcdbd8563516": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_14",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.3803099989891052,
+							"z": 1.0250519514083862
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feed708cf78cb7fb": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1751510053873062,
+							"y": 0.15475499629974365,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			}
+		},
+		"feed290c1b61676c": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_11",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1942799985408783,
+							"y": -0.17236299812793732,
+							"z": 1.0364069938659668
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedcc80092f029f": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.0632280111312866
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed24c05628a7be": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.0944199562072754
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6c155b4cebda": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_12",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1751510053873062,
+							"y": 0.15475499629974365,
+							"z": 1.0250519514083862
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feed7bde0f7f3b6f": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_13",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.15475499629974365,
+							"z": 1.0250519514083862
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feed337f98d85b51": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.0077940225601196
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf223ada627f3": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.3803099989891052,
+							"z": 1.015570044517517
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feede95c4d3cb9bc": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1942799985408783,
+							"y": -0.17236299812793732,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedcfad9eeb7d96": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -47.81334522897919
+						},
+						"position": {
+							"x": -0.2132679969072342,
+							"y": -0.49804699420928955,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed669c11cc21fd": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_18",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.3803099989891052,
+							"z": 1.0370179414749146
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feedd16fc434a6e0": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Ashtray_A_Empty_00",
+			"factory": "[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 3.8676496618304763
+						},
+						"position": {
+							"x": 0.11384200304746628,
+							"y": 0.3846440017223358,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed79880928a6aa": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -47.81334522897919
+						},
+						"position": {
+							"x": -0.22679199278354645,
+							"y": -0.35214200615882874,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf7b6a9670054": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -47.81334522897919
+						},
+						"position": {
+							"x": -0.09816200286149979,
+							"y": -0.3023679852485657,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed40b079e08021": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.049973964691162
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda73291ef703e": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Wine_Box_Closed_A_02",
+			"factory": "[assembly:/_pro/environment/templates/props/food/food_props_a.template?/wine_box_closed_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_props_a.template?/wine_box_closed_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.39541116874784
+						},
+						"position": {
+							"x": -0.08740399777889252,
+							"y": -0.08279400318861008,
+							"z": 0.13769200444221497
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feed2af0f7b8eca1": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -47.81334522897919
+						},
+						"position": {
+							"x": -0.07834400236606598,
+							"y": -0.1476140022277832,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feeda23b960ed5c4": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1751510053873062,
+							"y": 0.15475499629974365,
+							"z": 1.015570044517517
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feede08c30ad759c": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.0364069938659668
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed73628bb6d854": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.1942799985408783,
+							"y": -0.17236299812793732,
+							"z": 1.0077940225601196
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed77953ab2c226": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.15475499629974365,
+							"z": 1.0048890113830566
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feed32f4ab96de62": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_17",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.15475499629974365,
+							"z": 1.0370179414749146
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feed1bb534fc3253": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "food_plate_small_empty_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07509499788284302,
+							"y": 0.3803099989891052,
+							"z": 1.0048890113830566
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb"
+				}
+			}
+		},
+		"feed4e715fec51c5": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Food_Plate_A_Empty_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08341199904680252,
+							"y": -0.5332639813423157,
+							"z": 1.0231529474258423
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed050440d17b11": {
+			"parent": "feedfaf605c1ebcb",
+			"name": "Glass_Wine_A_Empty_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -47.81334522897919
+						},
+						"position": {
+							"x": -0.20697399973869324,
+							"y": -0.19738799333572388,
+							"z": 0.9945399761199951
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfaf605c1ebcb",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed60c860d46567": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7888367643509797,
+							"y": -0.05586341130340702,
+							"z": 175.02408550744693
+						},
+						"position": {
+							"x": 0.06656300276517868,
+							"y": 0.059112999588251114,
+							"z": 0.023448999971151352
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6",
+					"postInit": true
+				}
+			}
+		},
+		"feedaf1b47f70f4e": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7886650260133294,
+							"y": -0.06021789606648062,
+							"z": 175.02436791339534
+						},
+						"position": {
+							"x": -0.0025390000082552433,
+							"y": 0.03515600040555,
+							"z": 0.03848300129175186
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6",
+					"postInit": true
+				}
+			}
+		},
+		"feed763f2376f1ca": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.6675116913443735,
+							"y": -0.08496968217408121,
+							"z": 174.6181462520279
+						},
+						"position": {
+							"x": 0.014468000270426273,
+							"y": 0.012481999583542347,
+							"z": 0.03340600058436394
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6",
+					"postInit": true
+				}
+			}
+		},
+		"feed7dccf96cc9b1": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.740257044036829,
+							"y": 0.3497929257625578,
+							"z": -4.9967732953604305
+						},
+						"position": {
+							"x": -0.019561000168323517,
+							"y": -0.07498200237751007,
+							"z": 0.03143399953842163
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feed1e86f1c37746": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.6673398274961893,
+							"y": -0.08628748352233048,
+							"z": -5.008303841055902
+						},
+						"position": {
+							"x": 0.05722999945282936,
+							"y": -0.05514499917626381,
+							"z": 0.03340600058436394
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feed28af3b2f4a5c": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7937081539296214,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.016412999480962753,
+							"y": -0.02435299940407276,
+							"z": 0.023448999971151352
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feeddf279b229baf": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7937081539296214,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.014612000435590744,
+							"y": -0.018371999263763428,
+							"z": 0.023448999971151352
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feed0ad87762a97e": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7936509791219453,
+							"y": -0.0014323945789615408,
+							"z": 5.067711651700148
+						},
+						"position": {
+							"x": -0.06218399852514267,
+							"y": -0.07016000151634216,
+							"z": 0.025256000459194183
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feedf73c065d6e52": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.792274620155767,
+							"y": -0.041596699502399866,
+							"z": -176.07612160071506
+						},
+						"position": {
+							"x": 0.04456799849867821,
+							"y": 0.0005489999894052744,
+							"z": 0.023448999971151352
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feed6115e28b4462": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Napkin_Holder_A",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_italy_a.template?/napkin_holder_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/cafe_furniture_italy_a.template?/napkin_holder_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -87.8049770594051
+						},
+						"position": {
+							"x": 0.11492499709129333,
+							"y": -0.13555899262428284,
+							"z": 0.8568480014801025
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feedb6f5b6820c2f": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7937081539296214,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.04169800132513046,
+							"y": -0.07025100290775299,
+							"z": 0.023448999971151352
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feeda4ace456b0c2": {
+			"parent": "feedbc72c1fd99c6",
+			"name": "Fork_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7937081539296214,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07327599823474884,
+							"y": -0.056060999631881714,
+							"z": 0.023448999971151352
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc72c1fd99c6"
+				}
+			}
+		},
+		"feed7b51328b4ad4": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.6652773003101077,
+							"y": -0.10267409458437322,
+							"z": -179.51802144251076
+						},
+						"position": {
+							"x": 0.02349100075662136,
+							"y": 0.01431300025433302,
+							"z": 0.038665998727083206
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2",
+					"postInit": true
+				}
+			}
+		},
+		"feed5676e5eaa949": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7934790279997166,
+							"y": -0.03368991772373005,
+							"z": -177.8486679606828
+						},
+						"position": {
+							"x": -0.04936600103974342,
+							"y": 0.0694580003619194,
+							"z": 0.0305160004645586
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2",
+					"postInit": true
+				}
+			}
+		},
+		"feed8e279d15a21c": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7880333291207373,
+							"y": 0.008193298293011872,
+							"z": -170.21084238560186
+						},
+						"position": {
+							"x": 0.055706001818180084,
+							"y": 0.01260400004684925,
+							"z": 0.02870899997651577
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2",
+					"postInit": true
+				}
+			}
+		},
+		"feed624be1611a2a": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7857425932402635,
+							"y": -0.09539751437078507,
+							"z": -179.11399879323932
+						},
+						"position": {
+							"x": 0.07970800250768661,
+							"y": 0.056366000324487686,
+							"z": 0.02870899997651577
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2",
+					"postInit": true
+				}
+			}
+		},
+		"feedcf2269620b3b": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.662641201648982,
+							"y": -0.08411024382359185,
+							"z": 0.8570630952534738
+						},
+						"position": {
+							"x": 0.05898300185799599,
+							"y": -0.057036999613046646,
+							"z": 0.038665998727083206
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feed758d68a57ae3": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7857425932402635,
+							"y": -0.09539751437078507,
+							"z": -179.11399879323932
+						},
+						"position": {
+							"x": 0.008666999638080597,
+							"y": 0.04000899940729141,
+							"z": 0.04374299943447113
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feed05fcbd5ffbff": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.793708153929621,
+							"y": -0.007849521620901403,
+							"z": 5.864143277951771
+						},
+						"position": {
+							"x": -0.04093199968338013,
+							"y": -0.062408000230789185,
+							"z": 0.02870899997651577
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feed206a1ad18443": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -5.73985777486723,
+							"y": 0.3546059761697328,
+							"z": 0.8679097233944014
+						},
+						"position": {
+							"x": -0.019485000520944595,
+							"y": -0.0694269984960556,
+							"z": 0.0366940014064312
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feed515cdfb6fb0d": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.793708153929621,
+							"y": -0.007849521620901403,
+							"z": 5.864143277951771
+						},
+						"position": {
+							"x": -0.0088919997215271,
+							"y": -0.012756000272929668,
+							"z": 0.02870899997651577
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feedebe715070945": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.7937081539296214,
+							"y": -0.010198648876023154,
+							"z": 5.8640858465953105
+						},
+						"position": {
+							"x": -0.07067900151014328,
+							"y": -0.045531999319791794,
+							"z": 0.03317499905824661
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feed8b941f675140": {
+			"parent": "feeda0f42b031fe2",
+			"name": "Knife_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -1.793708153929621,
+							"y": -0.007849521620901403,
+							"z": 5.864143277951771
+						},
+						"position": {
+							"x": 0.021282000467181206,
+							"y": -0.02239999920129776,
+							"z": 0.02870899997651577
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0f42b031fe2"
 				}
 			}
 		}
