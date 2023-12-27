@@ -34094,37 +34094,6 @@
 				}
 			}
 		},
-		"feed4a94646f805b": {
-			"parent": "feed617e546c6541",
-			"name": "ItemSpawner 3",
-			"factory": "[modules:/zitemspawner.class].pc_entitytype",
-			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 34.228683648102255
-						},
-						"position": {
-							"x": -1.5328674,
-							"y": 306.73444,
-							"z": 1
-						}
-					}
-				},
-				"m_rMainItemKey": {
-					"type": "SEntityTemplateReference",
-					"value": "feed617e546c6541"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
-			}
-		},
 		"feed90fbee0fe444": {
 			"parent": "feed300d0628f434",
 			"name": "CHAR_Passenger_M_08",
@@ -48216,6 +48185,422 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feeda0f42b031fe2"
+				}
+			}
+		},
+		"feedab6005e2b9ac": {
+			"parent": "feed5f65be611f7a",
+			"name": "Tools",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed8438d563302d": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Tool_Crowbar",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "01ed6d15-e26e-4362-b1a6-363684a7d0fd"
+				}
+			}
+		},
+		"feedad510ffe2c25": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Melee_Knife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
+				}
+			}
+		},
+		"feed62449c09160c": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Melee_Scissors",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6ecf1f15-453c-4783-9c70-8777c83934d7"
+				}
+			}
+		},
+		"feed54f2ca77e07d": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Tool_Screwdriver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "12cb6b51-a6dd-4bf5-9653-0ab727820cac"
+				}
+			}
+		},
+		"feed7b1da29832b8": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Tool_Wrench",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6adddf7e-6879-4d51-a7e2-6a25ffdca6ae"
+				}
+			}
+		},
+		"feedadae9ba49b19": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Melee_Hammer",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "3c24c96a-557c-472a-9d71-1a235d7383a7"
+				}
+			}
+		},
+		"feed8017eb5e5f69": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Melee_LetterOpener",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f1f89faf-a441-4492-b442-9a923b5ecfd1"
+				}
+			}
+		},
+		"feedb995b7a40596": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Melee_Propane flask",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "a8a0c154-c36f-413e-8f29-b83a1b7a22f0"
+				}
+			}
+		},
+		"feed0a1101f23bdf": {
+			"parent": "feed8438d563302d",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 114.5240067174341
+						},
+						"position": {
+							"x": -1.4981387853622437,
+							"y": 309.1087951660156,
+							"z": 2.532033681869507
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8438d563302d"
+				}
+			}
+		},
+		"feede24c3291075b": {
+			"parent": "feedad510ffe2c25",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 59.873003482553116
+						},
+						"position": {
+							"x": -0.3633878529071808,
+							"y": 418.8079528808594,
+							"z": 2.035025119781494
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feedad510ffe2c25"
+				}
+			}
+		},
+		"feed7a214c30cc11": {
+			"parent": "feed62449c09160c",
+			"name": "ItemSpawner 2",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -44.60334061413573
+						},
+						"position": {
+							"x": -0.06961005926132202,
+							"y": 665.7637939453125,
+							"z": 1.7438122034072876
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed62449c09160c",
+					"postInit": true
+				}
+			}
+		},
+		"feed1a1ca4e88a82": {
+			"parent": "feed54f2ca77e07d",
+			"name": "ItemSpawner 3",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -14.370595516455644
+						},
+						"position": {
+							"x": -0.4135819673538208,
+							"y": 305.4103088378906,
+							"z": 1.6269348859786987
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54f2ca77e07d",
+					"postInit": true
+				}
+			}
+		},
+		"feed973492374d58": {
+			"parent": "feed54f2ca77e07d",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 106.79978969858048
+						},
+						"position": {
+							"x": 0.7218457460403442,
+							"y": 444.39031982421875,
+							"z": 1.8527792692184448
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed54f2ca77e07d"
+				}
+			}
+		},
+		"feed12630b327e37": {
+			"parent": "feed7b1da29832b8",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 26.000980588348533
+						},
+						"position": {
+							"x": 0.7860677242279053,
+							"y": 444.83984375,
+							"z": 1.8538331985473633
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7b1da29832b8",
+					"postInit": true
+				}
+			}
+		},
+		"feed991c655dd2a8": {
+			"parent": "feed7b1da29832b8",
+			"name": "ItemSpawner 2",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -115.03516273738767
+						},
+						"position": {
+							"x": -0.45993900299072266,
+							"y": 309.00445556640625,
+							"z": 1.8580336570739746
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed7b1da29832b8",
+					"postInit": true
+				}
+			}
+		},
+		"feed57144fe7b102": {
+			"parent": "feedadae9ba49b19",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -37.0964945433149
+						},
+						"position": {
+							"x": 0.760014533996582,
+							"y": 444.4840087890625,
+							"z": 2.6173465251922607
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feedadae9ba49b19",
+					"postInit": true
+				}
+			}
+		},
+		"feed561f6cd2dd93": {
+			"parent": "feed8017eb5e5f69",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 140.01406578145122
+						},
+						"position": {
+							"x": -0.17972169816493988,
+							"y": 725.2362060546875,
+							"z": 1.7446444034576416
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed8017eb5e5f69"
+				}
+			}
+		},
+		"feed8830afbbe9ec": {
+			"parent": "feedb995b7a40596",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -172.82919649451597
+						},
+						"position": {
+							"x": 1.9608231782913208,
+							"y": 414.40753173828125,
+							"z": 1
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb995b7a40596"
+				}
+			}
+		},
+		"feedb24f0ac376e1": {
+			"parent": "feedab6005e2b9ac",
+			"name": "ItemKey_Melee_Cleaver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1bbf0ed5-0515-4599-a4c9-454ce59cff44"
+				}
+			}
+		},
+		"feed8a9813a6a6cf": {
+			"parent": "feedb24f0ac376e1",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -72.31841201279275
+						},
+						"position": {
+							"x": 1.0021729469299316,
+							"y": 431.1316223144531,
+							"z": 2.0043652057647705
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb24f0ac376e1"
 				}
 			}
 		}
