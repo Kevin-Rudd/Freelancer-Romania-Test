@@ -187,7 +187,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 180
+							"z": 0
 						},
 						"position": {
 							"x": 0,
@@ -48189,7 +48189,7 @@
 			}
 		},
 		"feedab6005e2b9ac": {
-			"parent": "feed5f65be611f7a",
+			"parent": "feed6edc3c25b572",
 			"name": "Tools",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
@@ -48550,12 +48550,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -172.82919649451597
+							"z": -90.20399293422977
 						},
 						"position": {
-							"x": 1.9608231782913208,
-							"y": 414.40753173828125,
-							"z": 1
+							"x": 1.7068982,
+							"y": 548.66095,
+							"z": 1.0360718
 						}
 					}
 				},
@@ -52109,6 +52109,14 @@
 		},
 		{
 			"ref": "5fc99187a7701edc",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "7ee40792d41a4f7b",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "2cf8049540d7dc91",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
