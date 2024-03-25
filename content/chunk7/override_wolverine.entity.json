@@ -224,6 +224,12 @@
 					"type": "SEntityTemplateReference",
 					"value": "4a7da649ad67a3f3",
 					"postInit": true
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede20d03350f0e"
+					]
 				}
 			},
 			"subsets": {
@@ -2647,6 +2653,12 @@
 					"type": "SEntityTemplateReference",
 					"value": "9c7a2067f750efd7",
 					"postInit": true
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede20d03350f0e"
+					]
 				}
 			},
 			"subsets": {
@@ -12300,7 +12312,15 @@
 				},
 				"m_bIsLocked": {
 					"type": "bool",
+					"value": true
+				},
+				"m_bValueOpenFromInside": {
+					"type": "bool",
 					"value": false
+				},
+				"m_bValueOpenFromOutside": {
+					"type": "bool",
+					"value": true
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -12309,12 +12329,6 @@
 				"Reinforced": {
 					"type": "bool",
 					"value": false
-				},
-				"PermanentUnlocked": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
 				},
 				"m_bAutoClose": {
 					"type": "bool",
@@ -30910,6 +30924,10 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
+				},
+				"m_rMainItemKey2": {
+					"type": "SEntityTemplateReference",
+					"value": "feede20d03350f0e"
 				}
 			},
 			"events": {
@@ -38033,6 +38051,10 @@
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						{
+							"ref": "631fd67d8a2d99d8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
 						"feede8aefc1f8f9e"
 					]
 				},
@@ -38578,6 +38600,12 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed7fe69df668ea",
 					"postInit": true
+				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede20d03350f0e"
+					]
 				}
 			},
 			"subsets": {
@@ -48630,6 +48658,43 @@
 				"m_rMainItemKey": {
 					"type": "SEntityTemplateReference",
 					"value": "feedb24f0ac376e1"
+				}
+			}
+		},
+		"feedefa879198840": {
+			"parent": "feed6edc3c25b572",
+			"name": "Keys",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feede20d03350f0e": {
+			"parent": "feedefa879198840",
+			"name": "ItemRepositoryKey Maintenance Key",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "605f66ae-e2e0-4e48-9438-93fa03adcedf"
+				}
+			}
+		},
+		"feede1c0354f0794": {
+			"parent": "feede20d03350f0e",
+			"name": "Keyword_KEY_MARRAKECH_MAINTENANCE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordkeys.template?/keyword_key_marrakesh_maintenance_room.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordkeys.template?/keyword_key_marrakesh_maintenance_room.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "feed250c7a73ae6a",
+							"externalScene": null,
+							"exposedEntity": "RequiredKey"
+						}
+					],
+					"postInit": true
 				}
 			}
 		}
