@@ -16428,7 +16428,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 89.9999965849052
+							"z": 90
 						},
 						"position": {
 							"x": 1.6325948238372803,
@@ -16444,6 +16444,10 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"NPCDispatchKeyword": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfe310fcc1530"
 				}
 			},
 			"subsets": {
@@ -16659,38 +16663,6 @@
 				}
 			}
 		},
-		"feed179cbb2d8475": {
-			"parent": "feed3282384d24d2",
-			"name": "Tray_Metal_A_00_05",
-			"factory": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/tray_metal_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/tray_metal_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -91.22771385599273
-						},
-						"position": {
-							"x": -0.7284790277481079,
-							"y": 0.005921000149101019,
-							"z": 1.0024100542068481
-						},
-						"scale": {
-							"x": 0.999999097721401,
-							"y": 0.999999097721401,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed3282384d24d2"
-				}
-			}
-		},
 		"feed4a1d27726c1b": {
 			"parent": "feed3282384d24d2",
 			"name": "Tray_Metal_A_00_04",
@@ -16701,318 +16673,20 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -91.22771385599273
+							"x": 0.3846882068861657,
+							"y": 0.37653221396522996,
+							"z": -91.22773583797714
 						},
 						"position": {
-							"x": -0.21237899363040924,
-							"y": 0.005921000149101019,
-							"z": 1.0024100542068481
-						},
-						"scale": {
-							"x": 0.999999097721401,
-							"y": 0.999999097721401,
-							"z": 1
+							"x": -0.06975645,
+							"y": 0.10406494,
+							"z": 1.0024177
 						}
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feed3282384d24d2"
-				}
-			}
-		},
-		"feedd02c1d2c1b4e": {
-			"parent": "feed179cbb2d8475",
-			"name": "Bread_D15",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_d.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_d.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -53.64163351108489
-						},
-						"position": {
-							"x": 0.15066100656986237,
-							"y": -0.4257580041885376,
-							"z": 0.0023509999737143517
-						},
-						"scale": {
-							"x": 1.0000004566035763,
-							"y": 1.0000004566035763,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed179cbb2d8475",
-					"postInit": true
-				}
-			}
-		},
-		"feedd4a83e5a45a4": {
-			"parent": "feed179cbb2d8475",
-			"name": "Bread_D14_03",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_d.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_d.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 67.39330970337002
-						},
-						"position": {
-							"x": 0.16869500279426575,
-							"y": -0.09234700351953506,
-							"z": 0.0023499999660998583
-						},
-						"scale": {
-							"x": 0.9999993192773537,
-							"y": 0.9999993192773537,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed179cbb2d8475",
-					"postInit": true
-				}
-			}
-		},
-		"feedb1f744361f88": {
-			"parent": "feed179cbb2d8475",
-			"name": "Bread_D14",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_d.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_d.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 67.39330970337002
-						},
-						"position": {
-							"x": -0.17513899505138397,
-							"y": -0.44169101119041443,
-							"z": 0.0023509999737143517
-						},
-						"scale": {
-							"x": 0.9999993192773537,
-							"y": 0.9999993192773537,
-							"z": 1
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed179cbb2d8475"
-				}
-			}
-		},
-		"feed09cc2e34cf9e": {
-			"parent": "feedb1f744361f88",
-			"name": "Bread_F10_02",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0.922713694991727,
-							"y": -0.8312192654993544,
-							"z": 114.4414643877654
-						},
-						"position": {
-							"x": 0.26548048853874207,
-							"y": 0.28179770708084106,
-							"z": -0.0000023841860183893004
-						},
-						"scale": {
-							"x": 1.0000019351637066,
-							"y": 1.0000011439960996,
-							"z": 0.9999997404434375
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb1f744361f88",
-					"postInit": true
-				}
-			}
-		},
-		"feed378a38412bd8": {
-			"parent": "feedb1f744361f88",
-			"name": "Bread_F10_01",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0.964883754862708,
-							"y": -0.790420403683265,
-							"z": 114.38820583123294
-						},
-						"position": {
-							"x": -0.34709158539772034,
-							"y": 0.1731152981519699,
-							"z": -0.0023460390511900187
-						},
-						"scale": {
-							"x": 1.0000021114802045,
-							"y": 1.0000009342396479,
-							"z": 0.9999999002591068
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb1f744361f88",
-					"postInit": true
-				}
-			}
-		},
-		"feed9e9131fa520a": {
-			"parent": "feedb1f744361f88",
-			"name": "Bread_F11_01",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 1.0730030966409818,
-							"y": -0.6859041475354084,
-							"z": 175.41093848792198
-						},
-						"position": {
-							"x": 0.19322849810123444,
-							"y": 0.06425388157367706,
-							"z": -0.002350329887121916
-						},
-						"scale": {
-							"x": 1.000001335914908,
-							"y": 1.000001372069232,
-							"z": 0.9999999881836056
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb1f744361f88",
-					"postInit": true
-				}
-			}
-		},
-		"feed36a05aa2c5a3": {
-			"parent": "feedb1f744361f88",
-			"name": "Bread_F15_01",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 1.0730030966409818,
-							"y": -0.6859041475354084,
-							"z": 175.41093848792198
-						},
-						"position": {
-							"x": -0.36644309759140015,
-							"y": 0.5534433722496033,
-							"z": -0.002347945934161544
-						},
-						"scale": {
-							"x": 1.000001335914908,
-							"y": 1.000001372069232,
-							"z": 0.9999999881836056
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb1f744361f88"
-				}
-			}
-		},
-		"feedafd305e029bd": {
-			"parent": "feedb1f744361f88",
-			"name": "Bread_F14_01",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 1.0730030966409818,
-							"y": -0.6859041475354084,
-							"z": 175.41093848792198
-						},
-						"position": {
-							"x": -0.44022199511528015,
-							"y": 0.4034542143344879,
-							"z": -0.002347945934161544
-						},
-						"scale": {
-							"x": 1.000001335914908,
-							"y": 1.000001372069232,
-							"z": 0.9999999881836056
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb1f744361f88"
-				}
-			}
-		},
-		"feed83e59f5743ad": {
-			"parent": "feedb1f744361f88",
-			"name": "Bread_F13_01",
-			"factory": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/food/food_bakery_a.template?/bread_f.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 1.0730030966409818,
-							"y": -0.6859041475354084,
-							"z": 175.41093848792198
-						},
-						"position": {
-							"x": -0.5176923274993896,
-							"y": 0.25748950242996216,
-							"z": -0.002347945934161544
-						},
-						"scale": {
-							"x": 1.000001335914908,
-							"y": 1.000001372069232,
-							"z": 0.9999999881836056
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb1f744361f88"
 				}
 			}
 		},
@@ -17028,7 +16702,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 89.9999965849052
+							"z": 90
 						},
 						"position": {
 							"x": 1.71280837059021,
@@ -17039,11 +16713,15 @@
 				},
 				"m_bIsOn": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"NPCDispatchKeyword": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfe310fcc1530"
 				}
 			},
 			"subsets": {
@@ -19579,7 +19257,7 @@
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						"feedfe310fcc1530"
 					]
 				},
 				"m_sActorName": {
@@ -19747,6 +19425,12 @@
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
 					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedfe310fcc1530"
+					]
 				}
 			},
 			"subsets": {
@@ -30829,7 +30513,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedfb687e588e22",
+					"value": "feed85af504639d0",
 					"postInit": true
 				},
 				"m_eRequiredVoiceVariation": {
@@ -36977,7 +36661,16 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						{
+							"ref": "feed8378f56b9677",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						},
+						{
+							"ref": "feed6a2b9c5e9167",
+							"externalScene": null,
+							"exposedEntity": "LegalProfession"
+						}
 					]
 				}
 			}
@@ -49454,7 +49147,7 @@
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						"feed0b1219e246d6"
 					],
 					"postInit": true
 				}
@@ -49759,6 +49452,241 @@
 			"name": "Prof_Trapped_Guard_Bodyguard",
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_bodyguard.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_trapped_guard_bodyguard.entitytemplate].pc_entityblueprint"
+		},
+		"feedb9b053b66884": {
+			"parent": "feed7007e0320418",
+			"name": "CHAR_Worker_KitchenAssistant_Male01",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0002294033873224955,
+							"y": 0.0022876741871220812,
+							"z": 5.544572117732047
+						},
+						"position": {
+							"x": 0.11199951,
+							"y": 421.32507,
+							"z": 0.9999999
+						}
+					}
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Claudio Parisi"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "763f5cf5-97b6-4377-80bc-29db91c54b7a"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb15e523-713f-41ba-ad67-d33b02de43c6"
+				},
+				"m_nOutfitVariation": {
+					"type": "int32",
+					"value": 3
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedfe310fcc1530",
+						"feedaba33c44f40f"
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed0804f506c1b2": {
+			"parent": "feedb9b053b66884",
+			"name": "CHE001_IdleCooking03",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/dramasituation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rDrama": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4f84acb9a220"
+				},
+				"m_nPriority": {
+					"type": "int32",
+					"value": 100
+				},
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb9b053b66884"
+					],
+					"postInit": true
+				}
+			},
+			"propertyAliases": {
+				"m_aActors": [
+					{
+						"originalProperty": "m_aActors",
+						"originalEntity": "feedc03d05114e2f"
+					}
+				]
+			}
+		},
+		"feed19fd4d3c2c37": {
+			"parent": "feed0804f506c1b2",
+			"name": "Act_MR_Bartender_Stand_Slice_Lime_100cm",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_bartender_stand_slice_lime_100cm.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_bartender_stand_slice_lime_100cm.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 178.78244182713152
+						},
+						"position": {
+							"x": 0.18615723,
+							"y": 430.26184,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 30
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc03d05114e2f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed9cd1d33438b7"
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed9cd1d33438b7": {
+			"parent": "feed0804f506c1b2",
+			"name": "Act_MR_Stand_Stir_Wok",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_stand_stir_wok.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_iteminteraction.template?/act_mr_stand_stir_wok.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90.48040385975101
+						},
+						"position": {
+							"x": 0.7293701,
+							"y": 429.22366,
+							"z": 1
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_bSelectVisibleOnly": {
+					"type": "bool",
+					"value": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc03d05114e2f",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed19fd4d3c2c37"
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				],
+				"Replicable": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed4f84acb9a220": {
+			"parent": "feed0804f506c1b2",
+			"name": "Screenplay",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Roles": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedc03d05114e2f"
+					],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed9cd1d33438b7"
+					]
+				}
+			}
+		},
+		"feedc03d05114e2f": {
+			"parent": "feed0804f506c1b2",
+			"name": "Role_Chef",
+			"factory": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/spsystem.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb9b053b66884"
+					],
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
