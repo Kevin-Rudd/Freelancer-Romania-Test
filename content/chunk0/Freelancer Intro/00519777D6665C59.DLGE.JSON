@@ -14,15 +14,15 @@
                 "defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/evergreen/handler/ed030_welcome/ed030_welcomea_train_diana_001.wav].pc_wes",
                 "defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/evergreen/handler/ed088_ldr1tm_diana_001.animset].pc_animset",
                 "languages": {
-                    "en": "Welcome to Siberia, 47.",
-                    "fr": "Bienvenue en Sibérie, 47.",
-                    "it": "Benvenuto in Siberia, 47.",
-                    "de": "Willkommen in Sibirien, 47.",
-                    "es": "Bienvenido a Siberia, 47.",
-                    "ru": "Добро пожаловать в Сибирь, 47-й.",
-                    "cn": "欢迎来到西伯利亚，47。",
-                    "tc": "歡迎來到西伯利亞，47。",
-                    "jp": "シベリアへようこそ、47。"
+                    "en": "Welcome to Romania.",
+                    "fr": "Bienvenue en Roumanie.",
+                    "it": "Benvenuti in Romania.",
+                    "de": "Willkommen in Rumänien.",
+                    "es": "Bienvenida a Rumania",
+                    "ru": "Добро пожаловать в Румынию.",
+                    "cn": "欢迎来到罗马尼亚。",
+                    "tc": "歡迎來到羅馬尼亞。",
+                    "jp": "ルーマニアへようこそ。"
                 }
             }
         ]
