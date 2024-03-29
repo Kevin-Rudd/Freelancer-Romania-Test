@@ -326,51 +326,51 @@
 			"properties": {
 				"ClientReq03": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq03"
+					"value": "MildHex_ClientReq03"
 				},
 				"ClientReq02": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq02"
+					"value": "MildHex_ClientReq02"
 				},
 				"MildTargets_ID": {
 					"type": "ZString",
-					"value": "MildPoker_Targets"
+					"value": "MildHex_Targets"
 				},
 				"ClientReq01": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq01"
+					"value": "MildHex_ClientReq01"
 				},
 				"Safes_ID": {
 					"type": "ZString",
-					"value": "MildPoker_Safes"
+					"value": "MildHex_Safes"
 				},
 				"Vendors_ID": {
 					"type": "ZString",
-					"value": "MildPoker_Vendors"
+					"value": "MildHex_Vendors"
 				},
 				"MoneyMules_ID": {
 					"type": "ZString",
-					"value": "MildPoker_MoneyMules"
+					"value": "MildHex_MoneyMules"
 				},
 				"ClientReqsFailed_ID": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReqsFailed"
+					"value": "MildHex_ClientReqsFailed"
 				},
 				"Completed_ID": {
 					"type": "ZString",
-					"value": "MildPoker_MissionCompleted"
+					"value": "MildHex_MissionCompleted"
 				},
 				"Failed_ID": {
 					"type": "ZString",
-					"value": "MildPoker_MissionFailed"
+					"value": "MildHex_MissionFailed"
 				},
 				"Stashes_ID": {
 					"type": "ZString",
-					"value": "MildPoker_Stashes"
+					"value": "MildHex_Stashes"
 				},
 				"Active_ID": {
 					"type": "ZString",
-					"value": "MildPoker_Active"
+					"value": "MildHex_Active"
 				},
 				"PrimaryObjective": {
 					"type": "ZGuid",
@@ -385,27 +385,27 @@
 				},
 				"Alerted_ID": {
 					"type": "ZString",
-					"value": "MildPoker_Alerted"
+					"value": "MildHex_Alerted"
 				},
 				"ClientReq04": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq04"
+					"value": "MildHex_ClientReq04"
 				},
 				"ClientReq05": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq05"
+					"value": "MildHex_ClientReq05"
 				},
 				"ClientReq06": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq06"
+					"value": "MildHex_ClientReq06"
 				},
 				"ClientReq07": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq07"
+					"value": "MildHex_ClientReq07"
 				},
 				"ClientReq08": {
 					"type": "ZString",
-					"value": "MildPoker_ClientReq08"
+					"value": "MildHex_ClientReq08"
 				},
 				"MissionFlowIndex": {
 					"type": "SEntityTemplateReference",
@@ -430,13 +430,13 @@
 				},
 				"MildBasePayout_ID": {
 					"type": "ZString",
-					"value": "MildPoker_BasePayout"
+					"value": "MildHex_BasePayout"
 				}
 			}
 		},
 		"834864eca858f84e": {
 			"parent": "fffffffffffffffe",
-			"name": "Mission Mild Poker",
+			"name": "Mission Mild Hex",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
