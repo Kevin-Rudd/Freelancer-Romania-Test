@@ -48423,7 +48423,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "1a1049a8-62fe-4b91-ad84-0ba68e8e8663"
+					"value": "bf7d1e19-89e4-425c-9391-e0b21b9a8719"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -48431,7 +48431,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "John Doe"
+					"value": "Fyodor Taktarov"
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -48626,7 +48626,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "1a1049a8-62fe-4b91-ad84-0ba68e8e8663"
+					"value": "5eca3cc3-5c5c-4d94-9add-d01439381a7c"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -48634,7 +48634,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "John Doe"
+					"value": "Khabib Magomedshapirov"
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -48939,7 +48939,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "a6333e0c-f40e-4463-8c79-e458bf293a7d"
+					"value": "d86ff8bb-283d-479b-a9a5-ce9b9b05f504"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -48961,7 +48961,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "John Doe"
+					"value": "Oleg Nurmagomedov"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -49130,7 +49130,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "174211f7-af05-4734-9968-221fab7e0be9"
+					"value": "1ab92327-545e-4fa3-8a3d-a01857e6481e"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -49146,7 +49146,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "John Doe"
+					"value": "Aleksandr Taktarov"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -49318,7 +49318,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "174211f7-af05-4734-9968-221fab7e0be9"
+					"value": "798635a3-95eb-42c3-a851-08aa8eee6e4c"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -49334,7 +49334,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "John Doe"
+					"value": "Viktor Volkanovski"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
