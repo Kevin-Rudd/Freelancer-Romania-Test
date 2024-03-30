@@ -1258,7 +1258,7 @@
 			"properties": {
 				"m_sId": {
 					"type": "ZGuid",
-					"value": "78477425-7330-4092-ad71-6548e07ccc93"
+					"value": "f8ff0b17-b9f5-41ce-b7b1-db8bf6c47f4a"
 				}
 			}
 		},
@@ -1272,7 +1272,7 @@
 			"properties": {
 				"m_sId": {
 					"type": "ZGuid",
-					"value": "d08b7d6d-9b1f-4131-bb44-4ebd2cdb1cec"
+					"value": "370b4106-96f2-4a04-9bc6-029b86b301aa"
 				}
 			}
 		},
@@ -1286,7 +1286,21 @@
 			"properties": {
 				"m_sId": {
 					"type": "ZGuid",
-					"value": "0f13f00b-abb4-4cdd-bd9d-748514b941d5"
+					"value": "53ce9bb6-ef1c-4f17-8951-5b501fb941d4"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "feed813628d4f90f",
+					"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "1d3a5b4a-5573-4e2d-8a98-d1c881cbd13e"
 				}
 			}
 		}

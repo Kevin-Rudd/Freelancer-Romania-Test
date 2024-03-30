@@ -36569,7 +36569,11 @@
 				"m_KeeperProfessions": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed9d33c22452cf"
+						"feed9d33c22452cf",
+						"feed0642e28d299e",
+						"feed0b1219e246d6",
+						"feedfe310fcc1530",
+						"feedaba33c44f40f"
 					],
 					"postInit": true
 				},
