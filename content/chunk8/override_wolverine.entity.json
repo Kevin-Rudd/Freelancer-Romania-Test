@@ -12439,7 +12439,57 @@
 					"value": [
 						"feed7b4543c73f2d",
 						"feed43fc0e015fe1",
-						"feeddc8e8417cfad"
+						"feeddc8e8417cfad",
+						"feedb9b053b66884",
+						"feedd6b58324e940",
+						"feedbce7b4c154d6",
+						"feed86b447df7170",
+						"feed06d4a92f6004",
+						"feed86b2395e8286",
+						"feed09c04fe1483f",
+						"feedccf7b147bcbc",
+						"feed3f6b941b9bce",
+						"feed23261a0d1d06",
+						{
+							"ref": "0c58c4e6e0973a45",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "7d13ced2237e69c0",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "b3ffaade23333863",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f41360144e3d8724",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "4bfa51f1666edeae",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "9e0f78148d0f7978",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "11c95836db4e4aaa",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "4fddb2f82796f8a9",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "3bd7ebd24c898a26",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a62ac8063b8b353e",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						}
 					],
 					"postInit": true
 				},
