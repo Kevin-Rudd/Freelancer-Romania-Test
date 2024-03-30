@@ -218,7 +218,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1413,7 +1413,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2211,7 +2211,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2566,7 +2566,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2647,7 +2647,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3209,7 +3209,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -3293,7 +3293,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -4364,7 +4364,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -5063,7 +5063,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"acts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -6229,7 +6229,7 @@
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"forcedVoiceVar": {
 					"type": "int32",
@@ -53848,7 +53848,6 @@
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/trapped/outfits_wolverine.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/outfits_cinematics.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/trapped/tod_day.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/outfits_evergreen.brick].pc_entitytype"
 	],
