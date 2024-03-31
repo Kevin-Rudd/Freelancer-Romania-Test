@@ -53837,6 +53837,10 @@
 		{
 			"ref": "acb99ae8315767e9",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "0256ed406688a3dc",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
