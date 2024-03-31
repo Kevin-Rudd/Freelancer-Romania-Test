@@ -141,7 +141,7 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
 						},
 						{
-							"ref": "feed8c220f84ce8f",
+							"ref": "feedd20c47c9c403",
 							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
 						},
 						{
@@ -233,7 +233,7 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
 						},
 						{
-							"ref": "feedda3f9453cd21",
+							"ref": "feed38cf684fb974",
 							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
 						},
 						{
@@ -258,6 +258,10 @@
 						},
 						{
 							"ref": "feedb9b053b66884",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "feed197072f61798",
 							"externalScene": "[assembly:/_pro/scenes/missions/trapped/override_wolverine.brick].pc_entitytype"
 						},
 						"feedba92abb01ed1",
