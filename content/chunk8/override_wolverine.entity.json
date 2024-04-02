@@ -3487,7 +3487,7 @@
 						},
 						"position": {
 							"x": 1.7015076,
-							"y": 658.7961,
+							"y": 659.83044,
 							"z": 1
 						}
 					}
@@ -6514,7 +6514,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"GetIndex": [
+					"SetTrue": [
 
 					],
 					"TransmitEvent": [
@@ -24444,7 +24444,7 @@
 						"position": {
 							"x": -0.80770874,
 							"y": 510.67676,
-							"z": 1
+							"z": 1.016
 						}
 					}
 				},
@@ -24466,6 +24466,10 @@
 				"LightOn": {
 					"type": "bool",
 					"value": false
+				},
+				"m_bRemovePhysics": {
+					"type": "bool",
+					"value": true
 				}
 			},
 			"subsets": {
@@ -50558,6 +50562,45 @@
 					"fffffffffffffffe"
 				]
 			}
+		},
+		"feed51be184c15c5": {
+			"parent": "feedf011137916bc",
+			"name": "PFObstacle Roof Blocker",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.046417236,
+							"y": 466.29477,
+							"z": 6.3243976
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 6,
+						"y": 520,
+						"z": 6
+					}
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": -1
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -54450,6 +54493,46 @@
 		},
 		{
 			"ref": "0256ed406688a3dc",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "5c28a690a1cd50e4",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "398b2b5d6d7efa1c",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "e874be8f91982d5a",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "df009ad1f6690a60",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "2d92436a666b1f7f",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "c10813954f787079",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "8a246dce99b147e0",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "fe921ad2afc21992",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "b0ec1c84979ae513",
+			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+		},
+		{
+			"ref": "f560f71609b2c18d",
 			"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
 		}
 	],

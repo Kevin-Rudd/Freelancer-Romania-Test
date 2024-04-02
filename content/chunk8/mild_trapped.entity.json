@@ -266,7 +266,71 @@
 						},
 						"feedba92abb01ed1",
 						"feede753f2a51844",
-						"feed2d64360457b0"
+						"feed2d64360457b0",
+						{
+							"ref": "6deb9a936e452fdf",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "46828ba06543b22c",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f1222f3c06d1a609",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "cdd9558a70377e80",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "a457b1fce30203e8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "e39a97460ab2d730",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "5a1311726e8e3070",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "3d3f5f061be21756",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "11c95836db4e4aaa",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "9e0f78148d0f7978",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "4bfa51f1666edeae",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f41360144e3d8724",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "631fd67d8a2d99d8",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "41578abd53353af6",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "c25503fc71cebf10",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						},
+						{
+							"ref": "f8c9762407fc0e68",
+							"externalScene": "[assembly:/_pro/scenes/missions/trapped/scenario_wolverine.brick].pc_entitytype"
+						}
 					],
 					"postInit": true
 				}
