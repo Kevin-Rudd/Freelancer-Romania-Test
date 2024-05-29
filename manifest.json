@@ -1,8 +1,9 @@
 {
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"id": "KevinRudd.FreelancerRomania",
 	"name": "Freelancer Romania Test",
 	"contentFolders": ["content"],
+	"blobsFolders": ["blobs"],
 	"description": "Passenger Train Conversion of Romania",
 	"authors": ["Kevin Rudd"],
 	"dependencies": [
@@ -123,7 +124,11 @@
 	"packagedefinition": [{
 		"type": "entity",
 		"partition": "legacy",
-		"path": "[assembly:/_pro/scenes/missions/rocky/scene_trapped_mild_poker.entity].entitytemplate"
+		"path": "[assembly:/_pro/scenes/missions/trapped/scene_lynx.entity].entitytemplate"
+	},{
+		"type": "entity",
+		"partition": "legacy",
+		"path": "[assembly:/_pro/scenes/missions/trapped/passenger_train.brick].entitytype"
 	}],
 	"requirements": [],
     "loadBefore": [],

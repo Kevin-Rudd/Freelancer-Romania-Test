@@ -1,32 +1,28 @@
 {
     "Metadata": {
-        "Id": "a3e19d55-64a6-4282-bb3c-d18c3f3e6e29",
+        "Id": "a3e19d55-64a6-4282-bb3c-d18c3f3e6e28",
         "CodeName_Hint": "Wolverine",
         "Release": "3.0.0",
-        "Type": "mission",
+        "Type": "flashback",
+        "Subtype": "specialassignment",
         "Title": "UI_CONTRACT_WOLVERINE_TITLE",
         "Description": "UI_CONTRACT_WOLVERINE_DESC",
-        "BriefingVideo": "briefing_wolverine",
         "ScenePath": "assembly:/_pro/scenes/missions/trapped/scene_lynx.entity",
-        "TileImage": "images/contracts/wolverine/wolverine_tile.jpg",
+        "TileImage": "images/ruddy/lynx.jpg",
         "Location": "LOCATION_TRAPPED_WOLVERINE",
         "IsPublished": true,
         "LastUpdate": "2015-04-13T09:17:05.987Z",
         "CreationTimestamp": "2015-03-25T13:08:00.173Z",
         "CreatorUserId": "7545ee96-063a-49b6-a1d9-9fc2656e565a",
-        "NonTargetKillsAllowed": true,
-        "RequiredUnlockable": "ACCESS_HIT_WOLVERINE",
-        "Drops": ["ACCESS_HIT_S3_CONCLUSION"],
         "Entitlements": ["LOCATION_TRAPPED"]
     },
     "UserData": {},
     "Data": {
         "RandomBricks": {
-            "TimeOfDay": [
-                "assembly:/_pro/scenes/missions/trapped/mild_trapped.brick"
-            ]
+            "TimeOfDay": ["assembly:/_pro/scenes/missions/trapped/tod_day.brick",
+        "assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick"]
         },
-        "Bricks": [],
+        "Bricks": ["assembly:/_pro/scenes/missions/trapped/passenger_train.brick"],
         "DevOnlyBricks": [],
         "VR": [{
                 "Quality": "base",
@@ -47,5 +43,11 @@
         ],
         "Objectives": [
         ]
+    },"SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true,
+            "narrativeContext": "flashback"
+        }
     }
 }

@@ -187,7 +187,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": 180
 						},
 						"position": {
 							"x": 0,
@@ -924,7 +924,7 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -44.0290830315326
+							"z": 136
 						},
 						"position": {
 							"x": -1.1209083,
@@ -14674,7 +14674,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "8091e74e-d23c-4f31-b7f9-d220ccdfd792"
+					"value": "60766c88-6047-43f9-a8ab-301881b46e95"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -14690,7 +14690,7 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Lacresha Meier"
+					"value": "Ava Christensen"
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -21306,7 +21306,7 @@
 			}
 		},
 		"feed9739bbe0b9d8": {
-			"parent": "feed99647c921482",
+			"parent": "feedd6e537da11fd",
 			"name": "Railing 1 right side",
 			"factory": "[modules:/zcoverplane.class].pc_entitytype",
 			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
@@ -38297,7 +38297,7 @@
 				},
 				"RepositoryId": {
 					"type": "ZGuid",
-					"value": "cb82426a-de8b-4ca4-beee-e3753f0f0bea"
+					"value": "2d68e5af-aa12-4c17-a133-210dc499dcb2"
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
@@ -50599,6 +50599,264 @@
 				"m_fPenaltyMultiplier": {
 					"type": "float32",
 					"value": -1
+				}
+			}
+		},
+		"feed66ed642790ce": {
+			"parent": "feed99647c921482",
+			"name": "Constant Carriage",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed0ffae839b424": {
+			"parent": "feed66ed642790ce",
+			"name": "Railing 6 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -2.2188609,
+							"y": 686.1374,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.7
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feed73685c1316d4": {
+			"parent": "feed0ffae839b424",
+			"name": "Railing 6 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 2.2492118,
+							"y": 686.11194,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.7
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feedd5324a24c389": {
+			"parent": "feed66ed642790ce",
+			"name": "Railing 7 left side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -2.2188609,
+							"y": 688.78015,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.7
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		"feeda3f8774a84e1": {
+			"parent": "feedd5324a24c389",
+			"name": "Railing 7 right side",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 2.2492118,
+							"y": 688.85315,
+							"z": 1
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.7
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bCornerLeftEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWindowCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCornerRightEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eRailOnly"
+				},
+				"m_bNPCUseCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bNPCShootOverCover": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHeroPacifyPushedNPC": {
+					"type": "bool",
+					"value": false
 				}
 			}
 		}

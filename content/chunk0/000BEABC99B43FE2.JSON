@@ -1,0 +1,40 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/trapped/scene_lynx.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "f21b1a1a-bec9-4a06-9a4a-d615e9721e3a",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 0.150785, 258.2455, 0.994496"
+        },
+        {
+            "id": "ee4b0060-b322-4bb0-99b5-942e8a20f278",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-1, -1.224606E-16, 0, 1.224606E-16, -1, 0, 0, 0, 1, -500, 0, 500"
+        },
+        {
+            "id": "52464982-e7de-4f69-b60d-e8de2a8b1621",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": true,
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.044162, 13.20908, 1"
+        }
+    ],
+    "Exits": [
+        {
+            "id": "78722524-776b-40be-86d1-6a14a899a892",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47366, 739.9, 172.0922",
+            "RequireKey": false
+        },{
+            "id": "1c861554-9cce-4f65-87bd-fded086b87e5",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47366, 739.9, 172.0922",
+            "RequireKey": false
+        },{
+            "id": "3e307b89-ee30-4365-a9ce-849f09ce99f5",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47366, 739.9, 172.0922",
+            "RequireKey": false
+        }
+    ],
+    "AgencyPickups": []
+}
