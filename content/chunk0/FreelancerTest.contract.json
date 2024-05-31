@@ -1,10 +1,10 @@
 {
     "Metadata": {
-        "Id": "a3e19d55-64a6-4282-bb3c-d18c3f3e6e29",
+        "Id": "a3e19d55-64a6-4282-bb3c-d18c3f3e6e27",
         "CodeName_Hint": "Wolverine",
         "Release": "3.0.0",
-        "Type": "mission",
-        "Title": "UI_CONTRACT_WOLVERINE_TITLE",
+        "Type": "featured",
+        "Title": "Freelancer Test",
         "Description": "UI_CONTRACT_WOLVERINE_DESC",
         "BriefingVideo": "briefing_wolverine",
         "ScenePath": "assembly:/_pro/scenes/missions/trapped/scene_lynx.entity",
@@ -47,5 +47,11 @@
         ],
         "Objectives": [
         ]
+    },"SMF": {
+        "destinations": {
+            "addToDestinations": true,
+            "peacockIntegration": true,
+            "narrativeContext": "featured"
+        }
     }
 }
