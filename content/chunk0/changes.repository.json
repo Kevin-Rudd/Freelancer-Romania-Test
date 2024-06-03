@@ -5,10 +5,16 @@
               "Name_LOC": "ui_starting_location_newzealand_sheep_office_name",
               "Description": "ui_starting_location_newzealand_sheep_office_desc"
             },
-    "ee4b0060-b322-4bb0-99b5-942e8a20f277": {
-              "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f277",
-              "Image": "images/ruddy/lynx_bar.jpg",
-              "Name_LOC": "ui_starting_location_hokkaido_bar_name",
-              "Description": "ui_starting_location_hokkaido_bar_desc"
-            }
+            "ee4b0060-b322-4bb0-99b5-942e8a20f277": {
+                      "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f277",
+                      "Image": "images/ruddy/lynx_bar.jpg",
+                      "Name_LOC": "ui_starting_location_hokkaido_bar_name",
+                      "Description": "ui_starting_location_hokkaido_bar_desc"
+                    },
+                    "af29c8d3-45cd-4b36-b7ed-5acc9398556a": {
+                              "ID_": "af29c8d3-45cd-4b36-b7ed-5acc9398556a",
+                              "Image": "images/ruddy/lynx_newspaper.jpg",
+                              "Name_LOC": "ui_starting_location_hokkaido_bar_name",
+                              "Description": "ui_starting_location_hokkaido_bar_desc"
+                            }
 }
