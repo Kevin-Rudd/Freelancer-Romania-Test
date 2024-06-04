@@ -12,7 +12,7 @@
             "id": "ee4b0060-b322-4bb0-99b5-942e8a20f277",
             "isDefaultSpawn": true,
             "isPreferredSpawn": false,
-            "WorldTransform": "-1, -1.224606E-16, 0, 1.224606E-16, -1, 0, 0, 0, 1, -500, 0, 500"
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.044162, 13.20908, 1"
         },{
             "id": "f21b1a1a-bec9-4a06-9a4a-d615e9721e3b",
             "isDefaultSpawn": true,
