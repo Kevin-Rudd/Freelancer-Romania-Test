@@ -123,23 +123,35 @@
 	}],
 	"localisation": {
 		"english": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"french": {
-            "UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+            "UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"italian": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"german": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"spanish": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"russian": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"chineseSimplified": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"chineseTraditional": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"},
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"},
 		"japanese": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery"}
+			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
+			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the informant they're meeting with"}
+	},
+	"localisedLines": {
+		"00E9017E9A3C704E": "UI_LYNX_LAPTOP_CLUE"
 	},
 	"packagedefinition": [{
 		"type": "entity",
