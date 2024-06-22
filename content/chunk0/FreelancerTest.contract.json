@@ -3,7 +3,7 @@
         "Id": "a3e19d55-64a6-4282-bb3c-d18c3f3e6e27",
         "CodeName_Hint": "Wolverine",
         "Release": "3.0.0",
-        "Type": "featured",
+        "Type": "evergreen",
         "Title": "Freelancer Test",
         "Description": "UI_CONTRACT_WOLVERINE_DESC",
         "BriefingVideo": "briefing_wolverine",
