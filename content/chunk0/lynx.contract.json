@@ -41,7 +41,75 @@
                 "Bricks": []
             }
         ],
-        "Objectives": [
+        "Objectives": [{
+            "Id": "5f1ddb3d-8606-479b-ae81-659a5b523f83",
+            "Primary": true,
+            "IsHidden": false,
+            "Category": "primary",
+            "ObjectiveType": "custom",
+            "DisplayAsKillObjective": true,
+            "Image": "images/actors/elusive_DirtyOctopus_face.jpg",
+            "BriefingName": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_TITLE",
+            "BriefingText": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_TITLE",
+            "LongBriefingText": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_DESC",
+            "HUDTemplate": {
+                "display": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_TITLE"
+            },
+            "Type": "statemachine",
+            "Scope": "hit",
+            "Definition": {
+                "Context": {
+                    "KilledActors": [],
+                    "Targets": []
+                },
+                "States": {
+                    "Start": {
+                        "TargetPicked": [
+                            {
+                                "Actions": {
+                                    "$pushunique": [
+                                        "Targets",
+                                        "$Value.RepositoryId"
+                                    ]
+                                },
+                                "Transition": "TargetPicked"
+                            }
+                        ]
+                    },
+                    "TargetPicked": {
+                        "Kill": [
+                            {
+                                "Actions": {
+                                    "$pushunique": [
+                                        "KilledActors",
+                                        "$Value.RepositoryId"
+                                    ]
+                                }
+                            },
+                            {
+                                "Condition": {
+                                    "$all": {
+                                        "in": "$.Targets",
+                                        "?": {
+                                            "$any": {
+                                                "in": "$.KilledActors",
+                                                "?": {
+                                                    "$eq": [
+                                                        "$.#",
+                                                        "$.##"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "Transition": "Success"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
         ]
     },"SMF": {
         "destinations": {
