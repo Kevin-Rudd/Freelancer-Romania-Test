@@ -23,7 +23,7 @@
         "CarryAnimSetType": "EAST_SUITCASE",
         "CheatSpawnGroup_Everything": true,
         "CommonName": "Questitem Mascot Secret Document",
-        "Description": "description_cyamusb",
+        "Description": "description_usb",
         "EnablePickUpOnRelease": true,
         "EquipAbility": "EA_CANNOT_BE_EQUIPPED",
         "HolsterAbility": "eHolsterQuestStorage",

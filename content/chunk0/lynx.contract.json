@@ -4,9 +4,9 @@
         "CodeName_Hint": "Lynx",
         "Release": "3.0.0",
         "Type": "flashback",
-        "Subtype": "specialassignment",
+        "Subtype": "flashback",
         "Title": "UI_CONTRACT_LYNX_TITLE",
-        "Description": "UI_CONTRACT_WOLVERINE_DESC",
+        "Description": "UI_CONTRACT_LYNX_BRIEFING",
         "ScenePath": "assembly:/_pro/scenes/missions/trapped/scene_lynx.entity",
         "TileImage": "images/ruddy/lynx.jpg",
         "Location": "LOCATION_TRAPPED_WOLVERINE",
@@ -47,13 +47,13 @@
             "IsHidden": false,
             "Category": "primary",
             "ObjectiveType": "custom",
-            "DisplayAsKillObjective": true,
-            "Image": "images/actors/elusive_DirtyOctopus_face.jpg",
-            "BriefingName": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_TITLE",
-            "BriefingText": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_TITLE",
-            "LongBriefingText": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_DESC",
+            "DisplayAsKillObjective": false,
+            "Image": "images/actors/Mongoose_Unknown_Man.png",
+            "BriefingName": "$loc UI_LYNX_TARGET_TITLE",
+            "BriefingText": "$loc UI_LYNX_TARGET_DESC",
+            "LongBriefingText": "$loc UI_LYNX_TARGET_LONGDESC",
             "HUDTemplate": {
-                "display": "$loc UI_CONTRACT_DIRTY_OCTOPUS_OBJ_1_TITLE"
+                "display": "$loc UI_LYNX_TARGET_DESC"
             },
             "Type": "statemachine",
             "Scope": "hit",
@@ -117,10 +117,11 @@
             "ObjectiveType": "custom",
             "Image": "images/unlockables/item_perspective_55d34557-5b46-422f-84ce-7bb13cfcef96_0.jpg",
             "BriefingName": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
-            "BriefingText": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_DESC",
-            "LongBriefingText": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_DESC",
+            "BriefingText": "$loc UI_LYNX_OBJ_DESC",
+            "LongBriefingText": "$loc UI_LYNX_OBJ_DESC",
             "HUDTemplate": {
-                "display": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE"
+                "display": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
+                "iconType": 17
             },
             "Type": "statemachine",
             "Definition": {
