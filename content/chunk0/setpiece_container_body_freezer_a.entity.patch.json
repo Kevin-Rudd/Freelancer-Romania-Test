@@ -1,0 +1,35 @@
+{
+    "tempHash": "0086FF25109C6EDB",
+    "tbluHash": "0041548C7C76E171",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "d6db1d403c381084",
+                {
+                    "AddProperty": [
+                        "m_bAllowUnconsciousTarget",
+                        {
+                            "type": "bool",
+                            "value": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "ca637e7b5bc3e2c2",
+                {
+                    "AddPropertyAliasConnection": [
+                        "m_bAllowUnconsciousTarget",
+                        {
+                            "originalProperty": "m_bAllowUnconsciousTarget",
+                            "originalEntity": "d6db1d403c381084"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}
