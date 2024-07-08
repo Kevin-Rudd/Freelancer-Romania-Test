@@ -61,7 +61,9 @@
             "Definition": {
                 "Context": {
                     "KilledActors": [],
-                    "Targets": []
+                    "Targets": [],
+                    "BodyCount": 0,
+                    "BodyCountGoal": 2
                 },
                 "States": {
                     "Start": {
@@ -138,7 +140,12 @@
                         "ValidBody": {
                             "BodyHidden": [{
                                     "Condition": {
-                                        "$eq": ["$Value.IsTarget", true]
+                                        "$inarray": {
+                                            "in": "$.Targets",
+                                            "?": {
+                                                "$eq": ["$.#", "$Value.RepositoryId"]
+                                            }
+                                        }
                                     },
                                     "Transition": "Success"
                                 }, {
@@ -154,7 +161,12 @@
 						"InvalidBody": {
                             "BodyHidden": [{
                                     "Condition": {
-                                        "$eq": ["$Value.IsTarget", true]
+                                        "$inarray": {
+                                            "in": "$.Targets",
+                                            "?": {
+                                                "$eq": ["$.#", "$Value.RepositoryId"]
+                                            }
+                                        }
                                     },
                                     "Transition": "Failure"
                                 }, {
