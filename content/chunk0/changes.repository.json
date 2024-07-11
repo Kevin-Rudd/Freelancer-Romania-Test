@@ -14,8 +14,8 @@
                     "af29c8d3-45cd-4b36-b7ed-5acc9398556a": {
                               "ID_": "af29c8d3-45cd-4b36-b7ed-5acc9398556a",
                               "Image": "images/ruddy/lynx_newspaper.jpg",
-                              "Name_LOC": "ui_starting_location_hokkaido_bar_name",
-                              "Description": "ui_starting_location_hokkaido_bar_desc"
+                              "Name_LOC": "ui_starting_location_lynx_seats_name",
+                              "Description": "ui_starting_location_lynx_seats_name"
                             },
   "195dcd6b-6663-4768-9e0a-c94e244cbea5": {
         "ID_": "195dcd6b-6663-4768-9e0a-c94e244cbea5",
