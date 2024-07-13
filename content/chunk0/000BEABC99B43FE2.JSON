@@ -36,5 +36,17 @@
             "RequireKey": false
         }
     ],
-    "AgencyPickups": []
+    "AgencyPickups": [{
+        "id": "d4b6f7eb-6c48-4605-95de-7f9695be2ed0",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 69.75161, 27.541344, -7.811443",
+        "AllowOutfits": false,
+        "AllowLargerItems": false,
+        "UnlockedByDefault": true
+    },{
+        "id": "1a7f20ee-909a-4fa5-bba0-b8068ac05240",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 69.75161, 27.541344, -7.811443",
+        "AllowOutfits": true,
+        "AllowLargerItems": true,
+        "UnlockedByDefault": true
+    }]
 }

@@ -1,4 +1,18 @@
 {
+    "1a7f20ee-909a-4fa5-bba0-b8068ac05240": {
+        "ID_": "1a7f20ee-909a-4fa5-bba0-b8068ac05240",
+        "Description": "ui_agencypickup_golden_large_laundryroom_name",
+        "Image": "images/ruddy/lynx_laundry.jpg",
+        "Name_LOC": "ui_agencypickup_golden_large_laundryroom_name",
+        "Name": "Unknown"
+    },
+    "d4b6f7eb-6c48-4605-95de-7f9695be2ed0": {
+        "ID_": "d4b6f7eb-6c48-4605-95de-7f9695be2ed0",
+        "Description": "ui_agencypickup_golden_large_janitorroom_name",
+        "Image": "images/ruddy/lynx_maintenance.jpg",
+        "Name_LOC": "ui_agencypickup_golden_large_janitorroom_name",
+        "Name": "Unknown"
+    },
     "f21b1a1a-bec9-4a06-9a4a-d615e9721e3b": {
               "ID_": "f21b1a1a-bec9-4a06-9a4a-d615e9721e3b",
               "Image": "images/ruddy/lynx_office.jpg",
