@@ -45,7 +45,7 @@
             {
             "Id": "5f1ddb3d-8606-479b-ae81-659a5b523f83",
             "Primary": true,
-            "IsHidden": false,
+            "IsHidden": true,
             "Category": "primary",
             "ObjectiveType": "custom",
             "DisplayAsKillObjective": false,
