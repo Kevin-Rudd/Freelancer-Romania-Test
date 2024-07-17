@@ -184,6 +184,7 @@
             "Category": "primary",
             "ObjectiveType": "custom",
             "ForceShowOnLoadingScreen": true,
+            "DisplayAsKillObjective": false,
             "Image": "images/unlockables/item_perspective_55d34557-5b46-422f-84ce-7bb13cfcef96_0.jpg",
             "BriefingName": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
             "BriefingText": "$loc UI_LYNX_OBJ_DESC",

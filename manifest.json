@@ -265,15 +265,15 @@
 			"desciption_usb": "This USB device contains some sort of sensitive information. What exactly? Who knows.",
 			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the buyer they're meeting with"},
 		"japanese": {
-			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
-			"ui_starting_location_lynx_seats_name": "Passenger Seats",
-			"UI_LYNX_OBJ_DESC": "Retrieve the Interpol Agent's USB drive",
-			"UI_LYNX_TARGET_TITLE": "Neutralize",
-			"UI_LYNX_TARGET_DESC": "Eliminate The Buyer\nor\nLeave Them In A Container Marked 'X' For Capture",
-			"UI_LYNX_TARGET_LONGDESC": "Our client wants the Milford Industries fixer dealt with one way or another. Killing them would do the trick, but a bonus will come our way if the target is left unconscious in a container with an 'X' post-it note on it for a team to extract and interrogate\n\nOur client doesn't have any clue what the buyer looks like, but I suspect if you can track down the Interpol agent meeting with them there'll be some information to work with. Also, expect them to be using some sort of untraceable payment for the exchange.",
-			"UI_CONTRACT_LYNX_BRIEFING": "Hello, 47 \n\nOur client is a high profile European transport company in rivalry with Milford Industries. A Milford fixer is doing a deal with a dirty Interpol agent for all the information they've uncovered about Milford's shady practices. This cannot be allowed to happen. Secure the Interpol agent's data and deal with the corporate fixer.\n\nKilling the buyer would get the job done, but our client would be willing to pay more if you can leave the target unconscious in a container their contact has marked 'X' with a post-it note for extraction and interrogation when the train reaches its destination.\n\nI'm afraid we have no information on the target's appearance, but it's a good bet the Interpol agent has that information.\n\nGood luck on this one, 47",
-			"desciption_usb": "This USB device contains some sort of sensitive information. What exactly? Who knows.",
-			"UI_LYNX_LAPTOP_CLUE": "This laptop mentions an exchange that's to take place and includes a picture of the buyer they're meeting with"}
+			"UI_CONTRACT_LYNX_TITLE": "速達便",
+			"ui_starting_location_lynx_seats_name": "助手席",
+			"UI_LYNX_OBJ_DESC": "インターポール捜査官のフラッシュドライブを回収する",
+			"UI_LYNX_TARGET_TITLE": "中和する",
+			"UI_LYNX_TARGET_DESC": "買い手を排除する\nまたは\n捕獲用に「X」マークの付いたコンテナに入れておきます",
+			"UI_LYNX_TARGET_LONGDESC": "私たちのクライアントは、ミルフォード・インダストリーズのフィクサーを何らかの方法で対処したいと考えています。彼らを殺せばうまくいきますが、チームが抽出して尋問できるように、ターゲットが「X」のポストイットが書かれたコンテナの中で意識を失ったままにしておけば、ボーナスが得られます。\n\n私たちのクライアントは、購入者がどのような人物なのかまったく知りませんが、インターポールの職員と面会しているところを追跡できれば、何らかの情報が得られるのではないかと思います。また、交換には追跡不可能な支払いが使用されることが予想されます。",
+			"UI_CONTRACT_LYNX_BRIEFING": "こんにちは、47\n\n私たちのクライアントは、ミルフォード・インダストリーズとライバル関係にある有名なヨーロッパの運送会社です。ミルフォードのフィクサーは、ミルフォードのいかがわしい行為について暴露したすべての情報を求めて、汚いインターポールの捜査官と取引を行っている。このようなことが起こることは許されません。インターポール捜査官のデータを保護し、企業フィクサーに対処してください。\n\n買い手を殺せば仕事は終わるが、ターゲットを意識を失ったコンテナの中に放っておいてくれるなら、クライアントはもっと金を払っても構わないと思うが、列車が到着した際に連絡先が抽出と尋問のためにポストイットで「X」とマークしておいた。行き先。\n\n残念ながらターゲットの外見に関する情報はありませんが、インターポールの捜査官がその情報を持っているのは間違いありません。\n\n頑張ってね、47",
+			"desciption_usb": "このストレージ デバイスには、ある種の機密情報が含まれています。正確には？知るか",
+			"UI_LYNX_LAPTOP_CLUE": "このノートパソコンには、これから行われる交換について言及されており、面会中の購入者の写真も含まれています。"}
 		},
 	"localisedLines": {
 		"00E9017E9A3C704E": "UI_LYNX_LAPTOP_CLUE"
