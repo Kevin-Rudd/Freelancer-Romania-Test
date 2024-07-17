@@ -231,9 +231,6 @@
                 },
                 "Type": "statemachine",
                 "Definition": {
-                    "Context": {
-                        "Targets": ["195dcd6b-6663-4768-9e0a-c94e244cbea5"]
-                    },
                     "States": {
                         "Start": {
                             "ItemPickedUp": {

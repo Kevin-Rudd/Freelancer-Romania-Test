@@ -5,6 +5,9 @@
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
 	"peacockPlugins": ["PassengerTrain.plugin.js"],
+	"thumbs": [
+                "ConsoleCmd OnlineResources_Disable 1"
+            ],
 	"description": "Bonus Mission on Carpathian Mountains which takes place on a Passenger Train",
 	"authors": ["Kevin Rudd", "Kercyx"],
 	"updateCheck": "https://raw.githubusercontent.com/Kevin-Rudd/Freelancer-Romania-Test/main/updates.json",
