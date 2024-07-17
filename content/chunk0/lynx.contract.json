@@ -49,6 +49,7 @@
             "Category": "primary",
             "ObjectiveType": "custom",
             "DisplayAsKillObjective": false,
+            "ForceShowOnLoadingScreen": true,
             "Image": "images/ruddy/lynx_target.jpg",
             "BriefingName": "$loc UI_LYNX_TARGET_TITLE",
             "BriefingText": "$loc UI_LYNX_TARGET_DESC",
@@ -182,6 +183,7 @@
             "IsHidden": true,
             "Category": "primary",
             "ObjectiveType": "custom",
+            "ForceShowOnLoadingScreen": true,
             "Image": "images/unlockables/item_perspective_55d34557-5b46-422f-84ce-7bb13cfcef96_0.jpg",
             "BriefingName": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
             "BriefingText": "$loc UI_LYNX_OBJ_DESC",
@@ -192,9 +194,6 @@
             },
             "Type": "statemachine",
             "Definition": {
-                "Context": {
-                    "Targets": ["195dcd6b-6663-4768-9e0a-c94e244cbea5"]
-                },
                 "States": {
                     "Start": {
                         "ItemPickedUp": {
