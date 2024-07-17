@@ -14,108 +14,130 @@
         "LastUpdate": "2015-04-13T09:17:05.987Z",
         "CreationTimestamp": "2015-03-25T13:08:00.173Z",
         "CreatorUserId": "7545ee96-063a-49b6-a1d9-9fc2656e565a",
-        "Entitlements": ["LOCATION_TRAPPED"]
+        "Entitlements": [
+            "LOCATION_TRAPPED"
+        ]
     },
     "UserData": {},
     "Data": {
         "RandomBricks": {
-            "TimeOfDay": ["assembly:/_pro/scenes/missions/trapped/tod_day.brick",
-        "assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick"]
+            "TimeOfDay": [
+                "assembly:/_pro/scenes/missions/trapped/tod_day.brick",
+                "assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick"
+            ]
         },
-        "Bricks": ["assembly:/_pro/scenes/missions/trapped/passenger_train.brick"],
+        "Bricks": [
+            "assembly:/_pro/scenes/missions/trapped/passenger_train.brick"
+        ],
         "DevOnlyBricks": [],
-        "VR": [{
+        "VR": [
+            {
                 "Quality": "base",
-                "Bricks": ["assembly:/_pro/Scenes/Bricks/vr_setup.brick"]
+                "Bricks": [
+                    "assembly:/_pro/Scenes/Bricks/vr_setup.brick"
+                ]
             }
         ],
         "GameChangers": [],
-        "GameDifficulties": [{
+        "GameDifficulties": [
+            {
                 "Difficulty": "easy",
                 "Bricks": []
-            }, {
+            },
+            {
                 "Difficulty": "normal",
                 "Bricks": []
-            }, {
+            },
+            {
                 "Difficulty": "hard",
                 "Bricks": []
             }
         ],
         "Objectives": [
             {
-            "Id": "5f1ddb3d-8606-479b-ae81-659a5b523f83",
-            "Primary": true,
-            "IsHidden": true,
-            "Category": "primary",
-            "ObjectiveType": "custom",
-            "DisplayAsKillObjective": false,
-            "ForceShowOnLoadingScreen": true,
-            "Image": "images/ruddy/lynx_target.jpg",
-            "BriefingName": "$loc UI_LYNX_TARGET_TITLE",
-            "BriefingText": "$loc UI_LYNX_TARGET_DESC",
-            "LongBriefingText": "$loc UI_LYNX_TARGET_LONGDESC",
-            "HUDTemplate": {
-                "display": "$loc UI_LYNX_TARGET_DESC"
-            },
-            "Type": "statemachine",
-            "Scope": "hit",
-            "Definition": {
-                "Context": {
-                    "KilledActors": [],
-                    "Targets": [],
-                    "BodyCount": 0,
-                    "BodyCountGoal": 2
+                "Id": "5f1ddb3d-8606-479b-ae81-659a5b523f83",
+                "Primary": true,
+                "IsHidden": true,
+                "Category": "primary",
+                "ObjectiveType": "custom",
+                "DisplayAsKillObjective": false,
+                "ForceShowOnLoadingScreen": true,
+                "Image": "images/ruddy/lynx_target.jpg",
+                "BriefingName": "$loc UI_LYNX_TARGET_OBJ",
+                "BriefingText": "$loc UI_LYNX_TARGET_DESC",
+                "LongBriefingText": "$loc UI_LYNX_TARGET_LONGDESC",
+                "HUDTemplate": {
+                    "display": "$loc UI_LYNX_TARGET_OBJ",
+                    "iconType": 17
                 },
-                "States": {
-                    "Start": {
-                        "TargetPicked": [
-                            {
-                                "Actions": {
-                                    "$pushunique": [
-                                        "Targets",
-                                        "$Value.RepositoryId"
-                                    ]
-                                },
-                                "Transition": "TargetPicked"
-                            }
-                        ]
+                "Type": "statemachine",
+                "Scope": "hit",
+                "Definition": {
+                    "Context": {
+                        "KilledActors": [],
+                        "Targets": [],
+                        "BodyCount": 0,
+                        "BodyCountGoal": 2
                     },
-                    "TargetPicked": {
-                        "Kill": [
-                            {
-                                "Actions": {
-                                    "$pushunique": [
-                                        "KilledActors",
-                                        "$Value.RepositoryId"
-                                    ]
+                    "States": {
+                        "Start": {
+                            "TargetPicked": [
+                                {
+                                    "Actions": {
+                                        "$pushunique": [
+                                            "Targets",
+                                            "$Value.RepositoryId"
+                                        ]
+                                    },
+                                    "Transition": "TargetPicked"
                                 }
-                            },
-                            {
-                                "Condition": {
-                                    "$all": {
-                                        "in": "$.Targets",
-                                        "?": {
-                                            "$any": {
-                                                "in": "$.KilledActors",
-                                                "?": {
-                                                    "$eq": [
-                                                        "$.#",
-                                                        "$.##"
-                                                    ]
+                            ]
+                        },
+                        "TargetPicked": {
+                            "Kill": [
+                                {
+                                    "Actions": {
+                                        "$pushunique": [
+                                            "KilledActors",
+                                            "$Value.RepositoryId"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Condition": {
+                                        "$all": {
+                                            "in": "$.Targets",
+                                            "?": {
+                                                "$any": {
+                                                    "in": "$.KilledActors",
+                                                    "?": {
+                                                        "$eq": [
+                                                            "$.#",
+                                                            "$.##"
+                                                        ]
+                                                    }
                                                 }
                                             }
                                         }
-                                    }
-                                },
-                                "Transition": "Success"
-                            }
-                        ],
-                        "setpieces": [{
+                                    },
+                                    "Transition": "Success"
+                                }
+                            ],
+                            "setpieces": [
+                                {
                                     "Condition": {
-                                        "$and": [{
-                                                "$eq": ["$Value.name_metricvalue", "HideBody"]
-                                            }, {
-                                                "$eq": ["$Value.RepositoryId", "109f96df-23b1-4f9a-850c-9f6929c22b7d"]
+                                        "$and": [
+                                            {
+                                                "$eq": [
+                                                    "$Value.name_metricvalue",
+                                                    "HideBody"
+                                                ]
+                                            },
+                                            {
+                                                "$eq": [
+                                                    "$Value.RepositoryId",
+                                                    "109f96df-23b1-4f9a-850c-9f6929c22b7d"
+                                                ]
                                             }
                                         ]
                                     },
@@ -123,14 +145,23 @@
                                         "$inc": "BodyCount"
                                     },
                                     "Transition": "ValidBody"
-                                },	{
+                                },
+                                {
                                     "Condition": {
-                                        "$and": [{
-                                                "$eq": ["$Value.name_metricvalue", "HideBody"]
-                                            }, {
+                                        "$and": [
+                                            {
+                                                "$eq": [
+                                                    "$Value.name_metricvalue",
+                                                    "HideBody"
+                                                ]
+                                            },
+                                            {
                                                 "$not": {
-														"$eq": ["$Value.RepositoryId", "109f96df-23b1-4f9a-850c-9f6929c22b7d"]
-												}
+                                                    "$eq": [
+                                                        "$Value.RepositoryId",
+                                                        "109f96df-23b1-4f9a-850c-9f6929c22b7d"
+                                                    ]
+                                                }
                                             }
                                         ]
                                     },
@@ -139,79 +170,88 @@
                             ]
                         },
                         "ValidBody": {
-                            "BodyHidden": [{
+                            "BodyHidden": [
+                                {
                                     "Condition": {
                                         "$inarray": {
                                             "in": "$.Targets",
                                             "?": {
-                                                "$eq": ["$.#", "$Value.RepositoryId"]
+                                                "$eq": [
+                                                    "$.#",
+                                                    "$Value.RepositoryId"
+                                                ]
                                             }
                                         }
                                     },
                                     "Transition": "Success"
-                                }, {
-                                    "Condition": {
-                                        "$eq": ["$.BodyCount", "$.BodyCountGoal"]
-                                    },
-                                    "Transition": "Failure"
-                                }, {
+                                },
+                                {
                                     "Transition": "TargetPicked"
                                 }
                             ]
                         },
-						"InvalidBody": {
-                            "BodyHidden": [{
+                        "InvalidBody": {
+                            "BodyHidden": [
+                                {
                                     "Condition": {
                                         "$inarray": {
                                             "in": "$.Targets",
                                             "?": {
-                                                "$eq": ["$.#", "$Value.RepositoryId"]
+                                                "$eq": [
+                                                    "$.#",
+                                                    "$Value.RepositoryId"
+                                                ]
                                             }
                                         }
                                     },
                                     "Transition": "Failure"
-                                }, {
+                                },
+                                {
                                     "Transition": "TargetPicked"
                                 }
                             ]
                         }
                     }
-                    }
-                },
-        {
-            "Id": "c6c864fe-287c-4345-8a04-03682a65498f",
-            "IsHidden": true,
-            "Category": "primary",
-            "ObjectiveType": "custom",
-            "ForceShowOnLoadingScreen": true,
-            "DisplayAsKillObjective": false,
-            "Image": "images/unlockables/item_perspective_55d34557-5b46-422f-84ce-7bb13cfcef96_0.jpg",
-            "BriefingName": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
-            "BriefingText": "$loc UI_LYNX_OBJ_DESC",
-            "LongBriefingText": "$loc UI_LYNX_OBJ_DESC",
-            "HUDTemplate": {
-                "display": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
-                "iconType": 17
+                }
             },
-            "Type": "statemachine",
-            "Definition": {
-                "States": {
-                    "Start": {
-                        "ItemPickedUp": {
-                            "Condition": {
-                                "$eq": [
-                                    "$Value.RepositoryId",
-                                    "195dcd6b-6663-4768-9e0a-c94e244cbea5"
-                                ]
-                            },
-                            "Transition": "Success"
+            {
+                "Id": "c6c864fe-287c-4345-8a04-03682a65498f",
+                "IsHidden": true,
+                "Category": "primary",
+                "ObjectiveType": "custom",
+                "ForceShowOnLoadingScreen": true,
+                "DisplayAsKillObjective": false,
+                "Image": "images/unlockables/item_perspective_55d34557-5b46-422f-84ce-7bb13cfcef96_0.jpg",
+                "BriefingName": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
+                "BriefingText": "$loc UI_LYNX_OBJ_DESC",
+                "LongBriefingText": "$loc UI_LYNX_OBJ_DESC",
+                "HUDTemplate": {
+                    "display": "$loc UI_CONTRACT_LUMUMBA_OBJ_2_TITLE",
+                    "iconType": 17
+                },
+                "Type": "statemachine",
+                "Definition": {
+                    "Context": {
+                        "Targets": ["195dcd6b-6663-4768-9e0a-c94e244cbea5"]
+                    },
+                    "States": {
+                        "Start": {
+                            "ItemPickedUp": {
+                                "Condition": {
+                                    "$eq": [
+                                        "$Value.RepositoryId",
+                                        "195dcd6b-6663-4768-9e0a-c94e244cbea5"
+                                    ]
+                                },
+                                "Transition": "Success"
+                            }
                         }
                     }
                 }
             }
-        }
         ]
-    },"SMF": {
+    },
+    "SMF": {
         "destinations": {
             "addToDestinations": true,
             "peacockIntegration": true,
