@@ -231,6 +231,13 @@
 		"english": {
 			"UI_CONTRACT_LYNX_TITLE": "Express Delivery",
 			"ui_starting_location_lynx_seats_name": "Passenger Seats",
+			"ui_starting_location_lynx_seats_desc": "47 has boarded the train and has taken a seat at the back of the train.",
+			"ui_starting_location_lynx_bar_desc": "47 has boarded the train and is having a drink at the bar.",
+			"ui_starting_location_lynx_office_desc": "47 has boarded the train and made his way to the office.",
+			"ui_starting_location_lynx_office_disguised_desc": "47 has boarded the train and has made his way to the office, disguising as a member of staff.",
+			"ui_agencypickup_lynx_laundryroom_desc": "The client can stash a briefcase containing a large item in the laundry carriage.",
+			"ui_agencypickup_lynx_janitorroom_desc": "The client can stash a small item into the maintenance room, located in the third carriage.",
+			"lynx_staff_member": "Staff Member",
 			"UI_LYNX_OBJ_DESC": "Retrieve the Interpol Agent's USB drive",
 			"UI_LYNX_TARGET_OBJ": "Neutralize The Buyer",
 			"UI_LYNX_TARGET_OBJ_ELIMINATE": "Eliminate The Buyer",

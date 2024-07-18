@@ -307,7 +307,7 @@ module.exports = function PassengerTrainPlugin(controller) {
                 "Level": 5
             },
             {
-                "Id": "STARTING_LOCATION_TRAPPED_LYNX_OFFICE",
+                "Id": "STARTING_LOCATION_TRAPPED_LYNX_OFFICE_DISGUISED",
                 "Level": 5
             }
         ]
@@ -316,7 +316,7 @@ module.exports = function PassengerTrainPlugin(controller) {
     controller.configManager.configs.Entrances["assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity"] = [
         "af29c8d3-45cd-4b36-b7ed-5acc9398556a",
         "ee4b0060-b322-4bb0-99b5-942e8a20f277",
-        "f21b1a1a-bec9-4a06-9a4a-d615e9721e3b"
+        "c84a3973-4c6a-47bd-a280-8710850bae4f"
     ]
 
     controller.configManager.configs.AgencyPickups["assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity"] = [
