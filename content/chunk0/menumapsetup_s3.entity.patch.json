@@ -1,1 +1,47 @@
-{"tempHash":"0000EC8E53C34D0F","tbluHash":"009E7169BA598D69","patch":[{"AddEntity":["cafeb0a0247d71e1",{"parent":"f2cf4164b417e20d","name":"scene_Lynx","factory":"[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype","blueprint":"[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint","properties":{"m_pMetaDataResource":{"type":"ZRuntimeResourceID","value":{"resource":"000BEABC99B43FE2","flag":"5F"}}}}]}],"patchVersion":6}
+{
+	"tempHash": "0000EC8E53C34D0F",
+	"tbluHash": "009E7169BA598D69",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafeb0a0247d71e1",
+				{
+					"parent": "f2cf4164b417e20d",
+					"name": "scene_Lynx",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "000BEABC99B43FE2",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7fe70732f74d",
+				{
+					"parent": "f2cf4164b417e20d",
+					"name": "scene_Lynx_Peacock",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00AE328D2CF70242",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

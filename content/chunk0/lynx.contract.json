@@ -251,7 +251,7 @@
     "SMF": {
         "destinations": {
             "addToDestinations": true,
-            "peacockIntegration": true,
+            "peacockIntegration": false,
             "narrativeContext": "flashback"
         }
     }

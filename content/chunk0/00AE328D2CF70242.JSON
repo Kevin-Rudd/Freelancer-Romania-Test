@@ -1,0 +1,52 @@
+{
+    "scene": "assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "af29c8d3-45cd-4b36-b7ed-5acc9398556a",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.044162, 13.20908, 1"
+        },
+        {
+            "id": "ee4b0060-b322-4bb0-99b5-942e8a20f277",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.044162, 13.20908, 1"
+        },{
+            "id": "f21b1a1a-bec9-4a06-9a4a-d615e9721e3b",
+            "isDefaultSpawn": false,
+            "isPreferredSpawn": false,
+            "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 0.150785, 258.2455, 0.994496"
+        }
+        
+    ],
+    "Exits": [
+        {
+            "id": "78722524-776b-40be-86d1-6a14a899a892",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47366, 739.9, 172.0922",
+            "RequireKey": false
+        },{
+            "id": "1c861554-9cce-4f65-87bd-fded086b87e5",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47366, 739.9, 172.0922",
+            "RequireKey": false
+        },{
+            "id": "3e307b89-ee30-4365-a9ce-849f09ce99f5",
+            "WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 1.47366, 739.9, 172.0922",
+            "RequireKey": false
+        }
+    ],
+    "AgencyPickups": [{
+        "id": "d4b6f7eb-6c48-4605-95de-7f9695be2ed0",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 69.75161, 27.541344, -7.811443",
+        "AllowOutfits": false,
+        "AllowLargerItems": false,
+        "UnlockedByDefault": false
+    },{
+        "id": "1a7f20ee-909a-4fa5-bba0-b8068ac05240",
+        "WorldTransform": "-1, 0, 0, 0, -1, 0, 0, 0, 1, 69.75161, 27.541344, -7.811443",
+        "AllowOutfits": true,
+        "AllowLargerItems": true,
+        "UnlockedByDefault": false
+    }]
+}
