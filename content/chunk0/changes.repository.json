@@ -106,10 +106,10 @@
     },
     "dcfb6a53-f3fa-44c0-bae1-23e34e8e0768": {
         "CommonName": "Trapped_Worker_Hospitality_M_",
-        "Description": "lynx_staff_member",
+        "Description": "UI_LYNX_OUTFIT_STAFF_MEMBER",
         "HeroDisguiseAvailable": true,
         "Image": "images/unlockables/outfit_589d5082-92e5-4136-922d-786646fb781a_0.jpg",
-        "Name": "lynx_staff_member",
+        "Name": "UI_LYNX_OUTFIT_STAFF_MEMBER",
         "Category": "",
         "ImageTransparent": "",
         "IsHitmanSuit": false,
