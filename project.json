@@ -3,6 +3,8 @@
         "[assembly:/_pro/scenes/missions/trapped/scene_lynx.entity].pc_entitytemplate",
         "[assembly:/_pro/scenes/missions/trapped/scene_lynx.entity].pc_entityblueprint",
         "[assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity].pc_entitytemplate",
-        "[assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity].pc_entityblueprint"
+        "[assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity].pc_entityblueprint",
+        "[assembly:/_pro/design/setpieces/unique/setpiece_lynx_unique.template?/target_identifier.entitytemplate].pc_entitytype",
+        "[assembly:/_pro/design/setpieces/unique/setpiece_lynx_unique.template?/target_identifier.entitytemplate].pc_entityblueprint"
     ]
 }
