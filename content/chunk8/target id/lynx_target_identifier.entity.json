@@ -51,6 +51,12 @@
 						"originalProperty": "m_arTargets",
 						"originalEntity": "cafedfa434c64b6d"
 					}
+				],
+				"m_fTriggerRadius": [
+					{
+						"originalProperty": "m_fTriggerRadius",
+						"originalEntity": "cafe380dad2472cd"
+					}
 				]
 			}
 		},
@@ -173,12 +179,7 @@
 					"value": "cafe2d38faa13804"
 				}
 			},
-			"events": {
-				"PollTrue": {
-					"Activate": ["cafee2992f22250c"],
-					"SetTrue": ["cafe74b51949d6e2"]
-				}
-			}
+			"events": { "PollTrue": { "Activate": ["cafee2992f22250c"] } }
 		},
 		"cafe0a7c42cdf6bd": {
 			"parent": "cafe0201a89407cc",
@@ -258,15 +259,59 @@
 					"value": "cafec8e660fd0656"
 				}
 			},
-			"events": { "PollTrue": { "SetMode": ["cafedfa434c64b6d"] } }
+			"events": {
+				"PollTrue": {
+					"SetMode": ["cafedfa434c64b6d"],
+					"TransmitEvent": ["cafeeb8a089785a0"]
+				}
+			}
 		},
-		"cafe74b51949d6e2": {
+		"cafe3f45de4715aa": {
 			"parent": "cafe0201a89407cc",
-			"name": "DEBUG_ACTIVATED",
-			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"name": "Target Revealed Elsewhere -- Disable Identifier",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_bValue": { "type": "bool", "value": false }
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0afeda60d9a8",
+					"postInit": true
+				}
+			},
+			"events": { "EventReceived": { "Poll": ["cafe8c7236c31b5e"] } }
+		},
+		"cafe0afeda60d9a8": {
+			"parent": "cafe3f45de4715aa",
+			"name": "EventToken_Lynx_Target_Identified",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_lynx_target_identified.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_lynx_target_identified.entitytemplate].pc_entityblueprint"
+		},
+		"cafeeb8a089785a0": {
+			"parent": "cafe0201a89407cc",
+			"name": "Target Revealed Transmitter",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe0afeda60d9a8",
+					"postInit": true
+				}
+			}
+		},
+		"cafe8c7236c31b5e": {
+			"parent": "cafe0201a89407cc",
+			"name": "Should Clear on Transmit",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec8e660fd0656"
+				}
+			},
+			"events": {
+				"PollFalse": { "Deactivate": ["cafee2992f22250c"] }
 			}
 		}
 	},
