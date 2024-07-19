@@ -51,26 +51,6 @@
             "UnlockOrder": 5
         }
     },
-    "STARTING_LOCATION_TRAPPED_LYNX_OFFICE_DISGUISED": {
-        "Guid": "1f59d19e-110b-4527-9af2-7524e4394935",
-        "Type": "access",
-        "Subtype": "startinglocation",
-        "RMTPrice": -1,
-        "GamePrice": -1,
-        "IsPurchasable": false,
-        "IsPublished": true,
-        "IsDroppable": false,
-        "Capabilities": [],
-        "Qualities": {},
-        "Properties": {
-            "Location": "LOCATION_PARENT_TRAPPED",
-            "RepositoryId": "c84a3973-4c6a-47bd-a280-8710850bae4f",
-            "Equip": [
-                "TOKEN_OUTFIT_LYNX_HOSPITALITY"
-            ],
-            "UnlockOrder": 5
-        }
-    },
     "AGENCYPICKUP_TRAPPED_LYNX_MAINTENANCE": {
         "Guid": "d7806732-8629-4789-87fe-ece93a943726",
         "Type": "agencypickup",
@@ -102,25 +82,5 @@
             "RepositoryId": "1a7f20ee-909a-4fa5-bba0-b8068ac05240",
             "UnlockOrder": 4
         }
-    },
-    "TOKEN_OUTFIT_LYNX_HOSPITALITY": {
-        "Guid": "8f4f547e-fc7a-4baa-b2db-66bc0467ef28",
-        "Type": "disguise",
-        "Subtype": "disguise",
-        "ImageId": "",
-        "RMTPrice": 99,
-        "GamePrice": 99,
-        "IsPurchasable": false,
-        "IsPublished": true,
-        "Capabilities": [],
-        "Qualities": {},
-        "Properties": {
-            "Quality": 1,
-            "Rarity": "common",
-            "LoadoutSlot": "disguise",
-            "RepositoryId": "dcfb6a53-f3fa-44c0-bae1-23e34e8e0768"
-        },
-        "Rarity": "common",
-        "IsDroppable": false
     }
 }

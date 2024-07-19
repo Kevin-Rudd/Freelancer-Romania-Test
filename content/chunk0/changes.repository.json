@@ -128,12 +128,6 @@
         "Name_LOC": "ui_agencypickup_golden_large_laundryroom_name",
         "Name": "Unknown"
     },
-    "c84a3973-4c6a-47bd-a280-8710850bae4f": {
-        "ID_": "c84a3973-4c6a-47bd-a280-8710850bae4f",
-        "Image": "images/ruddy/lynx_office_disguised.jpg",
-        "Name_LOC": "ui_starting_location_newzealand_sheep_office_name",
-        "Description": "ui_starting_location_lynx_office_disguised_desc"
-    },
     "ee4b0060-b322-4bb0-99b5-942e8a20f277": {
         "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f277",
         "Image": "images/ruddy/lynx_bar.jpg",
