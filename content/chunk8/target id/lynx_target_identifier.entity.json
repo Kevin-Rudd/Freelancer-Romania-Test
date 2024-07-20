@@ -38,6 +38,10 @@
 					{
 						"originalProperty": "m_eidParent",
 						"originalEntity": "cafee2992f22250c"
+					},
+					{
+						"originalProperty": "m_rActor",
+						"originalEntity": "cafe5170d9e8c7aa"
 					}
 				],
 				"Agent47": [
@@ -261,8 +265,8 @@
 			},
 			"events": {
 				"PollTrue": {
-					"SetMode": ["cafedfa434c64b6d"],
-					"TransmitEvent": ["cafeeb8a089785a0"]
+					"TransmitEvent": ["cafeeb8a089785a0"],
+					"SetTrue": ["cafe594392e3c50c"]
 				}
 			}
 		},
@@ -312,6 +316,75 @@
 			},
 			"events": {
 				"PollFalse": { "Deactivate": ["cafee2992f22250c"] }
+			}
+		},
+		"cafe0fc10c56f789": {
+			"parent": "cafe34d6b8ac9e89",
+			"name": "47 using instinct",
+			"factory": "[modules:/zherostateconditionentity.class].pc_entitytype",
+			"blueprint": "[modules:/zherostateconditionentity.class].pc_entityblueprint"
+		},
+		"cafe594392e3c50c": {
+			"parent": "cafe34d6b8ac9e89",
+			"name": "Target Revealed",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		"cafe5170d9e8c7aa": {
+			"parent": "cafe34d6b8ac9e89",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			},
+			"events": {
+				"OnDead": { "SetTrue": ["cafec90d74fc7b26"] },
+				"OnBodyHidden": { "SetTrue": ["cafec90d74fc7b26"] }
+			}
+		},
+		"cafec90d74fc7b26": {
+			"parent": "cafe34d6b8ac9e89",
+			"name": "ActorDeadOrHidden",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		"cafe674fd0b4ab3a": {
+			"parent": "cafe34d6b8ac9e89",
+			"name": "Glow Target",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe11ac6ca3715f",
+						"cafe0fc10c56f789",
+						"cafe594392e3c50c"
+					]
+				}
+			},
+			"events": { "OnTrue": { "SetMode": ["cafedfa434c64b6d"] } }
+		},
+		"cafe11ac6ca3715f": {
+			"parent": "cafe34d6b8ac9e89",
+			"name": "ActorIsntDeadOrHidden",
+			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_rCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "cafec90d74fc7b26"
+				}
 			}
 		}
 	},
