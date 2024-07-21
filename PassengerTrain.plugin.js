@@ -259,6 +259,276 @@ const contract = {
     }
 }
 
+// Put your assassination challenges here...
+const assassinationChallenges = [{
+    "Id": "1d1b07b9-cb7f-4234-b960-ba31cfa9fce9",
+    "Name": "UI_CHALLENGES_MIAMI_47_ASSASINATION_DROWN_NAME",
+    "ImageName": "images/challenges/profile_challenges/generic_location_47_drown.jpg",
+    "Description": "UI_CHALLENGES_MIAMI_47_ASSASINATION_DROWN_DESC",
+    "Rewards": {
+        "MasteryXP": 1000
+    },
+    "Drops": [],
+    "IsPlayable": true,
+    "IsLocked": false,
+    "HideProgression": false,
+    "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+    "Icon": "challenge_category_assassination",
+    "LocationId": "LOCATION_PARENT_TRAPPED",
+    "ParentLocationId": "LOCATION_PARENT_TRAPPED",
+    "Type": "contract",
+    "DifficultyLevels": [],
+    "OrderIndex": 10000,
+    "XpModifier": {},
+    "RuntimeType": "Hit",
+    "Definition": {
+        "Scope": "session",
+        "States": {
+            "Start": {
+                "Kill": {
+                    "Condition": {
+                        "$and": [
+                            {
+                                "$eq": ["$Value.IsTarget", true]
+                            },
+                            {
+                                "$eq": [
+                                    "$Value.KillMethodStrict",
+                                    "accident_drown"
+                                ]
+                            }
+                        ]
+                    },
+                    "Transition": "Success"
+                }
+            }
+        }
+    },
+    "Tags": ["story", "easy", "assassination"],
+    "InclusionData": {
+        "ContractIds": ["a3e19d55-64a6-4282-bb3c-d18c3f3e6e28"]
+    }
+},
+{
+    "Id": "1d1b07b9-cb7f-4234-b960-ba31cfa9fce8",
+    "Name": "UI_CHALLENGES_MIAMI_47_ASSASINATION_ACCIDENT_NAME",
+    "ImageName": "images/challenges/profile_challenges/generic_location_47_accident.jpg",
+    "Description": "UI_CHALLENGES_MIAMI_47_ASSASINATION_ACCIDENT_DESC",
+    "Rewards": {
+        "MasteryXP": 1000
+    },
+    "Drops": [],
+    "IsPlayable": true,
+    "IsLocked": false,
+    "HideProgression": false,
+    "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+    "Icon": "challenge_category_assassination",
+    "LocationId": "LOCATION_PARENT_TRAPPED",
+    "ParentLocationId": "LOCATION_PARENT_TRAPPED",
+    "Type": "contract",
+    "DifficultyLevels": [],
+    "OrderIndex": 10000,
+    "XpModifier": {},
+    "RuntimeType": "Hit",
+    "Definition": {
+        "Scope": "session",
+        "States": {
+            "Start": {
+                "Kill": {
+                    "Condition": {
+                        "$and": [
+                            {
+                                "$eq": ["$Value.IsTarget", true]
+                            },
+                            {
+                                "$eq": ["$Value.Accident", true]
+                            }
+                        ]
+                    },
+                    "Transition": "Success"
+                }
+            }
+        }
+    },
+    "Tags": ["story", "easy", "assassination"],
+    "InclusionData": {
+        "ContractIds": ["a3e19d55-64a6-4282-bb3c-d18c3f3e6e28"]
+    }
+},{
+    "Id": "1d1b07b9-cb7f-4234-b960-ba31cfa9fce7",
+    "Name": "UI_CHALLENGES_MIAMI_47_ASSASINATION_POISON_NAME",
+    "ImageName": "images/challenges/profile_challenges/generic_location_47_poison.jpg",
+    "Description": "UI_CHALLENGES_MIAMI_47_ASSASINATION_POISON_DESC",
+    "Rewards": {
+        "MasteryXP": 1000
+    },
+    "Drops": [],
+    "IsPlayable": true,
+    "IsLocked": false,
+    "HideProgression": false,
+    "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+    "Icon": "challenge_category_assassination",
+    "LocationId": "LOCATION_PARENT_TRAPPED",
+    "ParentLocationId": "LOCATION_PARENT_TRAPPED",
+    "Type": "contract",
+    "DifficultyLevels": [],
+    "OrderIndex": 10000,
+    "XpModifier": {},
+    "RuntimeType": "Hit",
+    "Definition": {
+        "Scope": "session",
+        "States": {
+            "Start": {
+                "Kill": {
+                    "Condition": {
+                        "$and": [
+                            {
+                                "$eq": ["$Value.IsTarget", true]
+                            },
+                            {
+                                "$eq": [
+                                    "$Value.KillClass",
+                                    "poison"
+                                ]
+                            }
+                        ]
+                    },
+                    "Transition": "Success"
+                }
+            }
+        }
+    },
+    "Tags": ["story", "easy", "assassination"],
+    "InclusionData": {
+        "ContractIds": ["a3e19d55-64a6-4282-bb3c-d18c3f3e6e28"]
+    }
+},{
+    "Id": "1d1b07b9-cb7f-4234-b960-ba31cfa9fce6",
+    "Name": "UI_CHALLENGES_MIAMI_47_MASTER_ASSASSIN_NAME",
+    "ImageName": "images/challenges/profile_challenges/generic_location_47_versatile.jpg",
+    "Description": "UI_CHALLENGES_MIAMI_47_MASTER_ASSASSIN_DESC",
+    "Rewards": {
+        "MasteryXP": 4000
+    },
+    "Drops": [],
+    "IsPlayable": true,
+    "IsLocked": false,
+    "HideProgression": false,
+    "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+    "Icon": "challenge_category_assassination",
+    "LocationId": "LOCATION_PARENT_TRAPPED",
+    "ParentLocationId": "LOCATION_PARENT_TRAPPED",
+    "Type": "contract",
+    "DifficultyLevels": [],
+    "OrderIndex": 10000,
+    "XpModifier": {},
+    "RuntimeType": "Hit",
+    "Definition": {
+        "Scope": "hit",
+        "Constants": {
+            "RequiredChallenges": [
+                "1d1b07b9-cb7f-4234-b960-ba31cfa9fce9",
+                "1d1b07b9-cb7f-4234-b960-ba31cfa9fce8",
+                "1d1b07b9-cb7f-4234-b960-ba31cfa9fce7",
+                "1d1b07b9-cb7f-4234-b960-ba31cfa9fce5",
+                "97b0f181-d018-4fe4-8fb2-8b1737ece7b9"
+            ]
+        },
+        "Context": {
+            "CompletedChallenges": []
+        },
+        "ContextListeners": {
+            "CompletedChallenges": {
+                "comparand": "$.RequiredChallenges",
+                "type": "challengetree"
+            }
+        },
+        "States": {
+            "Start": {
+                "ChallengeCompleted": [
+                    {
+                        "$pushunique": [
+                            "CompletedChallenges",
+                            "$Value.ChallengeId"
+                        ]
+                    },
+                    {
+                        "Condition": {
+                            "$all": {
+                                "?": {
+                                    "$any": {
+                                        "?": {
+                                            "$eq": [
+                                                "$.#",
+                                                "$.##"
+                                            ]
+                                        },
+                                        "in": "$.CompletedChallenges"
+                                    }
+                                },
+                                "in": "$.RequiredChallenges"
+                            }
+                        },
+                        "Transition": "Success"
+                    }
+                ]
+            }
+        }
+    },
+    "Tags": ["story", "hard", "assassination"],
+    "InclusionData": {
+        "ContractIds": ["a3e19d55-64a6-4282-bb3c-d18c3f3e6e28"]
+    }
+}, {
+    "Id": "1d1b07b9-cb7f-4234-b960-ba31cfa9fce5",
+    "Name": "UI_CHALLENGES_MIAMI_47_ASSASINATION_FIBER_NAME",
+    "ImageName": "images/challenges/profile_challenges/generic_location_47_fiberwire.jpg",
+    "Description": "UI_CHALLENGES_MIAMI_47_ASSASINATION_FIBER_DESC",
+    "Rewards": {
+        "MasteryXP": 1000
+    },
+    "Drops": [],
+    "IsPlayable": true,
+    "IsLocked": false,
+    "HideProgression": false,
+    "CategoryName": "UI_MENU_PAGE_PROFILE_CHALLENGES_CATEGORY_SIGNATUREKILL",
+    "Icon": "challenge_category_assassination",
+    "LocationId": "LOCATION_PARENT_TRAPPED",
+    "ParentLocationId": "LOCATION_PARENT_TRAPPED",
+    "Type": "contract",
+    "DifficultyLevels": [],
+    "OrderIndex": 10000,
+    "XpModifier": {},
+    "RuntimeType": "Hit",
+    "Definition": {
+        "Scope": "session",
+        "States": {
+            "Start": {
+                "Kill": {
+                    "Condition": {
+                        "$and": [
+                            {
+                                "$eq": ["$Value.IsTarget", true]
+                            },
+                            {
+                                "$eq": [
+                                    "$Value.KillItemCategory",
+                                    "fiberwire"
+                                ]
+                            }
+                        ]
+                    },
+                    "Transition": "Success"
+                }
+            }
+        }
+    },
+    "Tags": ["story", "easy", "assassination"],
+    "InclusionData": {
+        "ContractIds": ["a3e19d55-64a6-4282-bb3c-d18c3f3e6e28"]
+    }
+}]
+
 module.exports = function PassengerTrainPlugin(controller) {
     if (!controller.smf.modIsInstalled("KevinRudd.PassengerTrain")) {
         log(LogLevel.ERROR, "[Passenger Train] Mod currently not deployed, please deploy it in SMF")
@@ -324,6 +594,19 @@ module.exports = function PassengerTrainPlugin(controller) {
         "1a7f20ee-909a-4fa5-bba0-b8068ac05240"
     ]
 
+        controller.challengeService.registerGroup(assassinationChallenges, "LOCATION_PARENT_TRAPPED", "h3")
+    
+        /**
+         * For assassinations
+         */
+        for (const challenge of assassinationChallenges) {
+            controller.challengeService.registerChallenge(
+                challenge,
+                "assassination",
+                challenge.ParentLocationId,
+                "h3"
+            )
+        }
+
     log(LogLevel.INFO, "[Passenger Train] Mission available in Romania destination screen")
 }
-
