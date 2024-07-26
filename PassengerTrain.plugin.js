@@ -1053,7 +1053,7 @@ module.exports = function PassengerTrainPlugin(controller) {
     controller.missionsInLocations["LOCATION_TRAPPED_WOLVERINE"].push(contract.Metadata.Id)
 
     controller.masteryService.registerMasteryData({
-        "LocationId": "LOCATION_TRAPPED_WOLVERINE",
+        "LocationId": "LOCATION_PARENT_TRAPPED",
         "GameVersions": ["h3"],
         "MaxLevel": 5,
         "Drops": [
