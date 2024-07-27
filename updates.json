@@ -1,5 +1,5 @@
 {
-    "version": "0.9.2",
-    "changelog": "- Adds Peacock Mastery if you have mastery enabled (AnthonyFuller)\n- Descriptions for starting locations (AnthonyFuller, Translations TBD)\n- Can scan for target (Mumbai/Berlin style) after discovering their picture (AnthonyFuller, Can glitch if target goes out of sight during scan)\n- Makes target follow closer during escort\n- Amends Laptop Clue to point out target will be in a uniform (Translations TBD)- Removes back of train camera\n- Enables basic blank minimap\n- Turns back of train roof into non jumpable ledge rather than letting players 'walk off' edge",
-    "url": "https://github.com/Kevin-Rudd/Freelancer-Romania-Test/releases/download/0.9.2/Passenger.Train.0.9.2.zip"
+    "version": "0.9.3",
+    "changelog": "Fixes Peacock breaking if you have mastery enabled",
+    "url": "https://github.com/Kevin-Rudd/Freelancer-Romania-Test/releases/download/0.9.3/Passenger.Train.0.9.3.zip"
 }
