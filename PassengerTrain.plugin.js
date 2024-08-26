@@ -1050,7 +1050,7 @@ module.exports = function PassengerTrainPlugin(controller) {
     }
 
     if (Math.abs(PEACOCKVER) < 7350) {
-        log(LogLevel.ERROR, `[Passenger Train] This plugin requires a Peacock version higher than v7.3.5! You're on v${PEACOCKVERSTRING}!`)
+        log(LogLevel.ERROR, `[Passenger Train] This plugin requires Peacock version v7.3.5 or higher! You're on v${PEACOCKVERSTRING}!`)
         return
     }
 
