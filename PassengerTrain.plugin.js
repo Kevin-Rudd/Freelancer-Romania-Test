@@ -1,4 +1,5 @@
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
+const { PEACOCKVER, PEACOCKVERSTRING } = require("@peacockproject/core/utils")
 
 const contract = {
     "Metadata": {
@@ -1048,53 +1049,35 @@ module.exports = function PassengerTrainPlugin(controller) {
         return
     }
 
+    if (Math.abs(PEACOCKVER) < 7350) {
+        log(LogLevel.ERROR, `[Passenger Train] This plugin requires a Peacock version higher than v7.6.5! You're on v${PEACOCKVERSTRING}!`)
+        return
+    }
+
     contract.Metadata.ScenePath = "assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity"
     controller.addMission(contract)
     controller.missionsInLocations["LOCATION_TRAPPED_WOLVERINE"].push(contract.Metadata.Id)
 
-    controller.masteryService.registerMasteryData({
-        "LocationId": "LOCATION_PARENT_TRAPPED",
-        "GameVersions": ["h3"],
-        "MaxLevel": 5,
-        "Drops": [
-            {
-                "Id": "STARTING_LOCATION_TRAPPED_WOLVERINE_TRAIN_LAB",
-                "Level": 2
-            },
-            {
-                "Id": "FIREARMS_HERO_PISTOL_SILENCED_HOMEMADE",
-                "Level": 2
-            },
-            {
-                "Id": "AGENCYPICKUP_TRAPPED_LYNX_MAINTENANCE",
-                "Level": 2
-            },
-            {
-                "Id": "STARTING_LOCATION_TRAPPED_WOLVERINE_TRAIN_FLATBED",
-                "Level": 3
-            },
-            {
-                "Id": "STARTING_LOCATION_TRAPPED_LYNX_BAR",
-                "Level": 3
-            },
-            {
-                "Id": "PROP_DEVICE_ICA_SEMTEX_PROXIMITY_EXPLOSIVE_S3",
-                "Level": 4
-            },
-            {
-                "Id": "AGENCYPICKUP_TRAPPED_LYNX_LAUNDRY",
-                "Level": 4
-            },
-            {
-                "Id": "FIREARMS_HERO_SHOTGUN_SILENCED_WOLVERINE",
-                "Level": 5
-            },
-            {
-                "Id": "STARTING_LOCATION_TRAPPED_LYNX_OFFICE",
-                "Level": 5
-            }
-        ]
-    })
+    controller.masteryService.getMasteryPackage("LOCATION_PARENT_TRAPPED", "h3").Drops.push(
+        {
+            "Id": "AGENCYPICKUP_TRAPPED_LYNX_MAINTENANCE",
+            "Level": 2
+        },
+        {
+            "Id": "STARTING_LOCATION_TRAPPED_LYNX_BAR",
+            "Level": 3
+        },
+        {
+            "Id": "AGENCYPICKUP_TRAPPED_LYNX_LAUNDRY",
+            "Level": 4
+        },
+        {
+            "Id": "STARTING_LOCATION_TRAPPED_LYNX_OFFICE",
+            "Level": 5
+        }
+    )
+
+    controller.masteryService.rebuildDropIndexes("h3")
 
     controller.configManager.configs.Entrances["assembly:/_pro/scenes/missions/trapped/scene_lynx_peacock.entity"] = [
         "af29c8d3-45cd-4b36-b7ed-5acc9398556a",
