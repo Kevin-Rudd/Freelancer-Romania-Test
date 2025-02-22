@@ -218,6 +218,11 @@
 	],
 	"options": [
 		{
+			"name": "Passenger Train Suit Fix",
+			"type": "conditional",
+			"condition": "\"musicalmushr00m.UntouchableSigSuitFix\" not in config.loadOrder",
+			"contentFolders": ["sigfix"]
+		},{
 			"name": "No AOM",
 			"type": "conditional",
 			"condition": "\"KevinRudd.AccentOverhaul\" not in config.loadOrder",
