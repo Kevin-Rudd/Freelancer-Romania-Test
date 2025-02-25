@@ -1,5 +1,5 @@
 {
-    "version": "0.9.3",
-    "changelog": "Fixes Peacock breaking if you have mastery enabled",
-    "url": "https://github.com/Kevin-Rudd/Freelancer-Romania-Test/releases/download/0.9.3/Passenger.Train.0.9.3.zip"
+    "version": "0.9.4",
+    "changelog": "* NPCs can no longer hear through walls of new carriages\n* NPCs now work properly when enforcing you (aka follow you)\n* Deleted story exit, which was barely visible if you looked in the sky",
+    "url": "https://github.com/Kevin-Rudd/Freelancer-Romania-Test/releases/download/0.9.4/Passenger.Train.0.9.4.zip"
 }
