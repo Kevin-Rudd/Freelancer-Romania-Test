@@ -61,6 +61,28 @@
 			"SubEntityOperation": [
 				"c38a0e626176f1c2",
 				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": { "x": 8, "y": 8 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
+					"SetPropertyValue": {
+						"property_name": "On",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c38a0e626176f1c2",
+				{
 					"AddProperty": [
 						"SpotLightChange",
 						{
@@ -86,28 +108,6 @@
 			"SubEntityOperation": [
 				"c38a0e626176f1c2",
 				{
-					"SetPropertyValue": {
-						"property_name": "m_vFarAttenuation",
-						"value": { "x": 8, "y": 8 }
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"c38a0e626176f1c2",
-				{
-					"SetPropertyValue": {
-						"property_name": "On",
-						"value": true
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"c38a0e626176f1c2",
-				{
 					"AddProperty": [
 						"m_vAngularAttenuation",
 						{
@@ -116,6 +116,61 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"SetFactory": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_1x3_window_a_frame_a.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"SetBlueprint": "[assembly:/_pro/environment/templates/kits/vehicles/train_modern_a.template?/a_ext_wall_1x3_window_a_frame_a.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"AddProperty": [
+						"m_bAccessibleFromRight",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"AddProperty": [
+						"m_bAccessibleFromLeft",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{
+					"AddProperty": [
+						"m_fCoverLength",
+						{ "type": "float32", "value": 1.0418089628219604 }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0530126150cfccd",
+				{ "AddSubset": ["AudioEmitters", "7e69550e967a0edc"] }
 			]
 		},
 		{
@@ -167,6 +222,28 @@
 			"SubEntityOperation": [
 				"46d6a3e245652ed4",
 				{
+					"SetPropertyValue": {
+						"property_name": "m_vFarAttenuation",
+						"value": { "x": 8, "y": 8 }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
+					"SetPropertyValue": {
+						"property_name": "On",
+						"value": true
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"46d6a3e245652ed4",
+				{
 					"AddProperty": [
 						"SpotLightChange",
 						{
@@ -185,28 +262,6 @@
 							}
 						}
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"46d6a3e245652ed4",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_vFarAttenuation",
-						"value": { "x": 8, "y": 8 }
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"46d6a3e245652ed4",
-				{
-					"SetPropertyValue": {
-						"property_name": "On",
-						"value": true
-					}
 				}
 			]
 		},
