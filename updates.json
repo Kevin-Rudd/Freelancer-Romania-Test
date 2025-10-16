@@ -1,5 +1,5 @@
 {
-    "version": "0.9.4",
-    "changelog": "* NPCs can no longer hear through walls of new carriages\n* NPCs now work properly when enforcing you (aka follow you)\n* Deleted story exit, which was barely visible if you looked in the sky",
-    "url": "https://github.com/Kevin-Rudd/Freelancer-Romania-Test/releases/download/0.9.4/Passenger.Train.0.9.4.zip"
+    "version": "1.0.0",
+    "changelog": "Mod is no longer in beta due to crashes being drastically reduced finally.\n- Significantly reduces amount of crashes by removing ~20 doors (Don't ask me why the game cares about this)\n- Music should no longer suddenly change when you step between carriages briefly\n- Imports Mads Mikkelsen voiceset from AOM\n- Slight furniture/prop changes (New couch and closet in office area, removed some luggage blocking seats)\n- Fixes Constant carriage doors clipping through wall\n- Adds more bodydumping windows to first two carriages\n- Fixes a bathroom mirror apparently (did it over half a year ago)",
+    "url": "https://github.com/Kevin-Rudd/Freelancer-Romania-Test/releases/download/1.0.0/Passenger.Train.1.0.0.zip"
 }
